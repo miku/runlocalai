@@ -40,6 +40,11 @@ An a longer journey:
 
 ## Why
 
+* a level of autonomy, control, privacy and freedom
 
-
+[The Latent Role of Open Models in the AI
+Economy](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5767103) (2025),
+"Closed models dominate, with on average 80% of monthly LLM tokens using closed
+models despite much higher prices — on average 6x the price of open models —
+and only modest performance advantages"
 
