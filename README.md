@@ -20,7 +20,7 @@ In a second part, we try to assess, what kind of work a local LLM can or cannot 
 
 ## Background
 
-A recording of one my first sessions with a local model:
+A recording of one my first sessions with a local model (2023-04-18):
 
 ![](static/578575.gif)
 
