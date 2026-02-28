@@ -1,6 +1,7 @@
 # RUN LOCAL AI
 
-Quick update on how to run your own LLM/VLM: opportunities and challenges.
+Quick update on how to run your own LLM/VLM and other AI applications:
+opportunities and challenges.
 
 > 2026-04-21 13:15-14:45 [90m], BMN, Leipzig University Library, Martin Czygan
 
@@ -16,11 +17,11 @@ In a second part, we try to assess, what kind of work a local LLM can or cannot 
 * text summarization
 * literature review
 * coding help
-
+* sandboxed claws
 
 ## Background
 
-A recording of one my first sessions with a local model (2023-04-18):
+A recording of one my first sessions with a local model (2023-04-18, 20w):
 
 ![](static/578575.gif)
 
