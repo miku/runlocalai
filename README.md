@@ -3,21 +3,23 @@
 Quick update on how to run your own LLM/VLM and other AI applications:
 opportunities and challenges.
 
-> 2026-04-21 13:15-14:45 [90m], BMN, Leipzig University Library, Martin Czygan
+> 2026-04-21 13:15-14:45 [90m],
+> [BMN](https://www.ub.uni-leipzig.de/standorte/medizinnaturwissenschaften),
+> Leipzig University Library, [Martin
+> Czygan](https://www.linkedin.com/in/martin-czygan-58348842/)
 
 ## Today
 
-* Landscape of open LLM [10]
-* Landscape of applications for local use, for macOS, Windows or Linux [10]
-* Install and try [25]
+* [ ] landscape of open LLM [10]
+* [ ] landscape of applications for local use, for macOS, Windows or Linux [10]
+* [ ] install and try [25]
 
 In a second part, we try to assess, what kind of work a local LLM can or cannot do:
 
-* grammar checks
-* text summarization
-* literature review
-* coding help
-* sandboxed claws
+* [ ] grammar checks, text work, summarization (system prompt)
+* [ ] literature review (analyzing documents)
+* [ ] coding help (agent)
+* [ ] sandboxed claws (generic tasks)
 
 ## Background
 
@@ -41,6 +43,7 @@ An a longer journey:
 
 ## Why
 
+* ownership vs renting
 * a level of autonomy, control, privacy and freedom
 
 [The Latent Role of Open Models in the AI
@@ -48,4 +51,10 @@ Economy](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5767103) (2025),
 "Closed models dominate, with on average 80% of monthly LLM tokens using closed
 models despite much higher prices — on average 6x the price of open models —
 and only modest performance advantages"
+
+> This systematic underutilization
+is **economically significant**: reallocating demand from observably dominated
+closed models to superior open models would reduce average prices by over 70%
+and, when extrapolated to the total market, generate an **estimated $24.8
+billion in additional consumer savings across 2025**.
 
