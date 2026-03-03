@@ -36,7 +36,7 @@ A recording of one my first sessions with a local model (2023-04-18, 20w):
 An a longer journey:
 [#35](https://golangleipzig.space/posts/meetup-35-wrapup/),
 [#38](https://github.com/miku/localmodels),
-[PE](https://raw.githubusercontent.com/miku/ubl-wd-2024-pe/main/UBL-WD-2024-PE-MC.pdf),
+[WD](https://raw.githubusercontent.com/miku/ubl-wd-2024-pe/main/UBL-WD-2024-PE-MC.pdf),
 [PE](https://github.com/miku/prompteng),
 [E1](https://github.com/miku/aiexp-25-1),
 [E2](https://github.com/miku/aiexp-25-2),
