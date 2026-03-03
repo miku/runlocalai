@@ -36,6 +36,7 @@ A recording of one my first sessions with a local model (2023-04-18, 20w):
 An a longer journey:
 [#35](https://golangleipzig.space/posts/meetup-35-wrapup/),
 [#38](https://github.com/miku/localmodels),
+[#51](https://github.com/miku/nightjet/blob/main/notes/2025-05-27-lgo-51-short-talk.md),
 [WD](https://raw.githubusercontent.com/miku/ubl-wd-2024-pe/main/UBL-WD-2024-PE-MC.pdf),
 [PE](https://github.com/miku/prompteng),
 [E1](https://github.com/miku/aiexp-25-1),
@@ -44,8 +45,13 @@ An a longer journey:
 [E5](https://github.com/miku/aiexp-25-5),
 [E6](https://github.com/miku/aiexp-25-6),
 [OI](https://github.com/miku/ollamaintro),
-[KITH25](https://github.com/miku/localai-kith-2025),
+[KT](https://github.com/miku/localai-kith-2025),
 [AG](https://github.com/miku/unplugged)
+
+Some software I wrote with AI: [repoctx](github.com/miku/repoctx),
+[minimalwave](https://github.com/miku/minimalwave),
+[apodwall](https://github.com/miku/apodwall), [and more
+...](https://github.com/miku/nightjet?tab=readme-ov-file#done)
 
 ## Why
 
