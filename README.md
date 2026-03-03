@@ -70,3 +70,10 @@ closed models to superior open models would reduce average prices by over 70%
 and, when extrapolated to the total market, generate an **estimated $24.8
 billion in additional consumer savings across 2025**.
 
+
+## Hardware requirements
+
+Devices that you can use to run LLMs at home:
+
+> TODO: montage of zimaboard, framework, gen8 x1, gen13 x1, p3 ultra, ...
+
