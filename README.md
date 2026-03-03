@@ -21,6 +21,12 @@ In a second part, we try to assess, what kind of work a local LLM can or cannot 
 * [ ] coding help (agent)
 * [ ] sandboxed claws (generic tasks)
 
+## Reminder
+
+You will be using AI tools best, when you have developed an expertise in a
+subject. You may call it
+[KI-Fachkompetenzschwelle](https://barbarageyer.substack.com/p/ki-fachkompetenzschwelle).
+
 ## Background
 
 A recording of one my first sessions with a local model (2023-04-18, 20w):
