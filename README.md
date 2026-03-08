@@ -72,12 +72,13 @@ billion in additional consumer savings across 2025**.
 
 ## Why not
 
+* usually less capable models (fewer parameters, quantized)
 * you will need hardware, or access to hardware
 * if you start from scratch, a useful setup may cost between EUR 1-8K (and
   since EOY25 we additionally have a full on [RAM crisis](https://en.wikipedia.org/wiki/2024%E2%80%93present_global_memory_supply_shortage))
 * more initial setup, heterogeneous model landscape
 
-Some capable machines in 2026:
+Some consumer market machines in 2026:
 
 * [AMD Strix Halo APU](https://strixhalo.wiki/Guides/Buyer's_Guide) based
   systems, [Mac mini](https://www.apple.com/de/mac-mini/), [Mac
@@ -86,6 +87,13 @@ Some capable machines in 2026:
 
 Many models will run even on single board computers (e.g. raspberry pi, N150
 based boards, ...), but just slowly.
+
+An example of performance regression caused by lower parameters counts
+([source](https://old.reddit.com/r/LocalLLaMA/comments/1ro7xve/qwen35_family_comparison_on_shared_benchmarks/)):
+
+![](static/krs0xrebcung1.png)
+
+The Strix Halo (128GB) box runs 122B-A10B (88GB) with PE/PP of 68/21 t/s.
 
 ## Hardware requirements
 
