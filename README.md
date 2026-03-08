@@ -95,6 +95,18 @@ An example of performance regression caused by lower parameters counts
 
 The Strix Halo (128GB) box runs 122B-A10B (88GB) with PE/PP of 68/21 t/s.
 
+### Special Case: Software development
+
+* [SWE-rebench: A Continuously Evolving and Decontaminated Benchmark for Software Engineering LLMs](https://swe-rebench.com/?insight=oct_2025)
+
+![SWE-rebench: 01/2026](static/leaderboard_with_logos.png)
+
+While not at the top, Kimi K2 Thinking at **#12**, GLM-5 at **#14**, GLM-4.7 at **#15** and Qwen3-Coder-Next at **#16**.
+
+Note: except for the BF16 version, a 128GB VRAM machine could run all versions of Qwen3-Coder-Next.
+
+![](static/screenshot-2026-03-08-234643-hf-qwen3-coder-next-128gb.png)
+
 ## Hardware requirements
 
 Devices that you can use to run LLMs at home:
