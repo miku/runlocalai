@@ -101,9 +101,15 @@ The Strix Halo (128GB) box runs 122B-A10B (88GB) with PE/PP of 68/21 t/s.
 
 ![SWE-rebench: 01/2026](static/leaderboard_with_logos.png)
 
-While not at the top, Kimi K2 Thinking at **#12**, GLM-5 at **#14**, GLM-4.7 at **#15** and Qwen3-Coder-Next at **#16**.
+While not at the top, Kimi K2 Thinking at **#12**, GLM-5 at **#14**, GLM-4.7 at
+**#15** and Qwen3-Coder-Next at **#16**.
 
-Note: except for the BF16 version, a 128GB VRAM machine could run all versions of Qwen3-Coder-Next.
+Note: A FP8 version of GLM-5 would require [860GB
+VRAM](https://unsloth.ai/docs/models/glm-5)
+
+![](static/glm-5-benchmarks.jpeg)
+
+Note: however a 128GB VRAM machine could run most versions of Qwen3-Coder-Next.
 
 ![](static/screenshot-2026-03-08-234643-hf-qwen3-coder-next-128gb.png)
 
