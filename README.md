@@ -17,7 +17,7 @@ In a second part, we try to assess, what kind of work a local LLM can or cannot 
 
 * [ ] grammar checks, text work, summarization ("system prompt")
 * [ ] literature review ("analyzing documents")
-* [ ] coding help ("agent")
+* [ ] research assistant and coding help ("agent")
 * [ ] sandboxed claws ("generic tasks")
 
 ## Reminder
@@ -84,7 +84,7 @@ Some consumer market machines in 2026:
   Studio](https://www.apple.com/de/mac-studio/), anything with an [Nvidia
   GPU](https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units)
 
-![](static/i-made-a-true-to-scale-dimension-comparison-chart-of-every-v0-lvzixg09cyof1.webp)
+[![](static/i-made-a-true-to-scale-dimension-comparison-chart-of-every-v0-lvzixg09cyof1.webp)](https://www.reddit.com/r/MiniPCs/comments/1ng0p9r/i_made_a_truetoscale_dimension_comparison_chart/)
 
 Many models will run even on single board computers (e.g. raspberry pi, N150
 based boards, ...), but just slowly.
