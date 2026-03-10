@@ -85,6 +85,8 @@ Some consumer market machines in 2026:
   Studio](https://www.apple.com/de/mac-studio/), anything with an [Nvidia
   GPU](https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units)
 
+![](static/i-made-a-true-to-scale-dimension-comparison-chart-of-every-v0-lvzixg09cyof1.webp)
+
 Many models will run even on single board computers (e.g. raspberry pi, N150
 based boards, ...), but just slowly.
 
