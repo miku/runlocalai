@@ -10,16 +10,15 @@ opportunities and challenges.
 
 ## Today
 
-* [ ] landscape of open LLM [10]
-* [ ] landscape of applications for local use, for macOS, Windows or Linux [10]
-* [ ] install and try [25]
+* [ ] landscape of open LLMs and applications [10]
+* [ ] install and try [35]
 
 In a second part, we try to assess, what kind of work a local LLM can or cannot do:
 
-* [ ] grammar checks, text work, summarization (system prompt)
-* [ ] literature review (analyzing documents)
-* [ ] coding help (agent)
-* [ ] sandboxed claws (generic tasks)
+* [ ] grammar checks, text work, summarization ("system prompt")
+* [ ] literature review ("analyzing documents")
+* [ ] coding help ("agent")
+* [ ] sandboxed claws ("generic tasks")
 
 ## Reminder
 
