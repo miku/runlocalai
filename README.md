@@ -87,7 +87,7 @@ Some consumer market machines in 2026:
 [![](static/i-made-a-true-to-scale-dimension-comparison-chart-of-every-v0-lvzixg09cyof1.webp)](https://www.reddit.com/r/MiniPCs/comments/1ng0p9r/i_made_a_truetoscale_dimension_comparison_chart/)
 
 Many models will run even on single board computers (e.g. raspberry pi, N150
-based boards, ...), but just slowly.
+based boards, ...), but just slowly; cf. [can i run?](https://www.canirun.ai/)
 
 An example of performance regression caused by lower parameters counts
 ([source](https://old.reddit.com/r/LocalLLaMA/comments/1ro7xve/qwen35_family_comparison_on_shared_benchmarks/)):
