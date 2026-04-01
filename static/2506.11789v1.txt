@@ -1,0 +1,1754 @@
+Conversational AI as a Catalyst for Informal Learning: An Empirical Large-Scale
+Study on LLM Use in Everyday Learning
+NAÐA TERZIMEHIĆ, Technical University of Munich, Germany
+BABETTE BÜHLER, Technical University of Munich, Germany
+ENKELEJDA KASNECI, Technical University of Munich, Germany
+Large language models have not only captivated the public imagination but have also sparked a profound rethinking of how we learn.
+
+arXiv:2506.11789v1 [cs.HC] 13 Jun 2025
+
+In the third year following the breakthrough launch of ChatGPT, everyday informal learning has been transformed as diverse user
+groups explore these novel tools. Who is embracing LLMs for self-directed learning, and who remains hesitant? What are their reasons
+for adoption or avoidance? What learning patterns emerge with this novel technological landscape? We present an in-depth analysis
+from a large-scale survey of 776 participants, showcasing that 88% of our respondents already incorporate LLMs into their everyday
+learning routines for a wide variety of (learning) tasks. Young adults are at the forefront of adopting LLMs, primarily to enhance
+their learning experiences independently of time and space. Four types of learners emerge across learning contexts, depending on the
+tasks they perform with LLMs and the devices they use to access them. Interestingly, our respondents exhibit paradoxical behaviours
+regarding their trust in LLMs’ accuracy and privacy protection measures. Our implications emphasize the importance of including
+different media types for learning, enabling collaborative learning, providing sources and meeting the needs of different types of
+learners and learning by design.
+CCS Concepts: • Human-centered computing → Human computer interaction (HCI).
+Additional Key Words and Phrases: human computer interaction
+
+1
+
+Introduction
+
+The mass adoption of large language models (LLMs), accelerated by the release of OpenAI’s ChatGPT in November ’22,
+has captivated both the public and the research community ever since. ChatGPT and similar LLMs, such as Gemini,
+Grok, DeepSeek, are capable of engaging in natural language dialogue and providing detailed responses across diverse
+topics. Numerous thought pieces and research studies have addressed the impact of these novel tools in several areas of
+our everyday lives, with remarkably education and learning being at the forefront of change [28, 38, 58].
+Prior work in Human-Computer Interaction (HCI) and educational sciences highlights both the promises and
+challenges of integrating AI into learning and education practices [38], with some researchers naming it a “double-edged
+sword” for education [29]. On the one edge, LLM-driven assistants have demonstrated the potential for enhancing
+learning engagement and effectiveness [12, 50], as well as facilitating personalized learning [12, 59, 80]. On the other
+edge, concerns persist regarding over-reliance [14, 68], inaccuracies [79], biases [4, 48], or ethical issues [29, 38].
+In light of LLMs’ recently emerging capabilities for reasoning and reflection [6], the impact of LLMs on learning bears
+the potential to be far more groundbreaking than initially anticipated: learners now have a tailored, around-the-clock
+learning assistant by their side [13, 39, 65], to assist them in a plethora of cognitive tasks. This presents an opportunity
+to democratize learning and embed it into everyday life scenarios – i.e., everyday learning – be it informal learning as
+day-to-day, often incidental learning; voluntary use in structured educational environments; or self-directed knowledge
+acquisition outside of formal curricula [9, 63, 64] for both professional and personal growth.
+Authors’ Contact Information: Nađa Terzimehić, Technical University of Munich, Munich, Germany, nadja.terzimehic@tum.de; Babette Bühler, Technical
+University of Munich, Munich, Germany, babette.buehler@tum.de; Enkelejda Kasneci, Technical University of Munich, Munich, Germany, enkelejda.
+kasneci@tum.de.
+2025-06-16 01:11. Page 1 of 1–32.
+
+1
+
+2
+
+Terzimehić et al.
+Whereas the role of AI and, in particular, LLMs has been researched for formal education settings, informal learning
+
+settings have received less attention, especially at scale. We believe this to be an opportune time to explore the actual use
+of LLMs in informal contexts now that the initial hype and excitement around LLMs have settled. Prior research works
+have explored the use and perceptions of LLMs in different learning settings, including a qualitative large-scale study
+with early ChatGPT adopters across different disciplines and learning areas [29], a large-scale survey of researchers
+using LLMs as research tools [46], investigations into the integration and use of LLMs within formal education by
+students [72] or examinations into the usability of LLMs [67]. While these studies provide notable findings, they
+predominantly focus on either qualitative insights or specialized user groups, leaving a gap in understanding the
+broader population’s adoption and perception of LLMs for everyday learning at a large scale, particularly in informal
+contexts where users voluntarily turn to LLMs for context-agnostic knowledge acquisition. This at-scale understanding
+is important to rank current issues and benefits in order to provide a research agenda and actionable insights with the
+aim of advancing the design and applicability of LLMs as informal learning assistants towards a universally accepted,
+usable, and efficient learning tool.
+We address the identified gap by means of the following four research questions:
+RQ1. What demographic factors distinguish individuals who adopt LLMs for everyday learning from those
+who do not?
+RQ2. What key factors motivate or discourage individuals from using LLMs for everyday learning?
+RQ3. What classes of LLM learners emerge regarding how, when, and in what contexts they integrate LLMs
+into their everyday learning practices?
+RQ4. What are the attitudes of the different LLM classes regarding the learning effectiveness of these tools,
+their privacy implications, and the potential for overreliance in everyday learning?
+
+As such, our goal is to complement the listed related works by providing a broad, comprehensive, mixed-method
+inspection into LLM learners’ demographics, interaction patterns, and perceptions of LLM-based informal learning at
+scale. To achieve this goal, we conducted a large-scale user survey over Prolific in February 2025 with 776 participants,
+including non-LLM adopters, LLM-adopters (but no learners), and LLM learners. We report on descriptive and inferential
+statistics between participants’ demographics, the learning patterns participants employ with LLMs in everyday informal
+scenarios, and their diverse attitudes towards LLM learning at scale. To identify distinct learner profiles among LLM
+learners, we conducted a latent class analysis based on self-reported LLM usage for learning. Our analysis focused on
+uncovering unique patterns in the learning contexts where LLMs are employed, the specific tasks users perform, and
+the devices they utilize for learning. Finally, we examined how learners’ attitudes regarding the tool’s effectiveness,
+potential overreliance, and privacy implications in everyday learning scenarios relate to the identified learner types.
+88% of participants adopted LLMs for learning. Learning adopters are younger, more educated, and predominantly
+male. We found the main driver for adoption and intensity of LLM use to be curiosity and openness to new technologies.
+On the other hand, the main barriers to adoption are mistrust in the accuracy and data handling of LLMs, as well as
+satisfaction with traditional learning methods. However, for those who use and learn with LLMs, the ability to receive
+personalized, on-demand support outweighed these concerns, with learners leveraging LLMs to enhance productivity
+2025-06-16 01:11. Page 2 of 1–32.
+
+An Empirical Large-Scale Study on LLM Use in Everyday Learning
+
+3
+
+and access just-in-time learning opportunities. We identified four distinct everyday learner profiles, namely Structured
+Knowledge Builders, Self-Guided Explorers, Analytical Problem Solvers, and Adaptive Power Users. Each learning type
+represents distinct patterns of engagement with LLMs – from academic knowledge building to informal, mobilefirst learning and broad, cross-contextual use. Ultimately, LLMs are becoming a central tool in everyday life and are
+increasingly perceived as the new normal for improving learning and productivity.
+
+Contribution Statement. We contribute with 1) an empirical account of how diverse demographic groups
+and learning styles incorporate LLMs as informal learning aids, 2) a mixed-methods analysis of the benefits
+and challenges of using LLMs for everyday learning, and 3) a set of actionable guidelines for designing and
+implementing AI-powered tools to support informal learning.
+2
+
+Related Work
+
+In this section, we review informal learning, the perception and integration of LLMs in educational settings, HCI
+perspectives on conversational learning tools, and the challenges posed by these emerging technologies.
+2.1
+
+Informal and Everyday Learning
+
+There are many definitions and understandings of informal learning [22], yet in its simplest form, it is learning that
+rather happens in settings besides formal educational institutions (e.g., schools) [49, 52, 53, 63]. As two opposing ends
+of a continuous learning spectrum [25], informal learning differs from formal education in several key ways. Unlike
+formal education, informal learning is non-didactic, driven by the learner’s intrinsic motivation [63], and occurs in
+environments where learning is not explicitly organized or assessed [51] but instead happens organically as part of daily
+life [52], such as family interactions, work settings, and community engagements [9, 23, 63]. The process of informal
+learning may involve self-directed, intentional learning, incidental learning, or socialization [64], being highly sensitive
+to contextual factors [10, 25]. Some scholars argue that everyday learning, i.e., learning with a heightened awareness of
+the surrounding context, coupled with a “culture of collaboration and trust”, can improve learning outcomes [53] – in
+particular for adults, as unstructured learning forms, such as informal and everyday learning, become their prevalent
+form of learning [49]. As AI and LLMs expand access to information in a more natural and everyday-fitting way, they
+can help people transform virtually every moment into a learning opportunity with context-appropriate timing and
+content. Unlike traditional search engines, which require learners to sift through and interpret multiple sources, LLMs
+can act as personal tutors that, e.g., explain complex concepts, adapt to the learner’s prior knowledge, or answer specific
+questions in a conversational way. In this context, our work seeks to understand how modern LLMs contribute to this
+everyday learning process and where they might fill gaps left by current (or traditional) analogue and digital methods.
+2.2
+
+Demographical Differences in LLM Use
+
+Large language models are used differently by individuals with different demographic characteristics, such as age,
+gender, educational background and personality traits[36]. Younger individuals are more keen to adopt and use LLMs
+[37, 69], with those of high levels of agreeableness tending to have more positive views of LLMs, while older individuals
+often exhibit more skepticism [69]. Furthermore, a clear gender gap exists in LLM adoption, with male users significantly
+outnumbering female users, both 4 months after the release of ChatGPT in November 2022 [19], as well as 30 months
+2025-06-16 01:11. Page 3 of 1–32.
+
+4
+
+Terzimehić et al.
+
+after[72]. This gap is particularly pronounced among younger age groups and diminishes as individuals age [19],
+with male users also reporting a higher frequency of LLM use compared to their female counterparts [19, 72]. Similar
+numbers run for revisiting ChatGPT-generated content [72]. Among the group of researchers, women and non-binary
+researchers, along with those with more years of research experience, often express greater ethical concerns about
+LLMs [55]. However, Draxler et al. [19] report the gender effect in general to be less pronounced among those who
+possess technical degrees.
+LLM usage patterns also vary by expertise, with professionals and experts more likely to use LLMs for complex
+tasks such as writing formal texts or coding, while novices often explore the tool for entertainment or casual learning.
+Non-users often cite a lack of knowledge, ethical concerns, and the impersonal nature of LLM interactions as reasons
+for not adopting these tools [19].
+In addition to gender, age, and expertise, other demographic factors such as race and nationality also influence LLM
+usage. Junior researchers and those who are non-White or non-native English speakers tend to use LLMs more frequently
+and report higher perceived benefits and lower risks [46]. As a consequence, LLMs can help address structural barriers
+faced by these groups in research, potentially promoting greater equity in academic environments [46]. Furthermore,
+researchers in computer science show greater comfort with disclosing their use of LLMs and express fewer ethical
+concerns compared to those in other disciplines [46], suggesting disciplinary disparities in LLM adoption.
+However, there remains a gap in understanding how LLMs influence informal and everyday learning experiences
+across different demographic groups. We thus conducted a large-scale survey to capture insights from general-public
+learners, aiming to uncover the distinct and potentially varying effects of LLMs on learners’ everyday learning habits.
+
+2.3
+
+LLMs for Learning
+
+2.3.1 Early Perceptions. A recent HCI review Pang et al. [58] found that 15% of the manuscripts published at CHI, which
+are focused on LLMs, are centred on education. The interest in the influence of LLMs on education was indeed sparked
+early on. After the immediate release of ChatGPT, many scholars provided discussions reflected on the opportunities
+and challenges of LLMs both in general, as well as specifically in education and learning. Dwivedi et al. [20] and Bahrini
+et al. [3] synthesize the existing narrative to highlight both the potential and threats of generative AI (GenAI), such as
+ChatGPT. As such, LLMs can enhance productivity across multiple sectors, such as business, healthcare, or science [3],
+with in particular education and learning to “experience some of the most transformative impacts” [20]. Dwivedi et al. [20]
+further emphasize biases, outdated training data, and misinformation as threats. Kasneci et al. [38] in particular focused
+on the field of education, addressing both student and teacher perspectives on the opportunities and challenges of LLMs.
+In their opinion, students across all phases of education and learning (including informal and professional learning)
+can benefit from (personalized) assistance in writing, understanding complex concepts, encouraging critical-thinking
+and reflection skills, or developing certain language skills, among others. Yet, the authors argue that LLMs pose a
+series of challenges: copyright, overreliance, response shallowness, bias, privacy or data fabrication, and sustainability
+are among the high-profile ones. Lin [47] discussed ChatGPT’s role in self-guided learning environments, listing its
+potential as a digital learning process companion for adult learners, though several concerns about over-dependence,
+unclear AI usage policies, and data updates to reduce incorrect outputs were raised. As LLMs evolve and transform into
+large reasoning models (LRMs), we can anticipate the emergence of more powerful capabilities such as self-reflection,
+along with more potential harms such as manipulation and hacking [6].
+2025-06-16 01:11. Page 4 of 1–32.
+
+An Empirical Large-Scale Study on LLM Use in Everyday Learning
+
+5
+
+2.3.2 Early Adopters. Following the initial boom of LLMs, several studies have emerged examining their ongoing use
+with early adopters and their potential implications in education and learning. Three months after the ChatGPT release,
+Hosseini et al. [34] found that 40% of their 420 participants had interacted with ChatGPT. Participants found research to
+profit more from LLMs than the fields of education or healthcare, citing a lack of depth and critical reasoning in medical
+education as the main challenge of ChatGPT. Skjuve et al. [67] ran a qualitative questionnaire study among 194 early
+adopters about good and bad user experiences with ChatGPT. Their results reveal high pragmatic (e.g., helpful and
+comprehensive information, task simplification) and hedonic attributes (e.g., the “wow-factor”, entertainment, creativity)
+even in the early distribution stages of ChatGPT. Yet, the authors highlight the issue of LLMs being “convincingly wrong”
+as a critical challenge that HCI must address in order to ensure more reliable and positive future use. Albadarin et al.
+[2] conduct a systematic literature review of 14 early empirical studies (50% qualitative, 20% quantitative, and 29%
+mixed-methods, with only two studies exceeding the participants’ count of 100) to synthesize ChatGPT use patterns
+in educational settings. Negative consequences include risks such as misinformation, the digital divide, academic
+dishonesty, and, in extreme cases, manipulation. In the context of learning, these issues primarily manifest as a decline
+in critical thinking and problem-solving skills, along with reduced engagement in deep learning. The review also
+highlights that the use of ChatGPT worsens the lack of meaningful social interaction in group learning settings. On a
+more positive note, the authors highlight several beneficial ways in which students, particularly in higher education,
+utilize ChatGPT: as a writing and language support tool, a virtual on-demand assistant, an enhancer of self-directed
+learning, and a facilitator of complex concepts.
+In contrast to categorizing ChatGPT by learning tasks, Stojanov et al. [70] analyzed the types of learners, or reliers,
+that emerge from relying on ChatGPT across 13 learning tasks. The study’s analysis of 490 students resulted in five
+relier types: almost 40% were versatile low reliers with minimal dependence on the tool’s various tasks; 16.5% were
+knowledge seekers, employing ChatGPT for content acquisition and summarization; 11.8% were proactive learners relying
+for feedback and planning; and 23.1% were assignment delegators who used it for drafting assignments and homework.
+Tlili et al. [76] qualitatively examined the use of ChatGPT in three waves – a social media posts’ analysis, interviews, and
+a UX study – revealing initial optimism about ChatGPT in the space of social media with a grain of caution reported by
+some users. The further two study waves confirmed the dichotomy of perceptions around ChatGPT, framing ChatGPT
+as “devil and angel” in education. Similarly, Fütterer et al. [26] discuss findings from a social media analysis on both the
+global, general acceptance, as well as the acceptance in education, of early ChatGPT users – unfolding mixed sentiments
+regarding education. A further social media analysis [29] related specifically to educational contexts revealed that
+ChatGPT’s role spans various educational contexts, including content creation in higher education, language learning
+in K-12, or problem-solving assistance in practical skills training. Despite the dominantly positive view among adult
+professionals, the study found that negative concerns, such as academic dishonesty, misinformation, and privacy issues,
+to be in particular relevance for K-12 and higher education contexts. In terms of specifically student use in higher
+education, Niloy et al. [56] identified several factors influencing the use of ChatGPT in higher education. The study
+found that factors such as ease of access, time-saving benefits, content inseparability, aided learning, and cognitive
+miserliness significantly influenced students’ intention to use ChatGPT – at the same time contradicting previous
+research works (e.g., [20]) by showing that technical knowledge of ChatGPT had no significant impact. Chan and
+Zhou [11] also examined the relationship between student perceptions and their intention to use GenAI, finding that
+perceived value had a strong positive correlation with usage intentions, while perceived cost had a weak negative
+correlation. In contrast, a recent user survey [1] on 366 students’ perceptions of GenAI suggested that knowledge on
+both the benefits and limitations of LLMs positively correlates with students’ willingness to use GenAI in education.
+2025-06-16 01:11. Page 5 of 1–32.
+
+6
+
+Terzimehić et al.
+
+In a comparative study of students from pure and applied science fields, Qu et al. [61] found that students in applied
+academic disciplines (i.e., engineering and science students) had greater knowledge and adoption willingness of GenAI,
+particularly for cognitively demanding tasks.
+2.3.3 Interaction Patterns of LLM Adopters. Regarding concrete uses of ChatGPT in self-directed learning for writing, a
+recent user study with 384 students found that postsecondary students primarily used ChatGPT for brainstorming
+and idea generation in writing tasks [77]. The study identified a use trajectory where students, initially motivated
+by curiosity or the need to complete tasks, continue using the tool due to the perceived task-benefits gained from
+their initial experiences, with the tasks including writing capabilities, information variety, or perceived usefulness,
+among others [75]. A further large-scale user survey [71] with 534 students revealed that established routines, perceived
+performance enhancement, and hedonic motivation are among the main drivers of ChatGPT use intention.
+In the study by Wang et al. [77], participants reported a strong sense of responsibility for their learning by crosschecking the output generated by ChatGPT. Ultimately, participants were divided on whether using ChatGPT improved
+their writing skills: some felt encouraged to practice writing and revising more frequently, while others felt the need for
+longer use to make an informed judgment. Similarly, for the task of writing, Punar Özçelik and Yangın Ekşi [60] found
+that, in a much smaller sample of 11 participants, ChatGPT is an effective tool for helping students to develop their
+formal writing skills, particularly with regard to self-editing. However, they highlight the need for further functional
+improvements to enhance ChatGPT’s effectiveness.
+To understand concrete use patterns of how and how much students use LLMs, Sublime and Renna [72] surveyed
+395 students from as early as 13 years of age to university level, further investigating the influence of demographic
+differences on usage patterns. The same study investigates non-adopters too, aiming to illuminate their reasons for
+non-use. The study revealed a number of interesting findings. First and foremost, LLMs have reached an audience
+of at least 70% across all examined age groups and education levels, with an increasing use the further students are
+in their education level. Students reach hand to LLMs mostly on their computers and smartphones, and report high
+satisfaction with the output of LLMs. 2/3 of students aged between 13 and 16 use LLMs, however, only 20% revise
+the output. This fraction increases with the age of students (up to 50%). The authors thus highlight the necessity of
+teaching critical evaluation and reflection on the output the AI generates – a skill older students in their participants’
+possessed, probably due to the lack of availability of AI in their formative educational years. Non-users made up 13% of
+the sample of participants, with perceived inappropriateness and academic honesty cited as the most common reasons
+for avoidance. Students reported using ChatGPT additionally for document writing (nearly 75% of its usage).
+Informal and implicit learning in the workplace has been recognized as a key factor in professional development
+and the work environment [21]. Focusing on researchers and academics, Liao et al. [46] conducted a survey with
+816 participants to explore current usage patterns of LLMs in their work pipeline, as well as their perceptions of
+the risks, benefits, acceptability, and demographic differences related to LLM use in research. Their findings indicate
+that 81% of researchers have already integrated LLMs into some part of their workflow, primarily for tasks related
+to paper preparation. The most common uses include information seeking (e.g., discovering related papers or topics,
+aiding in summarization and explanations, or answering factual questions) and editing. Additionally, computer science
+researchers are more open about disclosing their use of LLMs, expressing fewer ethical concerns. This trend is also
+observed among non-white, non-native English speakers. In general, the issue (or opportunity) of equity emerged as a
+significant topic of discussion among the study’s participants. Moreover, participants were more concerned about the
+LLM use of others than their own, indicating a “third-person effect” [15].
+2025-06-16 01:11. Page 6 of 1–32.
+
+An Empirical Large-Scale Study on LLM Use in Everyday Learning
+
+7
+
+Research Gap. Unlike most of the studies listed, our work focuses on the active, real-world use of LLMs in
+informal, everyday learning at scale. We aim to gather insights from a broad and diverse range of users, without
+imposing any specific recruitment criteria (e.g., profession, age, or gender), drawing from their lived experiences
+since the widespread release of LLMs in November 2022. Our research is guided by key questions about who is
+using LLMs, when and where they are being used, how they are being applied, and what is being learned in these
+everyday contexts. Additionally, we cross-examine these experiences with participants’ perceptions of how LLMs
+have impacted their learning habits, particularly in terms of learning efficiency, reliance on LLMs, and privacy
+concerns.
+
+3
+3.1
+
+Methodology
+Survey Design
+
+Our survey was developed using an approach that integrated an examination of current scientific literature, triangulated
+with a GPT-generated questionnaire draft. We began by reviewing existing literature on the role and use of LLMs
+and similar AI tools in education and learning. This initial step allowed us to identify several key constructs, such
+as the general and specifically learning tasks performed with LLMs (e.g., [7, 70]), the diverse learning contexts in
+which these models are used (e.g., [29]) or the benefits and drawbacks of employing LLMs(e.g., [67] and specifically for
+learning [29]). Our objective was to complement the listed works’ findings by quantifying these qualitatively established
+constructs through our survey with the general public. Inspired by the more recent work of Sublime and Renna [72], we
+employed branching logic to include questions about general LLM non-use and non-use specifically in the domain of
+learning. In these branches, we were interested in reasons for non-use and the demographic attributes of non LLM users.
+Our review of related literature also revealed additional constructs emerging from actual LLM usage, that is, beyond
+initial (hypothetical) perceptions around LLMs. Consequently, we added items addressing the interaction modalities
+employed with LLMs, the device and time context of LLM use, payment for LLM services (informed by frameworks
+such as those in [30, 31]), changes in learning habits and perceived learning effectiveness, as well as implemented
+privacy measures and (over-)reliance effects [32] of LLMs on learning. With the built knowledge of existing and missing
+constructs in the literature, we prompted ChatGPT to create an initial draft of a questionnaire to examine “who uses
+how LLMs for educative and learning purposes” in January 2025. We subsequently refined the prompt to add questions
+on the identified missing constructs. We curated the resulting question set and answer options in several waves, based
+on existing literature and pilot testing, with emphasis on the categorical multiple-choice answer options. As a result
+of the described approach, the survey first assessed participants’ prior engagement with AI tools and multimodal
+LLMs by asking them to indicate which LLM tools they had used. Those who had never used such tools were routed
+to blocks exploring reasons for non-use, while LLM users answered follow-up items on interaction modalities (e.g.,
+text-to-text, image-to-text) and LLM payment options. LLM users were then asked whether they use LLMs for learning,
+too – if not, the survey listed multiple options to choose from as reasons not to use LLMs for learning. Otherwise, the
+survey branched to specific tasks performed with LLMs for learning. The survey then probed the learning contexts
+in which LLMs are applied (from [29]), capturing the frequency and duration of use (adapted from [73]), triggers for
+adoption, devices and platforms, social settings of use as well as the range of inquiries [7] and learning tasks (such as
+seeking factual information, brainstorming, and problem-solving, compiled from [46, 70, 72]) through both categorical
+and continuous measures. Respondents’ perceptions of the benefits and drawbacks of using LLMs for learning were
+2025-06-16 01:11. Page 7 of 1–32.
+
+8
+
+Terzimehić et al.
+
+evaluated with a set of multiple-choice questions, followed by Likert-scale items focusing on the LLM’s critical thinking
+impacts and over-reliance, and challenges such as misinformation or usability issues. The survey also explored changes
+in learning habits and data privacy concerns to contextualize the impact of LLMs on everyday learning practices. To
+conclude the section on the use of LLMs for learning, the questionnaire explored potential improvements for LLMs in
+educational contexts and assessed participants’ willingness to recommend them to others.
+Finally, for a more comprehensive demographic analysis, we included five single-choice questions on AI literacy [33]
+that assessed participants’ understanding of AI functionalities and limitations, the Affinity for Technology Interaction
+(ATI) scale[74], and a short Big-5 personality questionnaire [62].
+3.2
+
+Procedure & Participants
+
+We implemented the questionnaire using Qualtrics and recruited participants from Germany using Prolific1 in several
+batches during the month of February 2025. The recruitment text stated that we are looking into how “multimodal large
+language models (LLMs) [are used] in your everyday life for learning and productivity. Even if you do not use LLMs, for
+learning or in general, we would still be interested to hear your reasons for not using them.”
+Participants had to possess fluent English skills. Besides an equal gender distribution, no other screening criteria
+were employed. This was to ensure a wide range of participants’ attributes. The questionnaire began by listing the
+GDPR-conform consent form to which participants had to agree in order to continue with the questionnaire.
+818 participants started the questionnaire beyond the consent point, with 801 participants completing it within the
+designated time of 55 minutes. We excluded 25 participants after data inspection, as these have failed our attention
+check: these participants selected certain tasks to be completed with LLMs, with at least one task’s frequency later
+specified as ’never used’. Our final participants’ pool thus consists of 𝑛 = 776 participants, aged 31.6 years on average
+(𝑆𝐷 = 9.87, 𝑚𝑎𝑥 = 72). The gender distribution of the participants was nearly balanced, with males representing 49.9%,
+females 48.5%, and non-binary participants making up 1%. Participants needed on average 19.74 minutes (𝑆𝐷 = 11.56)
+to fill out the questionnaire. and received monetary compensation (12.82EUR/hour) via the platform after finishing.
+3.3
+
+Analysis
+
+3.3.1 Latent Class Analysis. To identify distinct learner profiles based on their interaction patterns with LLMs, we
+employed latent class analysis (LCA), a probabilistic modeling approach that identifies unobserved (latent) subgroups
+within a population based on patterns in categorical variables. LCA assumes that an underlying latent categorical
+variable accounts for the associations among observed variables, grouping individuals into discrete and mutually
+exclusive classes that share similar response patterns.
+In this study, we applied LCA to three key dimensions of learning behavior: devices used (e.g., desktop, laptop,
+smartphone, tablet), learning contexts (e.g., higher education, K–12, lifelong learning, professional development), and
+learning tasks (e.g., brainstorming, coding assistance, feedback seeking). Each of these categorical variables served as an
+indicator in the LCA model, allowing us to uncover latent learner profiles based on their behavioral patterns.
+To determine the optimal number of latent classes, we fitted models with varying numbers of classes and evaluated
+model fit using two widely used information criteria: the Bayesian Information Criterion (BIC) and the Akaike Information Criterion (AIC). Both metrics penalize model complexity to prevent overfitting, with lower values indicating
+better model fit as depicted in Figure B. Based on these criteria, a four-class solution provided the best balance between
+1 www.prolific.com [date accessed: 2025–06–16]
+
+2025-06-16 01:11. Page 8 of 1–32.
+
+An Empirical Large-Scale Study on LLM Use in Everyday Learning
+
+9
+
+explanatory power and parsimony, suggesting the existence of four distinct learner profiles. LCA was conducted
+using the poLCA package in R, which estimates model parameters using an expectation-maximization (EM) algorithm
+combined with Newton-Raphson optimization. The resulting class-specific conditional probabilities were examined to
+interpret the distinct behavioral patterns associated with each class.
+4
+
+Results
+
+We present our findings organized around the four research questions. To address RQ1, we first examine demographic
+differences by dividing our participants’ pool of 776 individuals into three groups based on LLM usage for learning, that
+we further address as:
+
+Non-LLM Users. 15 respondents (about 2%) have never used any LLM or similar AI tool.
+Non-LLM Learners. 83 respondents (11%) have used LLMs but not for everyday learning purposes.
+LLM Learners. 678 respondents (87%) have incorporated LLMs into their everyday learning practices.
+
+With this grouping, we make descriptive and inferential comparisons between those who adopt LLMs for learning
+versus those who avoid them (RQ1). We then perform a mixed-method analysis of triggers and hindrances for LLM
+adoption for learning to investigate RQ2. To address RQ3, we conduct an LCA among those who adopt LLMs for learning
+to uncover underlying patterns in timing, context, and manner of LLM usage for day-to-day learning. Concluding with
+RQ4, we run several regression tests to show how the resulting learner profiles stand in relation to perceived attitudes
+of effectiveness, reliance, and privacy with LLM use. We accompany these results with a qualitative analysis of the
+answer set on how LLMs changed participants’ approaches and habits with learning.
+4.1
+
+RQ1: Demographic Differences
+
+Our analysis reveals several demographic trends between the three groups of participants.
+Age. LLM learners tend to be younger on average (𝑀 = 31, 𝑆𝐷 = 9.57), whereas those who did not use LLMs for
+learning were older (𝑀 = 35, 𝑆𝐷 = 11) on average, see Figure 1a. An ANOVA test confirmed a significant difference in
+age (𝐹 = 6.68, 𝑝 < 0.01). In particular, the LLM learners were significantly younger than the group who use LLMs (but
+not for learning, 𝑝 = 0.004).
+Gender. Among LLM learners, 53% participants were male (𝑛 = 358) and 46% (𝑛 = 313) female (see Figure 1b), whereas
+in the group that avoided using LLMs for learning, women formed a majority with 64% (𝑛 = 53 female, 𝑛 = 25 male). A
+chi-square test found this difference significant ( 𝜒˜ 2 = 15.5, 𝑝 < 0.001), meaning that men in our participants’ sample
+were more likely to embrace LLMs as learning tools than women.
+Education Level. Educational attainment was relatively high overall, but non-LLM users had lower education levels
+on average (albeit not siginificant). 40% of non-users (𝑛 = 6) hold at least a bachelor’s degree, compared to 57–61%
+(𝑛 = 386 and 𝑛 = 51) of those who use LLMs (with or without learning, respectively).
+2025-06-16 01:11. Page 9 of 1–32.
+
+10
+
+Terzimehić et al.
+
+*
+
+*
+
+70
+
+Years
+
+60
+50
+40
+30
+20
+All
+
+Non-LLM Users
+
+Non-LLM Learners
+
+LLM Learners
+
+(a) Age Distribution
+
+(b) Gender Distribution
+
+Fig. 1. Demographic distributions: (a) age and (b) gender
+
+Income. LLM learners were distributed across income levels, while non-users clustered in lower incomes. About 87%
+(𝑛 = 13) of non-users earned below EUR50K/year versus 53% (𝑛 = 407) of LLM users (learning or not) in that range. We
+observed more high-income individuals among learning-adopters – nearly 10% (𝑛 = 67) of them had incomes greater
+than EUR100K, whereas none of the non-users did. Nonetheless, adoption was not limited to any one income bracket;
+even within lower income groups, many participants were using LLMs for learning, as depicted in Figure 2a.
+
+(a) Income Comparison
+
+(b) Educational Degree Comparison
+
+Fig. 2. Demographic distributions: (a) income and (b) education level
+
+Technology Attitudes. We measured an AI Literacy score by means of five multiple-choice questions (single correct
+answer, score 0 to 5) from [33], next to the technology affinity score measured by [74].
+Even those who have not adopted LLMs are reasonably aware of AI basics, as AI literacy scores did not differ strongly
+between groups (𝑥˜ = 3 and 𝑥˜ = 3.2 for LLM learners and non-LLM learners, respectively, vs 𝑥˜ = 2.87 for non-LLM users).
+Attitude toward technology, however, did differ: LLM-learners scored highest on the ATI scale (𝑀 = 3.92. 𝑆𝐷 = 0.55,
+𝛼 = 0.71 out of 5), significantly above those who avoided using LLMs (𝑝 < 0.01), as per Figure 3a.
+Big-5 Personality. Personality factors did not show large differences between groups, although non-users trended
+slightly higher on neuroticism and lower on agreeableness (likely due to the small non-user sample, these differences
+were not statistically significant), as depicted in Figure 3b.
+2025-06-16 01:11. Page 10 of 1–32.
+
+An Empirical Large-Scale Study on LLM Use in Everyday Learning
+
+(a) ATI Score Distribution
+
+11
+
+(b) Personality Distribution
+
+Fig. 3. Distributions of ATI scores and personality traits: (a) ATI score distribution, (b) big-5 personality distribution
+
+RQ1 Main Findings. According to our findings, the adoption of LLMs for learning has reached a broad
+proportion of 88% in our sample. Statistically, we found significant differences in age and gender distributions
+between LLM learners and non-LLM learners, as well as in tech attitude scores. Education and income showed
+observable trends (learners skewing higher) though the group differences were less stark after excluding the very
+small non-user group. These patterns reinforce that early adopters of LLMs for learning look similar to early
+adopters of other tech [8] – younger, educated, and male-skewed.
+
+4.2
+
+RQ2: Discouraging and Motivating Factors to Use LLMs for Everyday Learning
+
+Discouraging Factors and Challenges. The primary reason for LLM avoidance reported by the non-LLM users group
+pertains to mistrust (𝑛 = 6, 40%) in the factual output of LLMs. 13% (𝑛 = 2) of participants mentioned concerns regarding
+the handling of data (privacy) during the training process. Ethical considerations also play a role (“It feels like cheating”),
+with some participants expressing concerns about the environmental impact of LLMs (𝑛 = 2), while others express
+reservations about excessive reliance on AI tools (𝑛 = 2). One participant articulated their concerns with the prospect
+of not wanting to become “lazy”. Additionally, two participants felt unable to utilize LLMs effectively.
+We further inquired with the group of non-LLM learners about their reasons for avoiding LLMs, which are more
+tailored to the use case of learning. Participants were permitted to select multiple reasons. These reasons exhibit overlap
+with those previously cited by non-LLM users. The predominant concerns (𝑛 = 52) revolve around the reliability of
+factual output, ethical concerns (𝑛 = 25) and data privacy (𝑛 = 19).
+Conversely, 52% non-LLM learners expressed a preference for traditional learning methods (𝑛 = 44). Whereas almost
+a quarter (𝑛 = 20) of participants cited a lack of motivation, one eight (𝑛 = 12) of non-LLM learners indicated a perceived
+lack of skills necessary to effectively utilize LLMs for learning purposes. Notably, only two participants cited a strict
+prohibition by their educational institutions as a deterrent. The majority of non-LLM learners appear to adhere firmly
+2025-06-16 01:11. Page 11 of 1–32.
+
+12
+
+Terzimehić et al.
+
+(a) Challenges
+
+(b) Benefits
+
+Fig. 4. Proportion of reported (a) challenges and (b) benefits experienced by learners when using LLMs for learning
+
+to their stated positions of not using LLMs for learning, as 61% (𝑛 = 51) indicated that they have no intention of using
+LLMs for learning in the future, with 19% (𝑛 = 16) participants expressing some degree of hesitation.
+Among the potential factors that might encourage non-LLM learners to utilize LLMs for learning purposes, the
+responses were distributed between improved accuracy (𝑛 = 35) and recommendations from AI experts and educators
+(𝑛 = 23). Yet, a quarter (𝑛 = 21) each selected “nothing” and “I stand firmly in not using LLMs for learning.”
+LLM learners could specify challenges they face when learning with LLMs from a multiple-choice list. As Figure 4a
+depicts, the most commonly selected challenge when interacting with LLMs was misinformation (𝑛 = 460), accounting
+for 68% of respondents. The second most frequent issue was irrelevant or useless output (𝑛 = 422, participants or 62%).
+Bias in AI-generated responses was noted in 29% of cases (𝑛 = 196), reflecting concerns about fairness and neutrality in
+AI outputs. Additionally, technical issues, such as system errors or response failures, affected 26% (𝑛 = 176). Ethical
+concerns were raised by 18% (𝑛 = 121), followed by 15% (𝑛 = 104) of LLM learners encountering instances where the
+language model was unwilling to provide an answer. The clarity of AI-generated output was selected in 12% (𝑛 = 82),
+with participants finding responses difficult to understand. Moreover, 9% (𝑛 = 82) mentioned experiencing complex
+user interactions, possibly indicating difficulties in effectively communicating with the model. Interestingly, 7% (𝑛 = 47)
+stated not experiencing any challenges and 3% (𝑛 = 23) reported facing other challenges that were not captured in the
+predefined categories.
+Motivating Factors and Benefits. We surveyed the LLM learners’ group to list the motivating factors behind their
+adoption of these technologies. As per Figure 4b, the major motivating factor listed was curiosity (𝑛 = 517), followed
+by recommendations from social connections (𝑛 = 254). In a similar vein, media coverage or news about LLMs was a
+trigger for 217 participants. In 157 cases, the educational institution or employer encouraged using LLMs for learning.
+85 participants shared how their use of LLMs for learning has changed over time and what makes them continue to
+use them. Many participants stated starting out of curiosity, which grew over time into exploring various capabilities of
+AI, which for some, led to increased prompting knowledge and knowledge on how LLMs operate in general: “I think
+they keep getting better and faster. I also have learned to use prompts better, so maybe that also helps.” Some participants
+were able to tunnel its use for “very specific tasks” – others observe how the use of LLMs has spilled over into other
+various contexts of work and everyday chores: “First, I only learned for school, now I use it in my everyday life as well.”
+2025-06-16 01:11. Page 12 of 1–32.
+
+An Empirical Large-Scale Study on LLM Use in Everyday Learning
+
+13
+
+We finally asked LLM learners to share their thoughts on the benefits of using LLMs for learning. Again, participants
+could choose from a multiple-choice list. The two top benefits revolve around access, responsiveness, and flexibility in
+unconstrained use: instant access to information emerged as the most widely recognized benefit (𝑛 = 567, 83.63% of
+LLM learners), closely followed by LLMs being available 24/7 (𝑛 = 530, 78.17%). 59.4% and 48% of participants felt that
+LLMs were able to clarify difficult concepts quickly, at times with tailored explanations, respectively. Whereas a little
+more than half (𝑛 = 357) of the participants stated to have experienced improved productivity, almost a third (𝑛 = 201)
+experienced improved engagement in learning thanks to LLM use. Finally, 46.3% (𝑛 = 314) and 43.3% (𝑛 = 294) reported
+LLMs being efficient in generating new ideas and being helpful in reducing learning time, respectively.
+
+RQ2 Main Findings. The primary barriers keeping people from using LLMs for learning are lack of trust
+in the output accuracy and data handling of AI, as well as satisfaction with traditional learning methods –
+essentially, “Why use this if I cannot fully trust it and I am doing fine with Google/books/teachers?”
+Interestingly, the same concern of mistrust tops the chart of challenges among LLM learners, with their
+experiences showing that most have indeed encountered incorrect answers provided by the LLMs. Another insight
+is that some avoiders simply do not know how to fit AI into their learning, next to being concerned about the
+(non)ethical use of not becoming over-reliant or misusing AI in academic settings.
+LLM learners emphasize the ability to get personalized explanations on any topic at any time. This lowers the
+barrier to entry for exploring new topics, given that curiosity was the biggest adoption driver. It’s like having a
+tutor on call, albeit one that sometimes lies to you. For this group, the benefits clearly outweigh the challenges of
+LLMs.
+4.3
+
+RQ3: Learning Tasks and Contexts
+
+For the 678 participants actively using LLMs in their learning, we explored which LLMs and their modalities they turn
+to for learning, next to what tasks they use LLMs for. Unsurprisingly, ChatGPT is by far the most commonly used LLM,
+with participants relying strongly on the text-to-text modality for a wide variety of tasks.
+Subsequently, we explore the when, where, and how these tools fit into participants’ daily learning routines. The
+picture that emerges is one of flexible, self-directed usage: people integrate LLM assistance whenever they need it,
+largely on personal devices, and mostly on their own (i.e., not in groups). Below, we first break down the task usage
+patterns, followed by context patterns. We then describe the four distinct learner profiles identified by LCA.
+4.3.1
+
+The What of Everyday Learning with LLMs.
+
+Which LLMs? The median amount, per participant, of LLMs used for learning is one (𝑀 = 1.38, 𝑆𝐷 = 0.72, 𝑚𝑎𝑥 = 6).
+Among the chatbots used for learning, OpenAI ChatGPT was by far the most frequently mentioned, with 93% (𝑛 = 632)
+of LLM learners reporting its use. Google Gemini (𝑛 = 86), Microsoft Copilot (𝑛 = 81), and DeepSeek (𝑛 = 64) follow
+next. A little less than 5% (𝑛 = 33) reported using LLMs outside of these platforms, such as Perplexity, Claude or Grok.
+Inquiries and Learning Tasks. We asked participants to share which inquiries they pursue with LLMs, guided by the
+inquiry taxonomy by [7]. This taxonomy encompasses 24 inquiries that evolve not only around learning tasks, but also
+self-reflective or artistic practices, among others.
+2025-06-16 01:11. Page 13 of 1–32.
+
+14
+
+Terzimehić et al.
+Participants reported conducting an average of 7.53 different inquiries (𝑆𝐷 = 4.40) with LLMs, with the inquiry
+
+variance per person ranging from 1 to 24 (𝑥˜ = 7). This indicates a wide variability and understanding of the inquiries
+individuals pose with LLMs for daily learning-related activities.
+The most frequently performed tasks were Explanatory Inquiries (𝑛 = 471, 69.5%), Factual Queries (𝑛 = 429, 63.3%),
+and Tutorial Requests (𝑛 = 414, 61%). These point to learners relying on LLMs for gaining explanations, retrieving factual
+information, and following step-by-step instructions. Next come Idea Generation (𝑛 = 377, 55.6%) and Troubleshooting
+Assistance (𝑛 = 336, 49.6%), indicating that LLMs play a role in creativity and problem-solving. Other frequently
+reported tasks included Learning Support (𝑛 = 322, 47.5%), Content Creation (𝑛 = 272, 40.1%), and Technical Guidance
+(𝑛 = 258, 38%). Less frequently mentioned (but still notable) were tasks related to Decision Support (𝑛 = 231, 34%), Skill
+Development (𝑛 = 231, 34%), Planning and Organization (𝑛 = 226, 33.3%), and Data Processing (𝑛 = 219, 32.3%). Personal
+and professional guidance, such as Personal Advice (𝑛 = 194) and Business and Career Advice (𝑛 = 121) were mentioned
+by 28.6% and 17.85% of LLM learners, respectively. Service Utilization (𝑛 = 161) was reported by 23.75% LLM learners.
+Other inquiries were mentioned by less than 20% of LLM learners, as per Figure 5.
+
+Fig. 5. Frequency of mentioned inquiries
+
+Following this, we zoomed into the learning scenario and inquired about the learning tasks participants complete
+with the assistance of LLMs, presenting them with a multiple-choice list of options. Participants could then report the
+frequency of use for each selected task on a scale from Less than once a month to Every day.
+Participants engage with LLMs for a wide range of learning tasks. On average, participants report using LLMs for 7
+different tasks (𝑀 = 6.99, 𝑆𝐷 = 3.42). However, the distribution is broad, with some individuals using LLMs for as few
+as one task, while others engage in up to 17 different tasks (𝑥˜ = 6).
+As presented in Figure 6, learning tasks related to content summarization, concept explanation, and factual information
+retrieval are among the most frequently performed, with many participants engaging in these activities at least weekly.
+Brainstorming, problem-solving, and text-related tasks (translation, paraphrasing, and grammar checking) also see
+frequent usage, though with greater variation: while some learners use LLMs regularly, others engage with these tasks
+2025-06-16 01:11. Page 14 of 1–32.
+
+An Empirical Large-Scale Study on LLM Use in Everyday Learning
+
+15
+
+Fig. 6. Frequency of the learning tasks participants perform with LLMs
+
+only occasionally or monthly. More specialized tasks, such as coding assistance, data analysis, and quiz design, are
+performed less frequently, with most users engaging less than once a month or only on an as-needed basis. Clarifying
+assignments and searching for additional resources are also among the less frequent use cases.
+Interaction Modalities. Today’s LLMs are multimodal, accepting images or audio files besides text, too, so we asked
+which interaction modalities users employ. Virtually all learning-users (97.3%) use text-to-text interaction, that is, typing
+text questions and reading text answers. This is followed by using images as part of the LLM-supported learning process:
+either by asking the AI to interpret or describe images (i.e., image-to-text, 𝑛 = 193) or by generating images from text
+prompts (i.e., text-to-image, 𝑛 = 145). Some participants indicated using voice interfaces to converse with the LLM,
+either with voice input (speech-to-text, 𝑛 = 113) or having the LLM answer with speech (text-to-speech, 𝑛 = 74). Far
+fewer have ventured into video-to-text (𝑛 = 29) or text-to-video (𝑛 = 21) interaction.
+4.3.2
+
+The When, Where, and How of Everyday Learning with LLMs.
+
+Duration & Frequency. 63.5% of participants utilize LLMs for a duration exceeding six months: 34.4% (𝑛 = 233)
+engaging for more than a year and 29.2% (𝑛 = 198) for a period between six months and a year. In contrast, only 4.6%
+(𝑛 = 31) of participants reported utilizing LLMs for less than one month. The median self-reported time of use was 20
+minutes per week spent interacting with LLMs for learning tasks (𝑀 = 47.2 min/week, 𝑆𝐷 = 80.36 with some heavy
+users spending many hours 𝑚𝑎𝑥 = 900). 20% (𝑛 = 137) of LLM learners stated using LLMs every day for learning for at
+least one task with LLMs (more on tasks in Section 4.3.1). Most participants however, almost 60% (𝑛 = 406), use LLMs at
+least once a week (but not daily). Less than 3% (𝑛 = 18) of participants use LLMs exclusively less than once a month.
+Timing. Most LLM learners do not reserve a special time or day for LLM-based learning, that is, they use it whenever
+the need pops up. Nearly 70% (𝑛 = 471) selected no particular day of the week for using LLMs, and about 51% (𝑛 = 345)
+no particular time of day. Among those LLM learners who did specify timing, weekday evenings and afternoons were
+a bit more common (see Figure 7): for instance, evening (6–9 p.m.) was the most cited specific time slot (by 24% of
+respondents, 𝑛 = 163), followed by late afternoon (3–6 p.m., 23%, 𝑛 = 158). Very few (under 5% each) used LLMs
+primarily in the early morning (𝑛 = 32) or overnight hours (𝑛 = 28). As for days, weekdays slightly outranked weekends
+– each weekday was cited by between 19% and 23% of participants, whereas only 11% mentioned Sundays.
+2025-06-16 01:11. Page 15 of 1–32.
+
+16
+
+Terzimehić et al.
+
+Fig. 7. Participants’ hourly distribution of LLM use for learning over a 24-hour period
+
+In terms of how much time learners engage with LLMs on an average weekday, over half of LLM users (𝑛 = 356,
+approximately 53%) reported spending less than 30 minutes per day using LLMs for learning. About 21% (𝑛 = 141) use
+them for 30–60 minutes daily, and roughly 15% (𝑛 = 104) for 1–2 hours per day, while 11% (𝑛 = 77) are power-users
+exceeding 2 hours a day.
+Context. LLM learners could select one or more learning contexts in which they engage with LLMs. The results
+show integrating these AI tools across a variety of learning contexts. On average, participants reported learning in 2.6
+different contexts (𝑆𝐷 = 1.28), with the number of contexts per person ranging from 1 to 6 (𝑥˜ = 2). 25% of participants
+selected 3 or more learning contexts.
+The variety of contexts is led by Higher Education (𝑛 = 71) and the combinations of Work-Related Activities–Practical
+Skills Learning– Lifelong/Hobby Learning (𝑛 = 35), and Practical Skills Learning–Lifelong/Hobby Learning (𝑛 = 32).
+Across all responses, work and personal learning are both major domains: just over half of users (around 50 to 55%) use
+LLMs for Lifelong/Hobby Learning (𝑛 = 367) – i.e., self-directed learning of personal interests – and a similarly high
+percentage use them for Work-Related Activities (𝑛 = 365), i.e., on the job for learning or problem-solving at work. Nearly
+half, 48% (𝑛 = 325), employ LLMs for Practical Skills Learning, followed by Higher Education with 47% (𝑛 = 322). Less
+commonly selected contexts included Professional/Career Development (𝑛 = 231), Popular Science Education (𝑛 = 110),
+K-12 Education (𝑛 = 25, probably due to our adults’ sample) and Other learning contexts, such as language learning or
+health inquiries, with one participant stating “introspective activities”.
+Social Setting. LLM-based learning is almost entirely an individual activity. An overwhelming 89% (𝑛 = 606) of
+respondents said they primarily use LLMs for learning alone (individual learning). Only 1% (𝑛 = 8) primarily use them
+in a group or collaborative setting. Another 9% (𝑛 = 64) said both individual and group use in equal measure.
+Devices and Platforms. Users access LLMs through two devices on average, with smartphones and computers
+dominating. Smartphones were the most commonly used device (about 69% of learners use a smartphone for LLM
+access, 𝑛 = 469), closely followed by desktop PCs (60%, 𝑛 = 407) and laptops (50%, n=337). Tablets were used by a
+2025-06-16 01:11. Page 16 of 1–32.
+
+An Empirical Large-Scale Study on LLM Use in Everyday Learning
+
+(a) LLM-learning contexts
+
+(b) Devices to access LLMs
+
+17
+
+(c) Platforms to access LLMs
+
+Fig. 8. Frequency of the mentioned a) learning contexts with LLMs b) devices to access LLMs for learning and c) platforms to access
+LLMs for learning
+
+smaller share (17%, 𝑛 = 113). As for how LLM learners access LLMs, the vast majority (about 88%, 𝑛 = 598) use standard
+web-based interfaces. Over half (53%, 𝑛 = 357) also reported using mobile apps (for instance, the official ChatGPT app
+or third-party client apps). Around 16% have used desktop software integrations (𝑛 = 111), and a small fraction use
+browser extensions or other third-party tools (6%, 𝑛 = 42). As such, most participants are using the readily available
+free interfaces, with web and mobile apps being the go-to methods of access.
+4.3.3 Latent Learner Profiles. We ran a LCA that resulted in four profiles of LLM learners based on their learning
+behaviors, task engagement, and digital environments. The optimal four-class solution was selected based on the
+log-likelihood (maximum likelihood = –10575.98), AIC (21397.96), and BIC (21953.82). Estimated class population shares
+were relatively balanced (23.8%–25.7%), and modal posterior probabilities confirmed the robustness of the solution.
+The first group, Structured Knowledge Builders (23.8%), primarily engages with LLMs in higher education contexts,
+with 71% using them for academic learning. Their LLM usage is focused on conceptual understanding (67%), text
+generation (44%), and summarizing content (77%), indicating that they use AI tools to synthesize and deepen their
+academic knowledge. While they occasionally engage in work-related activities (47%), they are less likely to rely on
+LLMs for tasks such as coding or assignment clarification. This group predominantly uses laptops (80%) but also
+incorporates smartphones (53%) into their learning.
+In contrast, Self-Guided Explorers (26.1%) demonstrate a strong preference for informal, self-directed learning. They
+are the most active in lifelong learning and hobby-related education (85%) and show high engagement in practical skills
+learning (65%), whereas their use of LLMs in formal education is limited. Their primary focus is on problem-solving
+(54%), seeking factual information (72%), and developing practical competencies rather than structured academic tasks.
+With an overwhelming reliance on smartphones (91%), they represent a highly mobile and on-the-go learning style,
+leveraging LLMs as an everyday knowledge companion.
+The third profile, Analytical Problem Solvers (24.4%), is characterized by a stationary, office-based learning environment,
+with nearly all members (98%) using desktop computers. They engage moderately in both higher education (45%) and
+work-related activities (47%), indicating a mixed academic and professional focus. While their overall engagement with
+LLMs is lower than that of other groups, they rely on AI for problem-solving (64%) more than for creative or generative
+tasks. Their limited engagement in brainstorming, grammar checking, or text summarization suggests that they use
+LLMs more for analytical reasoning and structured problem-solving rather than for open-ended content creation.
+2025-06-16 01:11. Page 17 of 1–32.
+
+18
+
+Terzimehić et al.
+
+Fig. 9. Latent Class Analysis: Survey Item Probabilities by Learner Profile: Grouped by Profile
+
+The fourth and most versatile group, Adaptive Power Users (25.7%), demonstrates a highly integrative approach to
+LLM usage. These learners are present in multiple contexts, with increased engagement in higher education (59%),
+lifelong learning (69%), professional development (55%), and work-related activities (68%). Unlike the other groups, they
+exhibit consistently high engagement across all major learning tasks: 84% use LLMs for brainstorming and discussion,
+78% for grammar checking and text generation, 87% for explaining concepts, and 94% for summarizing content. Their
+diverse learning behaviors are reflected in their device usage, where they incorporate smartphones (81%), desktops
+(65%), and laptops (59%), indicating a flexible and adaptive approach to AI-assisted learning across different settings.
+Whereas Academic Knowledge Builders and Analytical Problem Solvers tend to operate within more defined academic
+and professional contexts, Self-Guided Explorers embrace informal learning with a mobile-first approach, and Adaptive
+Power Users integrate AI tools into a wide range of learning contexts. Regarding the tasks the learners execute with
+LLMs, Structured Knowledge Builders focus on content generation and conceptual learning within academic settings,
+but have lower engagement in problem-solving and technical applications. Self-Guided Explorers prioritize on-demand,
+self-directed learning, using LLMs for fact-checking, problem-solving, and resource exploration, but rarely for structured
+assignments or academic writing. Analytical Problem Solvers employ LLMs for technical and computational tasks, with
+less emphasis on brainstorming, writing, or general conceptual explanations. Adaptive Power Users, in contrast, are
+highly versatile and engage in nearly all task types, making them the most comprehensive users of LLMs.
+2025-06-16 01:11. Page 18 of 1–32.
+
+An Empirical Large-Scale Study on LLM Use in Everyday Learning
+
+19
+
+Fig. 10. Latent Class Analysis: Survey Item Probabilities by Learner Profile: Grouped by Survey Item
+
+RQ3 Main Findings. The timing and context data, next to the LCA, suggest that LLMs are empowering
+self-directed, just-in-time and life-centric learning opportunities. Most usage is solitary and on personal
+devices like smartphones and laptops, using existing platforms and interfaces to access LLMs. The fact that over
+half of users have no fixed time or schedule for it might point to LLMs filling micro-learning moments throughout
+day-to-day life. The dominant interaction modality remains the initial text-based manner.
+LLM learners are leveraging LLMs to save time and get unstuck. Summarizing complex content, explaining
+difficult concepts in simpler terms, providing quick factual answers, and brainstorming ideas are among the
+top uses. Here, we observe a curious contradiction: the concern of misinformation seems not to hinder our
+participants in utilizing LLMs for factual checks.
+Among LLM learners, we identified four classes: Structured Knowledge Builders use LLMs mainly for academic
+tasks like summarization and conceptual understanding, Self-Guided Explorers rely on mobile devices for informal,
+practical learning, and Analytical Problem Solvers apply LLMs to technical problem-solving in stationary, workbased contexts. In contrast, Adaptive Power Users engage across all learning contexts and task types, showing the
+most comprehensive and flexible use of LLMs.
+
+4.4
+
+RQ4: Perceived Learning Effects, Over-reliance and Privacy Measures
+
+4.4.1 Perceived Learning Effects. The surveyed LLM learners shared their opinion on the extent LLMs have improved
+their learning and productivity on a 4-point Likert-scale, from to a great extent to not at all. A short open-text question
+2025-06-16 01:11. Page 19 of 1–32.
+
+20
+
+Terzimehić et al.
+
+Fig. 11. Likert-scale distribution of LLM perceptions of over-reliance and usefulness
+
+probed participants to explain their answer briefly. Our results indicate that LLM learners hold nuanced attitudes about
+using these tools for learning. They generally recognize LLM’s benefits, whilst being somewhat mindful of risks such as
+privacy and dependency, as depicted in the upper barchart in Figure 12.
+88% (𝑛 = 601) of participants perceive LLMs to have improved their learning or productivity, with 177 participants
+agreeing it to be to a great extent (𝑛 = 424 replying somewhat). Participants emphasized speed, convenience, instant
+access, more information, new ideas, and easy understanding to be the major drivers of improved learning processes
+and increased productivity.
+“LLMs [help] me to find many new ideas and [give] me a lot of information that I didn’t know before. Its function is
+really amazing and always available whenever I need it.” (P140)
+“LLMs allowed me to navigate content in a more efficiency and simpler manner. This reduced significantly the frustration
+in the learning process in some contexts - for example: being stuck understanding a certain concept because it is explained
+in a complicated manner.” (P28)
+“Spending time reading a book, through papers or googling around to find a semi-good answer takes so much more time
+than using an LLM.” (P442)
+2025-06-16 01:11. Page 20 of 1–32.
+
+An Empirical Large-Scale Study on LLM Use in Everyday Learning
+
+21
+
+Fig. 12. Likert-scale distribution of LLM perceptions on productivity (above) and privacy concerns (below)
+
+4.4.2 (Over-)Reliance on LLMs. We evaluated eight Likert-scale statements, from strongly disagree to strongly agree,
+related to the over-reliance on LLMs for learning, including concerns about misinformation, usefulness, and social
+impact. The descriptive results are presented in Figure 11.
+Responses regarding over-reliance on LLMs and reduced critical thinking are rather on the pro-LLM side, with a
+notable proportion disagreeing that LLMs hinder independent problem-solving. Similarly, concerns about diminished
+social interaction due to LLM use elicit mixed responses. The majority of participants agree that LLMs provide helpful
+and informative content, yet they also acknowledge that misinformation remains a challenge, requiring fact-checking.
+These findings overlap with the emerged challenges listed in Section 4.2 above.
+4.4.3 Privacy Attitudes. We asked participants to what extent they have privacy concerns when interacting with LLMs
+on a 4-point Likert-scale from not at all to to a great extent.
+We observe a low to moderate level of privacy concern, with a somewhat degree of concern (𝑛 = 306), followed by
+very little (𝑛 = 235) being the majority (see Figure 12). Very few users are on the opposite sides of concerns, with similar
+numbers on both: 76 participants express a concern to a great extent, whereas 61 participants bear no concern at all.
+When asking whether participants incorporate specific privacy measures, the majority (𝑛 = 543) indicated that they
+do not take such measures, compared to 135 participants who confirmed implementing specific privacy measures.
+4.4.4 Continuance of LLM Use for Learning. Finally, we asked participants to state on a 5-point Likert scale the likelihood
+of them continuing to use LLMs for learning. In line with previous positive responses, a large majority of 58% (𝑛 = 395)
+consider themselves extremely likely to continue using LLMs for learning, followed by one-third (𝑛 = 224) who say
+they are somewhat likely. Far fewer respondents, 4%, (𝑛 = 28) are neutral, and less than 5% combined are somewhat
+unlikely (𝑛 = 16) or extremely unlikely (𝑛 = 15), as Figure 13a depicts. In a similar vein, 72% would recommend LLMs
+for learning to their friends (see Figure 13b).
+4.4.5 Regression Analysis. We ran a multinomial logistic regression to assess how perceptions of privacy, effectiveness,
+overreliance, and demographic factors (age, gender, AI literacy, ATI score) predict latent class membership. Class Adaptive
+Power Users served as the reference category. The model was statistically significant overall (𝜒2(21) = 156.4, 𝑝 < .001)
+with a pseudo R2 of 0.083, indicating modest explanatory power. Perceived effectiveness of LLMs emerged as a robust
+and consistent predictor across comparisons. Higher effectiveness ratings significantly decreased the likelihood of
+membership in class Structured Knowledge Builders (𝛽 = −1.11, 𝑝 < .001), class Self-Guided Explorers (𝛽 = −0.72, 𝑝 < .001),
+and class Analytical Problem Solvers (𝛽 = −1.06, 𝑝 < .001) compared to class of Adaptive Power Users. Similarly, more
+2025-06-16 01:11. Page 21 of 1–32.
+
+22
+
+Terzimehić et al.
+
+(a) Likeliness of continuance of using LLMs for learning
+
+(b) Recommendations of LLM for learning
+
+Fig. 13. LLM learners’ responses on a) how likely they are to continue using LLMs for learning and b) whether they would recommend
+using LLMs to friends
+
+favorable attitudes toward technology (ATI score) predicted higher odds of membership in the Class of Adaptive Power
+Users over all other classes (p < .01 across comparisons). Overreliance concern negatively predicted membership to class
+Self-Guided Explorers (𝛽 = −0.24, 𝑝 = .015), while age was positively associated with the same class(𝛽 = +0.038, 𝑝 = .001)
+and marginally negatively associated with Class Structured Knowledge Builders(p = .095).
+We extended our multinomial logistic regression to include participants’ payment status for LLM tools, in addition
+to their attitudes and demographic factors. The model remained significant (𝜒2(24) = 177.2, 𝑝 < .001) and explained
+nearly 10% of the variance in latent class membership (pseudo R2 = .094). Perceived effectiveness continued to strongly
+predict membership in more engaged classes, with higher ratings significantly reducing the likelihood of belonging to
+classes other than the comparative Class Adaptive Power Users. Technological affinity (ATI Score) and payment behavior
+also emerged as consistent and meaningful predictors. In particular, participants who paid for LLMs were significantly
+more likely to belong to Adaptive Power Users and less likely to be in the lower-engagement classes. Gender significantly
+predicted membership to the class Analytical Problem Solvers, with male participants nearly three times as likely to
+belong to that group (𝛽 = 1.07, 𝑝 < .001).
+
+RQ4 Main Findings. Most LLM learners perceive LLMs as helpful and useful resources for improving learning
+and productivity. Interestingly, LLM learners mostly disagree with the over-reliance narrative of LLMs impeding
+critical thinking and meaningful social interaction. Our pool of LLM learners exhibits no privacy concerns to a
+great extent. It thus comes as no surprise that the large majority indicates a strong willingness to continue using
+LLMs for learning, suggesting that, into their third year of roll-out, LLMs might have become the new normal for
+learning.
+2025-06-16 01:11. Page 22 of 1–32.
+
+An Empirical Large-Scale Study on LLM Use in Everyday Learning
+5
+
+23
+
+Discussion
+
+5.1
+
+Widespread and Embedded Use of LLMs in Everyday Learning – with Technical Affinity as the Main
+Driver of Adoption
+
+Our survey reveals a prominent observation: 88% of our respondents reported using LLMs as part of their learning
+process, be it for professional development or as voluntary academic support. This high adoption rate shows a clear shift
+nearly three years after the widespread distribution of LLMs in late 2022: LLMs are no longer emerging technologies,
+but rather deeply embedded tools in people’s everyday learning routines.
+Yet, this broad uptake is not evenly distributed across different demographic groups in our sample. Our findings
+reveal significant differences between LLM learners and non-LLM learners regarding age, gender and technical affinity
+attitudes, suggesting that LLM learners tend to be younger, male and more comfortable with novel technology, which
+aligns with our and similar findings [71] of curiosity and openness being the main driver of initial LLM adoption.
+However, our more nuanced latent class analysis of LLM learners shows a rather equal gender distribution across
+the classes of Self-guided Explorers and Analytical Power Users. In other words, once individuals begin using LLMs
+for learning, the way and depth they engage with them is less strongly shaped by gender. This highlights differences
+between adoption and engagement: while curiosity and tech confidence may influence who starts using LLMs, other
+factors might shape how those tools are ultimately used for learning. For example, Draxler et al. [19] found the gender
+gap in LLM use to be of less size in technical fields, suggesting that proper education on LLM use itself might be a
+strong potential avenue to tackle the digital divide. Similarly, awareness of the benefits, but also limitations and risks of
+LLMs all positively correlate with the intention to use LLMs. In other words, users possessing the knowledge on what
+LLMs can do wrong does not necessarily hinder their use of LLMs[1]. Indeed, our results show that 14% of non-adopters
+(𝑛 = 14, combined non-LLM users and non-LLM learners) within our participants’ pool simply do not know how
+to apply LLMs to their learning, which inhibits initial adoption – despite non-significant differences in knowledge
+regarding the operating mechanisms of AI (i.e., AI literacy results). This points to a gap not in theoretical knowledge,
+but in practical, confidence-building exposure. To overcome this barrier, we need both real-world demonstrations
+of LLMs’ educational value, as well as AI literacy programs that prioritize practical, everyday learning benefits over
+technical AI capability, that are developed and approved by proven educational authorities.
+5.2
+
+Convenience over Accuracy and Privacy
+
+Our participants identified mistrust and disinformation as the primary challenges when using LLMs for learning. LLMs
+are indeed prone to producing hallucinations [35], which are errors in generated content. These can be categorized into
+factual hallucinations, where the content deviates from real-world facts, and faithfulness hallucinations, where the
+generated content does not align with user instructions or contains internal inconsistencies [35]. Hallucinations in LLMs
+present a critical challenge for learning, as errors in generated content can often be difficult to detect, especially for novice
+users [5]. Particularly over time, there is a risk of diminished critical engagement with content and an accumulation of
+misconceptions. Despite this awareness, though, our findings reveal fact-checking to be the most common reported
+LLM use case: 301 learners in our sample suggest using LLMs to verify information while simultaneously expressing
+concerns about misinformation. This contradiction may indicate users swapping accuracy for convenience and speed in
+learning, as our results demonstrate an around-the-clock, ubiquitous use of LLMs for learning.
+LLMs can be convincingly wrong [67], and people are more likely to trust AI if the generated content matches
+their own worldviews [66]. As LLMs begin to integrate internal fact-checking tools, such as Google’s DataGemma
+2025-06-16 01:11. Page 23 of 1–32.
+
+24
+
+Terzimehić et al.
+
+feature2 that allows models to verify their own responses, users may place even more trust in these systems. However,
+fact-checking is not exclusive to LLMs. The widespread distribution of social media has long enabled the spread of
+fake news [24]. In a study examining the consumption and trustworthiness of news on social media, Flintham et al.
+[24] found their participants to rely on objective factors (e.g., source URL, journalistic style) and subjective factors
+(e.g., personal interests in the topic) when judging news as fake or not. For LLMs, the first might be more difficult to
+follow, given that LLMs do not name their sources and do not operate like that in the first place. The lack of transparent
+sourcing can further impede users’ ability to verify information, increasing the risk of internalizing inaccuracies. Future
+research should thus explore how learners recognize hallucinations and evaluate credibility, what strategies they use to
+cross-check information, and how cognitive biases shape their trust in AI-generated content.
+Another barrier to using LLMs is privacy, as evidenced by participants who explicitly cited data handling concerns.
+Despite these concerns, though, LLM learners reported low to moderate privacy concerns, with most of them not
+taking specific protective measures. Clearly, there exists a gap between users’ attitudes and their actual behavior, again
+potentially suggesting the convenience of LLMs outweighs the concern over privacy. As an implication, LLM users
+might benefit from interfaces that encourage more privacy-conscious use, by, e.g., detecting, highlighting, or even
+anonymizing sensitive information in users’ prompts.
+5.3
+
+Disparity in Over-reliance Perceptions
+
+Regarding learning effectiveness and overreliance on LLMs, Lepp and Kaimre [45] surveys the frequency and methods
+of LLM use for learning programming skills among 231 computer science students. Their findings surprisingly reveal
+that more frequent reliance on AI chatbots for programming tasks is associated with a decline in students’ performance.
+In a similar vein, Stadler et al. [68] discovers LLMs to ease cognitive load, however, at the cost of depth in engaging with
+learning material, compared to the use of traditional search engines. However, our findings complicate the narrative
+around overreliance. Despite the functional support that LLMs offer, participants in our survey did not express a strong
+sense of dependency or overreliance. Whereas the listed related works showcase that (excessive) use may correlate with
+performance decline, users themselves may not perceive their reliance as problematic, as our results suggest. This raises
+questions about the cause of this disparity. One possible explanation could lie in self-determination theory [16], that
+claims the importance of autonomy in motivation. Users may feel in control of their learning process even when the tool
+exerts a subtle influence, leading to a mismatch between perceived and actual reliance. Similarly, the Dunning-Kruger
+effect [42] may play a role, where users with lower levels of expertise overestimate their ability to effectively use such
+tools without unintended consequences. One possible explanation for this reliance could be cognitive biases, such as
+the third-person effect [15], as a recent study on the LLM use in research writing suggests [46].
+5.4
+
+Design Implications
+
+5.4.1 Re-think Defaults Modes of Interaction for Learning. In spite of the multimodal interaction possibilities, text-based
+interaction, known as ’prompting’, remains the dominant modality of interaction with LLMs, as suggested by our
+findings. This comes as no surprise, given that LLMs operate on a natural language interface basis. As such, our results
+confirm previous findings that users tend to stick to default interface elements and interaction forms even when more
+graphic alternatives are made available [17]. However, other media formats, when used for learning (e.g., visualizations
+or audio-based dialogue), bear immense potential to enhance the learning process [41, 43, 54]. Rethinking the user
+2 https://ai.google.dev/gemma/docs/datagemma
+
+2025-06-16 01:11. Page 24 of 1–32.
+
+An Empirical Large-Scale Study on LLM Use in Everyday Learning
+
+25
+
+interface of LLMs specifically for learning, to include multimodal learning materials by default, could potentially lead
+to a more in-depth analysis, understanding, and learning engagement.
+5.4.2 Provide Learning Materials with Credible Sources and/or Confidence Levels. As discussed above, our participants
+raised concerns about the tendency of LLMs to hallucinate, yet many did not limit LLMs’ use for fact-checking. This
+reliance calls for transparent source attribution by, e.g., displaying source links, indicating confidence levels, or citing
+external references. Such features could support the users’ agency by promoting awareness that AI can make mistakes
+and encouraging critical thinking skills for learners to question, verify, and reflect on the consumed media content.
+5.4.3 Cater to Specific Types of Learning and Learners. Current LLMs interfaces for learning (and in general) follow
+a one-size-fits-all approach for learning (and in general). However, our LCA uncovered four primary learner groups
+with LLMs, embodying different contexts of use, tasks, and devices of engagement. The diverse profiles underscore
+the contextual nature of LLM learning. This raises the question of whether adaptive interfaces could detect learner
+archetypes and tailor experiences accordingly. Although personalisation has the potential to support individual needs,
+there is also a risk that it could reinforce existing learning patterns and limit opportunities for growth. Rather than simply
+mirroring users’ preferences, should adaptive systems gently challenge them? For example, should LLM interfaces gently
+nudge Self-Guided Explorers toward more structured reflection, or support Analytical Problem Solvers in developing
+creative fluency? Moreover, the mobility of learning, especially among Self-Guided Explorers, highlights a shift toward
+ubiquitous, context-independent engagement with LLMs. This calls for mobile-first UI/UX optimization that potentially
+includes multimodal input, micro-interactions, or session continuity [18]. These can support learning in fragmented or
+informal settings, while addressing emerging needs like distraction management and coherence across short learning
+bursts. The Adaptive Power Users, meanwhile, challenge one-size-fits-all design norms. As edge cases or design leaders,
+they reveal what is possible when AI tools are integrated flexibly and fluently. They may serve as testbeds for advanced
+features such as cross-tool integrations, longitudinal tracking, or scaffolding for complex reasoning, suggesting that we
+design not for the average, but with regards to advancements across a progression trajectory.
+Finally, this discussion encourages us to consider equity and outcomes. Are all learners equally positioned to become
+Adaptive Power Users, or do disparities in access, confidence, or prompt literacy widen existing gaps? And how do
+different usage patterns translate into actual learning gains? Does summarization encourage surface learning, while
+brainstorming supports deeper cognitive engagement? Such questions raise both ethical and motivational considerations
+around agency and autonomy in LLM use.
+5.4.4 Empowering Learners to Become Prompt Engineers. One downside of personalization and customization features
+in LLMs for specific learner profiles, which can initially support novice users, is that they may inadvertently constrain
+learners’ development over time. Specifically, learners who rely heavily on automated adaptations may fail to develop
+transferable prompting skills, thereby limiting their ability to generalize their use of LLMs across contexts or evolve
+their interaction strategies as their expertise grows.
+Our findings indicate that technical affinity, not basic AI knowledge, was a stronger predictor of learners’ adoption
+of LLMs for learning. This suggests that the curiosity and willingness to experiment with new technologies, including
+the iterative refinement of prompts, are critical factors in facilitating meaningful and satisfying learning experiences.
+Importantly, this reinforces prior work showing that the quality of learner-generated prompts significantly affects the
+relevance and instructional value of LLM responses [40, 50]. This finding is further supported by a recent systematic
+review, which identifies prompt engineering as an emergent, teachable digital skill that improves student engagement
+2025-06-16 01:11. Page 25 of 1–32.
+
+26
+
+Terzimehić et al.
+
+and AI output quality in educational contexts [44], underscoring that prompting is not a peripheral activity but a central
+determinant of learning outcomes.
+Rather than treating prompting as a side activity, interaction interfaces could embed reflective prompting practices,
+real-time feedback on input quality, and examples that illustrate the effects of prompt refinement within their interfaces.
+Various prompt engineering frameworks, such as CRISPE [78], offer structured approaches that can be embedded into
+learning interfaces to guide learners in formulating more effective interactions with LLMs. This approach, next to
+enhancing learners’ agency, also aligns with broader goals of AI literacy and responsible tool use. As current practices
+suggest, empowering learners to become effective prompt engineers might become essential for realizing the long-term
+educational value of LLMs.
+5.4.5 Support Collaborative Learning by Design. Our findings indicate that learning with LLMs is a predominantly
+individual activity, with only a small share of use dedicated to group learning. Although we did not examine the details
+of neither individual nor group learning sessions with LLMs, the large share already presents a limitation given the
+well-established benefits of group learning. Encouraging learning mechanisms that stem from group learning, such as
+pooled knowledge, reduced memory load, or observational learning [57], are thus not being leveraged at the expense of
+benefits such as improved comprehension, retention, and problem solving [57].
+Current mainstream LLM interfaces enable collaborative use only by sharing one account. These could be enhanced in
+several ways, with some proposals already mentioned in related work. For example, Lyu et al. [50] suggest collaborative
+query building, to construct and refine prompts in groups. These could be further enriched with response annotations,
+along with visible traces of who made the annotations. The system itself could integrate system- and context-aware
+prompts to encourage collaborative exchange (e.g., by facilitating a mediator role in learning exchanges or by making
+suggestions to form discussion groups out of currently active members).
+5.5
+
+Limitations
+
+Our sample, recruited exclusively from Germany via Prolific, may overrepresent tech-savvy, English-fluent individuals
+(mean AI literacy score = 3.2, line 573), thus limiting generalizability to non-Western or less tech-exposed populations.
+Cultural attitudes toward AI vary globally [27], necessitating future multi-country studies. Additionally, Prolific
+participants’ familiarity with research may introduce social desirability bias, though anonymity measures mitigated
+this. The use of ChatGPT for initial questionnaire design was validated through expert review and pilot testing, but
+future studies could employ cognitive interviews to further ensure question clarity and relevance. In addition, in our
+future work, we will expand our survey to a larger geographical pool to explore cross-cultural comparisons.
+6
+
+Conclusion
+
+Within this paper, we present the results of an online survey with 776 people on their everyday use of LLMs for learning.
+Guided by four research questions, we first examined demographic differences between the 88% of learners and 11%
+of users of LLMs and those 2% who do not use LLMs at all. We then examined motivations and challenges associated
+with using LLMs for everyday learning, as well as perceptions of over-reliance, privacy, and productivity among LLM
+learners. Finally, we identified four types of LLM learners based on the contexts, devices, and tasks involved in using
+LLMs for everyday learning, namely, Structured Knowledge Builders, Self-Guided Explorers, Analytical Problem Solvers,
+and Adaptive Power Users. Our findings reveal that primarily male adults aged 25–30 are at the forefront of adopting
+LLMs for self-directed learning. They use LLMs regardless of time and date in a variety of contexts and for a large span
+2025-06-16 01:11. Page 26 of 1–32.
+
+An Empirical Large-Scale Study on LLM Use in Everyday Learning
+
+27
+
+of tasks, with the goal to deepen their understanding, explore new subjects, and overcome traditional learning barriers.
+Our results reveal a paradox: respondents use LLMs for fact-checking while being skeptical about their accuracy – with
+a similar narrative for privacy. Moreover, our respondents do not perceive themselves as being overly reliant on LLMs.
+We conclude with implications that emphasize the importance of including different media types for learning, enabling
+collaborative learning, providing sources, and catering to specific types of learners and learning by design.
+References
+[1] Ghadah Al Murshidi, Galina Shulgina, Anastasiia Kapuza, and Jamie Costley. 2024. How understanding the limitations and risks of using ChatGPT
+can contribute to willingness to use. Smart Learning Environments 11, 1 (2024), 36.
+[2] Yazid Albadarin, Mohammed Saqr, Nicolas Pope, and Markku Tukiainen. 2024. A systematic literature review of empirical research on ChatGPT in
+education. Discover Education 3, 1 (26 May 2024), 60. https://doi.org/10.1007/s44217-024-00138-2
+[3] Aram Bahrini, Mohammadsadra Khamoshifar, Hossein Abbasimehr, Robert J. Riggs, Maryam Esmaeili, Rastin Mastali Majdabadkohne, and Morteza
+Pasehvar. 2023. ChatGPT: Applications, Opportunities, and Threats. In 2023 Systems and Information Engineering Design Symposium (SIEDS).
+274–279. https://doi.org/10.1109/SIEDS58326.2023.10137850
+[4] Ryan S. Baker and Aaron Hawn. 2022. Algorithmic Bias in Education. International Journal of Artificial Intelligence in Education 32, 4 (01 Dec 2022),
+1052–1092. https://doi.org/10.1007/s40593-021-00285-9
+[5] Emily M. Bender, Timnit Gebru, Angelina McMillan-Major, and Shmargaret Shmitchell. 2021. On the Dangers of Stochastic Parrots: Can Language
+Models Be Too Big?. In Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency (Virtual Event, Canada) (FAccT ’21).
+Association for Computing Machinery, New York, NY, USA, 610–623. https://doi.org/10.1145/3442188.3445922
+[6] Leonardo Berti, Flavio Giorgi, and Gjergji Kasneci. 2025. Emergent Abilities in Large Language Models: A Survey. arXiv:2503.05788 [cs.LG]
+https://arxiv.org/abs/2503.05788
+[7] Anna Bodonhelyi, Efe Bozkir, Shuo Yang, Enkelejda Kasneci, and Gjergji Kasneci. 2024. User Intent Recognition and Satisfaction with Large
+Language Models: A User Study with ChatGPT. arXiv:2402.02136 [cs.HC] https://arxiv.org/abs/2402.02136
+[8] Zhihui Cai, Xitao Fan, and Jianxia Du. 2017. Gender and attitudes toward technology use: A meta-analysis. Computers and Education 105 (2017),
+1–13. https://doi.org/10.1016/j.compedu.2016.11.003
+[9] M. Callanan, C. Cervantes, and M. Loomis. 2011. Informal learning. Wiley interdisciplinary reviews. Cognitive science 2 6 (2011), 646–655.
+https://doi.org/10.1002/wcs.143
+[10] Christopher P. Cerasoli, G. Alliger, Jamie S. Donsbach, J. Mathieu, S. Tannenbaum, and Karin A. Orvis. 2018. Antecedents and Outcomes of Informal
+Learning Behaviors: a Meta-Analysis. Journal of Business and Psychology 33 (2018), 203–230. https://doi.org/10.1007/S10869-017-9492-Y
+[11] Cecilia Ka Yuk Chan and Wenxin Zhou. 2023. An expectancy value theory (EVT) based instrument for measuring student perceptions of generative
+AI. Smart Learning Environments 10, 1 (2023), 64.
+[12] Thomas K.F. Chiu, Qi Xia, Xinyan Zhou, Ching Sing Chai, and Miaoting Cheng. 2023. Systematic literature review on opportunities, challenges,
+and future research recommendations of artificial intelligence in education. Computers and Education: Artificial Intelligence 4 (2023), 100118.
+https://doi.org/10.1016/j.caeai.2022.100118
+[13] Fabio Clarizia, Francesco Colace, Marco Lombardi, Francesco Pascale, and Domenico Santaniello. 2018. Chatbot: An Education Support System for
+Student. In Cyberspace Safety and Security, Arcangelo Castiglione, Florin Pop, Massimo Ficco, and Francesco Palmieri (Eds.). Springer International
+Publishing, Cham, 291–302.
+[14] Ali Darvishi, Hassan Khosravi, Shazia Sadiq, Dragan Gašević, and George Siemens. 2024. Impact of AI assistance on student agency. Computers and
+Education 210 (2024), 104967. https://doi.org/10.1016/j.compedu.2023.104967
+[15] W. PHILLIPS DAVISON. 1983. The Third-Person Effect in Communication. Public Opinion Quarterly 47, 1 (01 1983), 1–15. https://doi.org/10.1086/
+268763 arXiv:https://academic.oup.com/poq/article-pdf/47/1/1/5382397/47-1-1.pdf
+[16] Edward L Deci and Richard M Ryan. 2012. Self-determination theory. Handbook of theories of social psychology 1, 20 (2012), 416–436.
+[17] Isaac Dinner, Eric J Johnson, Daniel G Goldstein, and Kaiya Liu. 2011. Partitioning default effects: why people choose not to choose. Journal of
+Experimental Psychology: Applied 17, 4 (2011), 332.
+[18] Fiona Draxler. 2023. Designing intelligent support for learning from and in everyday contexts. http://nbn-resolving.de/urn:nbn:de:bvb:19-325783
+[19] Fiona Draxler, Daniel Buschek, Mikke Tavast, Perttu Hämäläinen, Albrecht Schmidt, Juhi Kulshrestha, and Robin Welsch. 2023. Gender, Age, and
+Technology Education Influence the Adoption and Appropriation of LLMs. arXiv:2310.06556 [cs.CY] https://arxiv.org/abs/2310.06556
+[20] Yogesh K. Dwivedi, Nir Kshetri, Laurie Hughes, Emma Louise Slade, Anand Jeyaraj, Arpan Kumar Kar, Abdullah M. Baabdullah, Alex Koohang,
+Vishnupriya Raghavan, Manju Ahuja, Hanaa Albanna, Mousa Ahmad Albashrawi, Adil S. Al-Busaidi, Janarthanan Balakrishnan, Yves Barlette,
+Sriparna Basu, Indranil Bose, Laurence Brooks, Dimitrios Buhalis, Lemuria Carter, Soumyadeb Chowdhury, Tom Crick, Scott W. Cunningham,
+Gareth H. Davies, Robert M. Davison, Rahul Dé, Denis Dennehy, Yanqing Duan, Rameshwar Dubey, Rohita Dwivedi, John S. Edwards, Carlos Flavián,
+Robin Gauld, Varun Grover, Mei-Chih Hu, Marijn Janssen, Paul Jones, Iris Junglas, Sangeeta Khorana, Sascha Kraus, Kai R. Larsen, Paul Latreille, Sven
+Laumer, F. Tegwen Malik, Abbas Mardani, Marcello Mariani, Sunil Mithas, Emmanuel Mogaji, Jeretta Horn Nord, Siobhan O’Connor, Fevzi Okumus,
+2025-06-16 01:11. Page 27 of 1–32.
+
+28
+
+Terzimehić et al.
+
+Margherita Pagani, Neeraj Pandey, Savvas Papagiannidis, Ilias O. Pappas, Nishith Pathak, Jan Pries-Heje, Ramakrishnan Raman, Nripendra P. Rana,
+Sven-Volker Rehm, Samuel Ribeiro-Navarrete, Alexander Richter, Frantz Rowe, Suprateek Sarker, Bernd Carsten Stahl, Manoj Kumar Tiwari, Wil
+van der Aalst, Viswanath Venkatesh, Giampaolo Viglia, Michael Wade, Paul Walton, Jochen Wirtz, and Ryan Wright. 2023. Opinion Paper: “So what
+if ChatGPT wrote it?” Multidisciplinary perspectives on opportunities, challenges and implications of generative conversational AI for research,
+practice and policy. International Journal of Information Management 71 (2023), 102642. https://doi.org/10.1016/j.ijinfomgt.2023.102642
+[21] Michael Eraut. 2004. Informal learning in the workplace. Studies in Continuing Education 26, 2 (2004), 247–273. https://doi.org/10.1080/
+158037042000225245 arXiv:https://doi.org/10.1080/158037042000225245
+[22] Haim Eshach. 2007. Bridging In-school and Out-of-school Learning: Formal, Non-Formal, and Informal Education. Journal of Science Education and
+Technology 16, 2 (01 Apr 2007), 171–190. https://doi.org/10.1007/s10956-006-9027-1
+[23] Justin R Evans, Matt Karlsven, Spencer B Perry, and R Kimmons. 2020. Informal learning. The Students’ Guide to Learning Design and Research;
+Kimmons, R., Ed (2020).
+[24] Martin Flintham, Christian Karner, Khaled Bachour, Helen Creswick, Neha Gupta, and Stuart Moran. 2018. Falling for Fake News: Investigating the
+Consumption of News via Social Media. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (Montreal QC, Canada)
+(CHI ’18). Association for Computing Machinery, New York, NY, USA, 1–10. https://doi.org/10.1145/3173574.3173950
+[25] Göran Folkestad. 2006. Formal and informal learning situations or practices vs formal and informal ways of learning. British Journal of Music
+Education 23, 2 (2006), 135–145. https://doi.org/10.1017/S0265051706006887
+[26] Tim Fütterer, Christian Fischer, Anastasiia Alekseeva, Xiaobin Chen, Tamara Tate, Mark Warschauer, and Peter Gerjets. 2023. ChatGPT in education:
+global reactions to AI innovations. Scientific Reports 13, 1 (15 Sep 2023), 15310. https://doi.org/10.1038/s41598-023-42227-6
+[27] Xiao Ge, Chunchen Xu, Daigo Misaki, Hazel Rose Markus, and Jeanne L Tsai. 2024. How Culture Shapes What People Want From AI. In Proceedings
+of the 2024 CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA) (CHI ’24). Association for Computing Machinery, New York,
+NY, USA, Article 95, 15 pages. https://doi.org/10.1145/3613904.3642660
+[28] Simone Grassini. 2023. Shaping the Future of Education: Exploring the Potential and Consequences of AI and ChatGPT in Educational Settings.
+Education Sciences 13, 7 (2023). https://doi.org/10.3390/educsci13070692
+[29] Reza Hadi Mogavi, Chao Deng, Justin Juho Kim, Pengyuan Zhou, Young D. Kwon, Ahmed Hosny Saleh Metwally, Ahmed Tlili, Simone Bassanelli,
+Antonio Bucchiarone, Sujit Gujar, Lennart E. Nacke, and Pan Hui. 2024. ChatGPT in education: A blessing or a curse? A qualitative study exploring
+early adopters’ utilization and perceptions. Computers in Human Behavior: Artificial Humans 2, 1 (2024), 100027. https://doi.org/10.1016/j.chbah.
+2023.100027
+[30] Juho Hamari, Nicolai Hanner, and Jonna Koivisto. 2017. Service quality explains why people use freemium services but not if they go premium: An
+empirical study in free-to-play games. Int. J. Inf. Manag. 37 (2017), 1449–1459. https://doi.org/10.1016/j.ijinfomgt.2016.09.004
+[31] Juho Hamari, Nicolai Hanner, and Jonna Koivisto. 2020. "Why pay premium in freemium services?" A study on perceived value, continued use and
+purchase intentions in free-to-play games. International Journal of Information Management 51 (2020), 102040. https://doi.org/10.1016/j.ijinfomgt.
+2019.102040
+[32] Muhammad Hamdan. 2023. The Impact of ChatGPT on Students: Positive Effects and Potential Negative Effects — moderndiplomacy.eu. https:
+//moderndiplomacy.eu/2023/03/14/the-impact-of-chatgpt-on-students-positive-effects-and-potential-negative-effects/. [Accessed 04-04-2025].
+[33] Marie Hornberger, Arne Bewersdorff, and Claudia Nerdel. 2023. What do university students know about Artificial Intelligence? Development and
+validation of an AI literacy test. Computers and Education: Artificial Intelligence 5 (2023), 100165. https://doi.org/10.1016/j.caeai.2023.100165
+[34] Mohammad Hosseini, Catherine A Gao, David M Liebovitz, Alexandre M Carvalho, Faraz S Ahmad, Yuan Luo, Ngan MacDonald, Kristi L Holmes,
+and Abel Kho. 2023. An exploratory survey about using ChatGPT in education, healthcare, and research. Plos one 18, 10 (2023), e0292216.
+[35] Lei Huang, Weijiang Yu, Weitao Ma, Weihong Zhong, Zhangyin Feng, Haotian Wang, Qianglong Chen, Weihua Peng, Xiaocheng Feng, Bing Qin,
+and Ting Liu. 2025. A Survey on Hallucination in Large Language Models: Principles, Taxonomy, Challenges, and Open Questions. ACM Trans. Inf.
+Syst. 43, 2, Article 42 (Jan. 2025), 55 pages. https://doi.org/10.1145/3703155
+[36] Maurice Jakesch, Zana Buçinca, Saleema Amershi, and Alexandra Olteanu. 2022. How Different Groups Prioritize Ethical Values for Responsible AI.
+In Proceedings of the 2022 ACM Conference on Fairness, Accountability, and Transparency (Seoul, Republic of Korea) (FAccT ’22). Association for
+Computing Machinery, New York, NY, USA, 310–323. https://doi.org/10.1145/3531146.3533097
+[37] Celina Kacperski, Denis Bonnay, Juhi Kulshrestha, Peter Selb, Andreas Spitz, and Roberto Ulloa. 2024. Characteristics of ChatGPT users from
+Germany: implications for the digital divide from web tracking data. arXiv:2309.02142 [cs.CY] https://arxiv.org/abs/2309.02142
+[38] Enkelejda Kasneci, Kathrin Seßler, Stefan Küchemann, Maria Bannert, Daryna Dementieva, Frank Fischer, Urs Gasser, Georg Groh, Stephan
+Günnemann, Eyke Hüllermeier, et al. 2023. ChatGPT for good? On opportunities and challenges of large language models for education. Learning
+and individual differences 103 (2023), 102274.
+[39] E. Kasthuri and S. Balaji. 2021. A Chatbot for Changing Lifestyle in Education. In 2021 Third International Conference on Intelligent Communication
+Technologies and Virtual Mobile Networks (ICICV). 1317–1322. https://doi.org/10.1109/ICICV50876.2021.9388633
+[40] Nils Knoth, Antonia Tolzin, Andreas Janson, and Jan Marco Leimeister. 2024. AI literacy and its implications for prompt engineering strategies.
+Computers and Education: Artificial Intelligence 6 (2024), 100225. https://doi.org/10.1016/j.caeai.2024.100225
+[41] Robert B Kozma. 1991. Learning with media. Review of educational research 61, 2 (1991), 179–211.
+[42] Justin Kruger and David Dunning. 1999. Unskilled and unaware of it: how difficulties in recognizing one’s own incompetence lead to inflated
+self-assessments. Journal of personality and social psychology 77, 6 (1999), 1121.
+2025-06-16 01:11. Page 28 of 1–32.
+
+An Empirical Large-Scale Study on LLM Use in Everyday Learning
+
+29
+
+[43] Ka Hei Carrie Lau, Bhada Yun, Samuel Saruba, Efe Bozkir, and Enkelejda Kasneci. 2024. Wrapped in Anansi’s Web: Unweaving the Impacts of
+Generative-AI Personalization and VR Immersion in Oral Storytelling. arXiv preprint arXiv:2409.16894 (2024).
+[44] Daniel Lee and Edward Palmer. 2025. Prompt engineering in higher education: a systematic review to help inform curricula. International Journal of
+Educational Technology in Higher Education 22, 1 (2025), 7.
+[45] Marina Lepp and Joosep Kaimre. 2025. Does generative AI help in learning programming: Students’ perceptions, reported use and relation to
+performance. Computers in Human Behavior Reports 18 (2025), 100642. https://doi.org/10.1016/j.chbr.2025.100642
+[46] Zhehui Liao, Maria Antoniak, Inyoung Cheong, Evie Yu-Yen Cheng, Ai-Heng Lee, Kyle Lo, Joseph Chee Chang, and Amy X. Zhang. 2024. LLMs as
+Research Tools: A Large Scale Survey of Researchers’ Usage and Perceptions. arXiv:2411.05025 [cs.CL] https://arxiv.org/abs/2411.05025
+[47] Xi Lin. 2024. Exploring the Role of ChatGPT as a Facilitator for Motivating Self-Directed Learning Among Adult Learners. Adult Learning 35, 3
+(2024), 156–166. https://doi.org/10.1177/10451595231184928 arXiv:https://doi.org/10.1177/10451595231184928
+[48] Xinru Lin and Luyang Li. 2025. Implicit Bias in LLMs: A Survey. arXiv:2503.02776 [cs.CL] https://arxiv.org/abs/2503.02776
+[49] D. W. LIVINGSTONE. 2006. INFORMAL LEARNING: CONCEPTUAL DISTINCTIONS AND PRELIMINARY FINDINGS. Counterpoints 249 (2006),
+203–227. http://www.jstor.org/stable/42979596
+[50] Wenhan Lyu, Yimeng Wang, Tingting (Rachel) Chung, Yifan Sun, and Yixuan Zhang. 2024. Evaluating the Effectiveness of LLMs in Introductory
+Computer Science Education: A Semester-Long Field Study. In Proceedings of the Eleventh ACM Conference on Learning @ Scale (Atlanta, GA, USA)
+(L@S ’24). Association for Computing Machinery, New York, NY, USA, 63–74. https://doi.org/10.1145/3657604.3662036
+[51] Janice Malcolm, Phil Hodkinson, and Helen Colley. 2003. The interrelationships between informal and formal learning. Journal of workplace
+learning 15, 7/8 (2003), 313–318.
+[52] Amelia Manuti, Serafina Pastore, Anna Fausta Scardigno, Maria Luisa Giancaspro, and Daniele Morciano. 2015. Formal and informal learning in the
+workplace: A research review. International journal of training and development 19, 1 (2015), 1–17.
+[53] Victoria J. Marsick and Marie Volpe. 1999. The Nature and Need for Informal Learning. Advances in Developing Human Resources 1, 3 (1999), 1–9.
+https://doi.org/10.1177/152342239900100302 arXiv:https://doi.org/10.1177/152342239900100302
+[54] Richard E. Mayer. 2009. Multimedia Learning (2 ed.). Cambridge University Press.
+[55] Meredith Ringel Morris. 2023. Scientists’ Perspectives on the Potential for Generative AI in their Fields. arXiv:2304.01420 [cs.CY] https:
+//arxiv.org/abs/2304.01420
+[56] Ahnaf Chowdhury Niloy, Md Ashraful Bari, Jakia Sultana, Rup Chowdhury, Fareha Meem Raisa, Afsana Islam, Saadman Mahmud, Iffat Jahan,
+Moumita Sarkar, Salma Akter, Nurunnahar Nishat, Muslima Afroz, Amit Sen, Tasnem Islam, Mehedi Hasan Tareq, and Md Amjad Hossen. 2024.
+Why do students use ChatGPT? Answering through a triangulation approach. Computers and Education: Artificial Intelligence 6 (2024), 100208.
+https://doi.org/10.1016/j.caeai.2024.100208
+[57] Timothy J Nokes-Malach, J Elizabeth Richey, and Soniya Gadgil. 2015. When is it better to learn together? Insights from research on collaborative
+learning. Educational Psychology Review 27 (2015), 645–656.
+[58] Rock Yuren Pang, Hope Schroeder, Kynnedy Simone Smith, Solon Barocas, Ziang Xiao, Emily Tseng, and Danielle Bragg. 2025. Understanding
+the LLM-ification of CHI: Unpacking the Impact of LLMs at CHI through a Systematic Literature Review. arXiv:2501.12557 [cs.HC] https:
+//arxiv.org/abs/2501.12557
+[59] Minju Park, Sojung Kim, Seunghyun Lee, Soonwoo Kwon, and Kyuseok Kim. 2024. Empowering Personalized Learning through a Conversation-based
+Tutoring System with Student Modeling. In Extended Abstracts of the CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA)
+(CHI EA ’24). Association for Computing Machinery, New York, NY, USA, Article 123, 10 pages. https://doi.org/10.1145/3613905.3651122
+[60] Nermin Punar Özçelik and Gonca Yangın Ekşi. 2024. Cultivating writing skills: the role of ChatGPT as a learning assistant—a case study. Smart
+Learning Environments 11, 1 (18 Mar 2024), 10. https://doi.org/10.1186/s40561-024-00296-8
+[61] Yao Qu, Michelle Xin Yi Tan, and Jue Wang. 2024. Disciplinary differences in undergraduate students’ engagement with generative artificial
+intelligence. Smart Learning Environments 11, 1 (2024), 51.
+[62] Beatrice Rammstedt and Oliver P. John. 2007. Measuring personality in one minute or less: A 10-item short version of the Big Five Inventory in
+English and German. Journal of Research in Personality 41, 1 (2007), 203–212. https://doi.org/10.1016/j.jrp.2006.02.001
+[63] B. Rogoff, M. Callanan, Kris D. Gutiérrez, and F. Erickson. 2016. The Organization of Informal Learning. Review of Research in Education 40 (2016),
+356 – 401. https://doi.org/10.3102/0091732X16680994
+[64] Daniel Schugurensky. 2000. The forms of informal learning: Towards a conceptualization of the field.
+[65] Kathrin Seßler, Tao Xiang, Lukas Bogenrieder, and Enkelejda Kasneci. 2023. PEER: empowering writing with large language models. In European
+conference on technology enhanced learning. Springer, 755–761.
+[66] Farhana Shahid, Srujana Kamath, Annie Sidotam, Vivian Jiang, Alexa Batino, and Aditya Vashistha. 2022. ”It Matches My Worldview”: Examining
+Perceptions and Attitudes Around Fake Videos. In Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems (New Orleans,
+LA, USA) (CHI ’22). Association for Computing Machinery, New York, NY, USA, Article 255, 15 pages. https://doi.org/10.1145/3491102.3517646
+[67] Marita Skjuve, Asbjørn Følstad, and Petter Bae Brandtzaeg. 2023. The User Experience of ChatGPT: Findings from a Questionnaire Study of
+Early Users. In Proceedings of the 5th International Conference on Conversational User Interfaces (Eindhoven, Netherlands) (CUI ’23). Association for
+Computing Machinery, New York, NY, USA, Article 2, 10 pages. https://doi.org/10.1145/3571884.3597144
+[68] Matthias Stadler, Maria Bannert, and Michael Sailer. 2024. Cognitive ease at a cost: LLMs reduce mental effort but compromise depth in student
+scientific inquiry. Computers in Human Behavior 160 (2024), 108386. https://doi.org/10.1016/j.chb.2024.108386
+2025-06-16 01:11. Page 29 of 1–32.
+
+30
+
+Terzimehić et al.
+
+[69] Jan-Philipp Stein, Tanja Messingschlager, Timo Gnambs, Fabian Hutmacher, and Markus Appel. 2024. Attitudes towards AI: measurement and
+associations with personality. Scientific Reports 14, 1 (05 Feb 2024), 2909. https://doi.org/10.1038/s41598-024-53335-2
+[70] Ana Stojanov, Qian Liu, and Joyce Hwee Ling Koh. 2024. University students’ self-reported reliance on ChatGPT for learning: A latent profile
+analysis. Computers and Education: Artificial Intelligence 6 (2024), 100243. https://doi.org/10.1016/j.caeai.2024.100243
+[71] Artur Strzelecki. 2024. To use or not to use ChatGPT in higher education? A study of students’ acceptance and use of technology. Interactive
+learning environments 32, 9 (2024), 5142–5155.
+[72] Jérémie Sublime and Ilaria Renna. 2024. Is ChatGPT Massively Used by Students Nowadays? A Survey on the Use of Large Language Models such
+as ChatGPT in Educational Settings. arXiv preprint arXiv:2412.17486 (2024).
+[73] European Social Survey. 2025. ESS Data Portal | European Social Survey 2025. https://doi.org/10.21338/ess5e03_5
+[74] Christiane Attig Thomas Franke and Daniel Wessel. 2019. A Personal Resource for Technology Interaction: Development and Validation of the
+Affinity for Technology Interaction (ATI) Scale. International Journal of Human–Computer Interaction 35, 6 (2019), 456–467. https://doi.org/10.1080/
+10447318.2018.1456150
+[75] Chandan Kumar Tiwari, Mohd Abass Bhat, Shagufta Tariq Khan, Rajaswaminathan Subramaniam, and Mohammad Atif Irshad Khan. 2024. What
+drives students toward ChatGPT? An investigation of the factors influencing adoption and usage of ChatGPT. Interactive Technology and Smart
+Education 21, 3 (2024), 333–355.
+[76] Ahmed Tlili, Boulus Shehata, Michael Agyemang Adarkwah, Aras Bozkurt, Daniel T. Hickey, Ronghuai Huang, and Brighter Agyemang. 2023.
+What if the devil is my guardian angel: ChatGPT as a case study of using chatbots in education. Smart Learning Environments 10, 1 (22 Feb 2023), 15.
+https://doi.org/10.1186/s40561-023-00237-x
+[77] Chaoran Wang, Zixi Li, and Curtis Bonk. 2024. Understanding self-directed learning in AI-Assisted writing: A mixed methods study of postsecondary
+learners. Computers and Education: Artificial Intelligence 6 (2024), 100247. https://doi.org/10.1016/j.caeai.2024.100247
+[78] Mo Wang, Minjuan Wang, Xin Xu, Lanqing Yang, Dunbo Cai, and Minghao Yin. 2024. Unleashing ChatGPT’s Power: A Case Study on Optimizing
+Information Retrieval in Flipped Classrooms via Prompt Engineering. IEEE Transactions on Learning Technologies 17 (2024), 629–641. https:
+//doi.org/10.1109/TLT.2023.3324714
+[79] Yuxia Wang, Minghan Wang, Muhammad Arslan Manzoor, Fei Liu, Georgi Georgiev, Rocktim Jyoti Das, and Preslav Nakov. 2024. Factuality of
+Large Language Models: A Survey. arXiv:2402.02420 [cs.CL] https://arxiv.org/abs/2402.02420
+[80] Ruben Weijers, Gabrielle Fidelis de Castilho, Jean-François Godbout, Reihaneh Rabbany, and Kellin Pelrine. 2024. Quantifying learning-style
+adaptation in effectiveness of LLM teaching. In Proceedings of the 1st Workshop on Personalization of Generative AI Systems (PERSONALIZE 2024),
+Ameet Deshpande, EunJeong Hwang, Vishvak Murahari, Joon Sung Park, Diyi Yang, Ashish Sabharwal, Karthik Narasimhan, and Ashwin Kalyan
+(Eds.). Association for Computational Linguistics, St. Julians, Malta, 112–118. https://aclanthology.org/2024.personalize-1.10/
+
+A
+
+Demographics
+
+Table 1. Age Distribution
+
+Group
+All
+Non-LLM Users
+Non-LLM Learners
+LLM Learners
+
+Count
+
+Mean
+
+Std. Dev.
+
+Min
+
+Median
+
+Max
+
+776
+15
+83
+678
+
+31.56
+35.00
+34.93
+31.07
+
+9.87
+11.06
+11.34
+9.57
+
+18
+22
+19
+18
+
+29
+36
+33
+29
+
+72
+61
+68
+72
+
+Table 2. Gender Breakdown (%)
+
+Group
+
+Male
+
+Female
+
+Non-binary
+
+Prefer not to say
+
+Self-describe
+
+All
+Non-LLM Users
+Non-LLM Learners
+LLM Learners
+
+49.9%
+26.7%
+30.1%
+52.8%
+
+48.5%
+66.7%
+63.9%
+46.2%
+
+1.0%
+6.7%
+4.8%
+0.4%
+
+0.5%
+0%
+0%
+0.6%
+
+0.1%
+0%
+1.2%
+0%
+
+2025-06-16 01:11. Page 30 of 1–32.
+
+An Empirical Large-Scale Study on LLM Use in Everyday Learning
+
+31
+
+Table 3. Education Level Distribution (%)
+
+Group
+All
+Non-LLM Users
+Non-LLM Learners
+LLM Learners
+
+Bachelors
+
+Graduate Degree
+
+Some University
+
+Completed Secondary
+
+32.2%
+33.3%
+31.3%
+32.3%
+
+24.9%
+6.7%
+30.1%
+24.6%
+
+17.3%
+13.3%
+16.9%
+17.4%
+
+13.4%
+13.3%
+10.8%
+13.7%
+
+Table 4. Household Income Distribution (%)
+
+Group
+
+<25K
+
+25K–50K
+
+50K–100K
+
+100K–200K
+
+>200K
+
+Prefer not to say
+
+All
+Non-LLM Users
+Non-LLM Learners
+LLM Learners
+
+27.4%
+40.0%
+30.1%
+26.9%
+
+26.7%
+46.7%
+25.3%
+26.4%
+
+29.1%
+6.7%
+27.7%
+29.8%
+
+9.2%
+0%
+4.8%
+9.9%
+
+0.4%
+0%
+0%
+0.4%
+
+7.2%
+6.7%
+12.0%
+6.6%
+
+Table 5. AI Literacy Scores
+
+Group
+All
+Non-LLM Users
+Non-LLM Learners
+LLM Learners
+
+Count
+
+Mean
+
+Std. Dev.
+
+Min
+
+25%
+
+Median
+
+Max
+
+776
+15
+83
+678
+
+3.06
+2.87
+3.22
+3.04
+
+1.25
+0.92
+1.36
+1.24
+
+0.00
+1.00
+0.00
+0.00
+
+2.00
+2.00
+2.00
+2.00
+
+3.00
+3.00
+3.00
+3.00
+
+5.00
+4.00
+5.00
+5.00
+
+Table 6. ATI Scale
+
+B
+
+Group
+
+Mean
+
+Std. Dev.
+
+Cronbach’s Alpha
+
+All
+Non-LLM Users
+Non-LLM Learners
+LLM Learners
+
+3.97
+3.25
+3.57
+4.04
+
+0.88
+1.01
+0.98
+0.84
+
+0.90
+0.93
+0.93
+0.90
+
+LCA Model Fit by Number of Classes
+
+2025-06-16 01:11. Page 31 of 1–32.
+
+32
+
+Terzimehić et al.
+Table 7. Personality Traits (Mean Scores)
+
+Group
+All
+Non-LLM Users
+Non-LLM Learners
+LLM Learners
+
+C
+
+Extraversion
+
+Agreeableness
+
+Conscientiousness
+
+Neuroticism
+
+Openness
+
+2.85
+2.50
+2.70
+2.87
+
+3.65
+3.29
+3.73
+3.65
+
+3.42
+3.57
+3.33
+3.43
+
+2.92
+3.53
+3.08
+2.89
+
+3.60
+3.57
+3.73
+3.58
+
+Descriptive Statistics of Resulting LCA Classes
+Table 8. Age Distribution Descriptive Statistics
+
+Statistic
+
+Structured Knowledge Builders
+
+Self-Guided Explorers
+
+Analytical Problem Solvers
+
+Adaptive Power Users
+
+Count
+Mean
+Median
+Std. Dev.
+Min
+Max
+
+155.00
+28.54
+27.00
+8.15
+18.00
+64.00
+
+180.00
+33.99
+31.00
+10.82
+18.00
+72.00
+
+167.00
+31.20
+29.00
+9.48
+18.00
+68.00
+
+176.00
+30.18
+28.00
+8.69
+18.00
+59.00
+
+Table 9. Gender Distribution Counts by Segment
+
+Gender
+
+Structured Knowledge Builders
+
+Self-Guided Explorers
+
+Analytical Problem Solvers
+
+Adaptive Power Users
+
+98
+56
+0
+1
+
+93
+87
+0
+0
+
+43
+120
+2
+2
+
+79
+95
+1
+1
+
+Female
+Male
+Non-binary
+Prefer not to say
+
+Table 10. AI Literacy Descriptive Statistics
+
+Statistic
+
+Structured Knowledge Builders
+
+Self-Guided Explorers
+
+Analytical Problem Solvers
+
+Adaptive Power Users
+
+Count
+Mean
+Std. Dev.
+
+155.00
+2.95
+1.26
+
+180.00
+2.96
+1.35
+
+167.00
+3.17
+1.18
+
+176.00
+3.07
+1.15
+
+2025-06-16 01:11. Page 32 of 1–32.
+
+
