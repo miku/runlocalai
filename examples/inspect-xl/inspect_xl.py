@@ -13,29 +13,90 @@ from pathlib import Path
 
 import openpyxl
 import xlrd
-from rich.console import Console  # type: ignore
-from rich.table import Table  # type: ignore
-from rich.panel import Panel  # type: ignore
-from rich.text import Text  # type: ignore
+from rich.console import Console
+from rich.table import Table
+from rich.panel import Panel
+from rich.rule import Rule
 
 console = Console()
+
+
+def find_header_row(rows, num_cols):
+    """Heuristic: find the first row where a majority of cells are non-empty.
+
+    Preamble rows typically have content only in the first column (merged cells),
+    while the true header row has labels across most columns.
+    """
+    threshold = max(3, num_cols * 0.5)
+    for idx, row in enumerate(rows):
+        non_empty = sum(
+            1 for c in row[:num_cols] if c is not None and str(c).strip() != ""
+        )
+        if non_empty >= threshold:
+            return idx
+    # Fallback: find the first row with at least 2 non-empty cells
+    for idx, row in enumerate(rows):
+        non_empty = sum(
+            1 for c in row[:num_cols] if c is not None and str(c).strip() != ""
+        )
+        if non_empty >= 2:
+            return idx
+    return 0
+
+
+def format_size(size_bytes):
+    if size_bytes < 1024:
+        return f"{size_bytes} B"
+    elif size_bytes < 1024 * 1024:
+        return f"{size_bytes / 1024:.1f} KB"
+    else:
+        return f"{size_bytes / (1024 * 1024):.2f} MB"
+
+
+def display_preamble(preamble_rows, num_cols):
+    """Show preamble rows as flowing text (merged-cell summaries)."""
+    console.print(Rule("[dim italic]Preamble[/]", style="dim"))
+    for row in preamble_rows:
+        parts = [
+            str(c).strip()
+            for c in row[:num_cols]
+            if c is not None and str(c).strip() != ""
+        ]
+        if parts:
+            console.print(f"  [dim]{' '.join(parts)}[/]")
+
+
+def display_data_table(headers, data_rows, total_cols, total_data_rows):
+    """Show the actual tabular data with proper column headers."""
+    console.print(Rule("[dim italic]Data[/]", style="dim"))
+
+    table = Table(show_header=True, header_style="bold magenta")
+    for h in headers:
+        table.add_column(h, max_width=30)
+
+    for row in data_rows[:15]:
+        table.add_row(
+            *[str(c) if c is not None else "[dim]─[/]" for c in row[: len(headers)]]
+        )
+
+    console.print(table)
+
+    if total_cols > len(headers):
+        console.print(f"     [dim]… {total_cols - len(headers)} more column(s)[/]")
+    if total_data_rows > 15:
+        console.print(f"     [dim]… {total_data_rows - 15} more row(s)[/]")
 
 
 def inspect_xlsx(filepath: Path) -> None:
     wb = openpyxl.load_workbook(filepath, read_only=True, data_only=True)
 
     file_size = filepath.stat().st_size
-    size_str = (
-        f"{file_size / 1024:.1f} KB"
-        if file_size < 1024 * 1024
-        else f"{file_size / (1024 * 1024):.2f} MB"
-    )
 
     console.print(
         Panel(
             f"[bold]File:[/] {filepath}\n"
             f"[bold]Format:[/] XLSX (Office Open XML)\n"
-            f"[bold]Size:[/] {size_str}\n"
+            f"[bold]Size:[/] {format_size(file_size)}\n"
             f"[bold]Sheets:[/] {len(wb.sheetnames)}",
             title="📊 XLSX File Info",
             border_style="blue",
@@ -50,47 +111,52 @@ def inspect_xlsx(filepath: Path) -> None:
         console.print()
         console.print(f'  📋 [bold cyan]Sheet: "{name}"[/]')
         console.print(f"     Dimensions : {max_row} rows × {max_col} cols")
-        console.print(f"     Cells      : ~{max_row * max_col:,}")
 
-        # Preview first rows
-        if max_row > 0 and max_col > 0:
-            table = Table(show_header=True, header_style="bold magenta")
-            for col_idx in range(1, min(max_col + 1, 11)):
-                table.add_column(f"Col {col_idx}", max_width=30)
+        if max_row == 0 or max_col == 0:
+            console.print("     [dim](empty sheet)[/]")
+            continue
 
-            for row_idx, row in enumerate(
-                ws.iter_rows(min_row=1, max_row=min(max_row, 10), values_only=True), 1
-            ):
-                if row_idx > 10:
-                    break
-                table.add_row(
-                    *[str(c) if c is not None else "[dim]None[/]" for c in row[:10]]
-                )
+        all_rows = list(ws.iter_rows(min_row=1, max_row=max_row, values_only=True))
 
-            console.print(table)
-            if max_col > 10:
-                console.print(f"     [dim]... {max_col - 10} more columns[/]")
-            if max_row > 10:
-                console.print(f"     [dim]... {max_row - 10} more rows[/]")
+        header_idx = find_header_row(all_rows, max_col)
+
+        # --- Preamble ---
+        if header_idx > 0:
+            display_preamble(all_rows[:header_idx], max_col)
+
+        # --- Header ---
+        raw_header = all_rows[header_idx]
+        display_cols = min(max_col, 10)
+        headers = [
+            str(raw_header[i]).strip()
+            if raw_header[i] is not None and str(raw_header[i]).strip()
+            else f"Col {i + 1}"
+            for i in range(display_cols)
+        ]
+
+        # --- Data ---
+        data_rows = all_rows[header_idx + 1 :]
+        # Skip trailing empty rows
+        while data_rows and all(
+            c is None or str(c).strip() == "" for c in data_rows[-1]
+        ):
+            data_rows.pop()
+
+        display_data_table(headers, data_rows, max_col, len(data_rows))
 
     wb.close()
 
 
 def inspect_xls(filepath: Path) -> None:
-    wb = xlrd.open_workbook(str(filepath))
+    wb = xlrd.open_workbook(filepath)
 
     file_size = filepath.stat().st_size
-    size_str = (
-        f"{file_size / 1024:.1f} KB"
-        if file_size < 1024 * 1024
-        else f"{file_size / (1024 * 1024):.2f} MB"
-    )
 
     console.print(
         Panel(
             f"[bold]File:[/] {filepath}\n"
             f"[bold]Format:[/] XLS (BIFF{wb.biff_version})\n"
-            f"[bold]Size:[/] {size_str}\n"
+            f"[bold]Size:[/] {format_size(file_size)}\n"
             f"[bold]Sheets:[/] {wb.nsheets}",
             title="📊 XLS File Info",
             border_style="green",
@@ -99,31 +165,41 @@ def inspect_xls(filepath: Path) -> None:
 
     for idx in range(wb.nsheets):
         sheet = wb.sheet_by_index(idx)
+
         console.print()
         console.print(f'  📋 [bold cyan]Sheet: "{sheet.name}"[/]')
         console.print(f"     Dimensions : {sheet.nrows} rows × {sheet.ncols} cols")
-        console.print(f"     Cells      : ~{sheet.nrows * sheet.ncols:,}")
 
-        if sheet.nrows > 0 and sheet.ncols > 0:
-            table = Table(
-                show_header=True, header_style="bold magenta", max_col_width=30
-            )
-            for col_idx in range(min(sheet.ncols, 10)):
-                table.add_column(f"Col {col_idx + 1}")
+        if sheet.nrows == 0 or sheet.ncols == 0:
+            console.print("     [dim](empty sheet)[/]")
+            continue
 
-            for row_idx in range(min(sheet.nrows, 10)):
-                row_vals = []
-                for col_idx in range(min(sheet.ncols, 10)):
-                    cell = sheet.cell(row_idx, col_idx)
-                    val = str(cell.value) if cell.value != "" else "[dim]None[/]"
-                    row_vals.append(val)
-                table.add_row(*row_vals)
+        all_rows = [
+            [sheet.cell(r, c).value for c in range(sheet.ncols)]
+            for r in range(sheet.nrows)
+        ]
 
-            console.print(table)
-            if sheet.ncols > 10:
-                console.print(f"     [dim]... {sheet.ncols - 10} more columns[/]")
-            if sheet.nrows > 10:
-                console.print(f"     [dim]... {sheet.nrows - 10} more rows[/]")
+        header_idx = find_header_row(all_rows, sheet.ncols)
+
+        if header_idx > 0:
+            display_preamble(all_rows[:header_idx], sheet.ncols)
+
+        raw_header = all_rows[header_idx]
+        display_cols = min(sheet.ncols, 10)
+        headers = [
+            str(raw_header[i]).strip()
+            if raw_header[i] is not None and str(raw_header[i]).strip()
+            else f"Col {i + 1}"
+            for i in range(display_cols)
+        ]
+
+        data_rows = all_rows[header_idx + 1 :]
+        while data_rows and all(
+            c is None or str(c).strip() == "" for c in data_rows[-1]
+        ):
+            data_rows.pop()
+
+        display_data_table(headers, data_rows, sheet.ncols, len(data_rows))
 
 
 def main():
