@@ -142,16 +142,11 @@ Note: however a 128GB VRAM machine could run most versions of Qwen3-Coder-Next.
 
 We will have a couple of options to run an LLM today.
 
-* [ ] tiny (a [single board computer](https://www.zimaspace.com/products/single-board2-server#specs), 16GB RAM, 20W)
-* [ ] ada ([20GB VRAM GPU](https://www.nvidia.com/content/dam/en-zz/Solutions/rtx-4000-sff/proviz-rtx-4000-sff-ada-datasheet-2616456-web.pdf), 70W)
-* [ ] strix (unified [128GB RAM](https://www.amd.com/en/products/processors/laptop/ryzen/ai-300-series/amd-ryzen-ai-max-plus-395.html), 120W)
-* [ ] cluster (NVIDIA [A100](https://www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/a100/pdf/nvidia-a100-datasheet-nvidia-us-2188504-web.pdf))
+* [x] "xs", a [single board computer](https://www.zimaspace.com/products/single-board-server#specs), 8GB RAM, 9W
+* [x] "s", a [single board computer](https://www.zimaspace.com/products/single-board2-server#specs), 16GB RAM, 20W
+* [x] "m", [20GB VRAM GPU](https://www.nvidia.com/content/dam/en-zz/Solutions/rtx-4000-sff/proviz-rtx-4000-sff-ada-datasheet-2616456-web.pdf), 70W
+* [x] "l", unified [128GB RAM](https://www.amd.com/en/products/processors/laptop/ryzen/ai-300-series/amd-ryzen-ai-max-plus-395.html), 120W
+* [x] "xl", NVIDIA [A100](https://www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/a100/pdf/nvidia-a100-datasheet-nvidia-us-2188504-web.pdf), 300W
 
-Aliases:
+Let's go!
 
-* L1 (tiny)
-* L2 (ada)
-* L3 (strix)
-* L4 (cluster)
-
-And your own laptop, depending on the actual model.
