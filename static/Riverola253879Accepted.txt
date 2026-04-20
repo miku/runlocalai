@@ -1,0 +1,1788 @@
+Innovators and Early Adopters in The Diffusion of Innovations: a
+Literature Review
+Author
+Dedehayir, Ozgur, Ortt, Roland J, Riverola, Carla, Miralles, Francesc
+
+Published
+2017
+
+Journal Title
+International Journal of Innovation Management
+
+Version
+Accepted Manuscript (AM)
+
+DOI
+10.1142/S1363919617400102
+
+Rights statement
+Electronic version of an article published in International Journal of Innovation Management
+(IJIM), Vol. 21, No. 08, 1740010 (2017), https://doi.org/10.1142/S1363919617400102. Copyright
+2017 World Scientific Publishing Company http://www.worldscinet.com/ijim/
+
+Downloaded from
+http://hdl.handle.net/10072/388283
+
+Griffith Research Online
+https://research-repository.griffith.edu.au
+
+Innovators and early adopters in the diffusion of
+innovations: A literature review
+Ozgur Dedehayir*
+Queensland University of Technology, 2 George Street, 4000 Brisbane,
+Australia.
+E-mail: ozgur.dedehayir@qut.edu.au
+
+Roland Ortt
+TU Delft, Mekelweg 2, 2628 CD Delft, The Netherlands.
+E-mail: j.r.ortt@tudelft.nl
+
+Carla Riverola
+La Salle – Universitat Ramon Llull, Sant Joan la Salle 42, Barcelona
+08022, Spain.
+E-mail: criverola@salleurl.edu
+
+Francesc Miralles
+La Salle – Universitat Ramon Llull, Sant Joan la Salle 42, Barcelona
+08022, Spain.
+E-mail: fmiralles@salleurl.edu
+
+* Corresponding author
+Abstract: Despite accounting for a very small percentage of the population that
+adopts an innovation, the ‘innovators’ and ‘early adopters’ – representing the
+two earliest groups of individuals to acquire the new product or service – play a
+crucial role in the dissemination of the innovation to larger market segments.
+The objective of this paper is to understand the characteristics of these
+individuals that positively influence their decisions to adopt innovations. We
+argue that awareness of these traits will enable firms to attain speedier uptake
+of their offerings while aiding policymakers achieve quicker and wider
+proliferation of new technologies intended for societal benefit. We undertake a
+review of the literature studying the diffusion of innovations, and show future
+directions that this framework should take to analyse the adoption lifecycle.
+Keywords: Innovation; diffusion; new product development; product life
+cycle; segmentation.
+
+1
+
+1 Introduction
+Rogers (2003, p.12) defines an innovation as “an idea, practice, or object that is perceived
+as new by an individual or other unit of adoption”. The earliest members of the
+population to acquire the innovation are referred to as innovators and early adopters.
+Individuals belonging to these groups carry commonalities, such as novelty seeking
+behaviour and price insensitivity, which motivate them to adopt a new product or service
+earlier than others. More significant, however, is their role in communicating or
+convincing the benefits of the innovation and its uses to the remainder of the population.
+The early identification of innovators and early adopters is therefore important for
+businesses developing new products, “since it assists in the process of tailoring each
+element of the marketing mix to the requirements and behaviors of those buyers who
+initiate markets and without whom the social comparison that leads to diffusion would
+often not occur.” (Foxall and Goldsmith, 1994, p. 35-36).
+These viewpoints are central to the adoption and diffusion of innovations theory
+advanced by Everett Rogers. Since Rogers’s seminal work - “Diffusion of Innovations”
+(1962) - which builds on the prior contribution of Griliches (1957) exploring the
+diffusion of hybrid corn, a plethora of studies have analysed the diffusion of innovations
+in a variety of contexts ranging from agriculture (e.g. Berger, 2001), to health care (e.g.
+Berwick, 2003) and information technology (e.g. Jeyaraj et al., 2006). Our objective is to
+provide a synthesis of this literature that spans over 50 years. In this endeavour we begin
+by providing an overview of the large body of empirical work on innovators’ and early
+adopters’ characteristics completed and published between the 1960s and 1995. Given
+that many of these sources are not widely available electronically, our review relies on
+the conclusions and methodological issues raised in important review papers published in
+the mid-1990s. We then proceed with a systematic search and analysis of empirical
+studies conducted after 1995 using the ISI Web of Science database, which allowed us to
+peruse 470 relevant scientific publications, of which 70 were selected to form the core of
+our analysis.
+We focus on the following research questions:
+•
+
+What are the characteristics of innovators and early adopters?
+
+•
+
+How do post 1995 empirical studies relate to the work done before 1995?
+
+Our paper begins with a brief overview of the theoretical foundation and results of
+empirical research prior to 1995 exploring the innovators’ and early adopters’
+characteristics (section 2). We then discuss our methods (section 3) and present the
+results of our literature review (section 4). In this section we will propose a conceptual
+model that relates a number of independent variables, which explain innovation adoption.
+In the conclusion (section 5) we discuss whether methodological weaknesses underscored
+in earlier contributions have been taken into account in later works, and subsequently
+explore future research avenues (section 6).
+
+2
+
+2 The diffusion of innovations
+The diffusion of innovation theory operates at both individual and aggregate levels of
+analysis. At the individual level, it focuses on the process of adoption, which essentially
+involves: (i) the innovation; (ii) an individual that has already adopted the innovation;
+(iii) another individual that is yet to adopt the innovation; and (iv) some kind of
+communication channel that allows these two individuals to exchange information
+(Rogers, 1995; Eerkens and Lipo, 2014). Firstly, the theory explains the sequence of
+stages through which the individual, who is yet to adopt the innovation, will progress in
+making a final decision to adopt or not to adopt (Rogers, 1995; Blackburn, 2011).
+Secondly, the theory explains how communication can influence this individual process
+in multiple ways. Communication between individuals, for example in word-of-mouth
+processes, or observation of individuals that adopt and use the innovation and thereby
+stimulate other individuals to imitate that behaviour, and the communication transferring
+information about the innovation through mass media, all have their own distinct roles in
+the individual process of adoption.
+At the aggregate level of analysis, the diffusion of innovation theory suggests the
+manifestation of an S-curved cumulative adoption pattern, as the population of
+individuals acquire the innovation over time. This temporal pattern further proposes that
+some members of the population adopt earlier than others, reflecting their level of
+innovativeness, in other words, "the degree to which an individual is relatively earlier in
+adopting an innovation than other members of his social system" (Rogers and
+Shoemaker, 1971, p. 27). Based on the timeliness of their adopting behaviour, Rogers
+distinguishes groups of individuals that form the population according to their
+socioeconomic, personality, and communication behaviour characteristics (Faiers and
+Neame, 2006)
+
+Overview of the findings regarding innovator characteristics prior to 1995
+An overview of empirical studies exploring the characteristics of innovators and early
+adopters conducted since the 1960s appear in several publications (Engel, Blackwell and
+Miniard, 1990; Foxall and Goldsmith, 1994; Robertson, 1971; Rogers and Shoemaker,
+1971), although here we focus only on two – Engel et al. (1990) and Foxall and
+Goldsmith (1994) – since they have greater coverage of the pre-1995 period. These
+papers firstly provide broad categories of characteristics, distinguished on the basis of a
+large number of studies. Engel et al. (1990) suggest these categories to include: (1) socioeconomic characteristics (e.g. age, education); (2) personality variables (e.g. empathy,
+dogmatism); and (3) characteristics related to the communication behaviour (e.g. social
+participation, interconnectedness with the social system). Meanwhile, Foxal and
+Goldsmith (1994) add two further categories to this list: (4) perceptions of new products,
+and (5) purchase and consumption patterns. It is interesting to note that the first three
+categories of characteristics are generic i.e., not directly related to a particular innovation,
+whereas the last two categories are specific i.e., related to the product category to which
+the innovation belongs.
+The papers secondly show that some of the widely held notions about innovators and
+early adopters of innovations are not confirmed, or are only weakly confirmed. The most
+salient observation is that innovator characteristics vary per product category. For
+
+example, innovators in fashion do not have the same characteristics as innovators in IT.
+At the same time, some of the pre-1995 studies indicate that across different innovations
+the earliest adopters are not younger than later adopters, and they are also not less
+dogmatic than later adopters, as we might theoretically anticipate. These findings would
+plea for a distinction between generic innovator characteristics (such as the first three
+broad categories mentioned above) and specific innovator characteristics (such as the last
+two categories mentioned above). If this distinction is important then we would expect
+the specific characteristics (with a direct relationship to the product category to which the
+innovation belongs) to have a stronger relationship with early adoption than the generic
+characteristics.
+Engel et al. (1990, p. 696-697) thirdly indicate that (the speed of) diffusion depends
+on other variables, in addition to early adopter characteristics. These include the
+competitive intensity of the innovation’s main supplier, supplier reputation, supplier’s
+resource commitments, availability of standards for the innovation, coordination of and
+cooperation between complementary actors required to supply the innovation, and all of
+the innovation’s complementary products and services. It is interesting to see that fast
+diffusion requires conditions to be optimal in the entire market system: on the supply
+side, the demand side, and the guiding institutions in which the supply- and demand side
+actors operate.
+Fourthly, the papers propose that early adopters have similar characteristics to ‘early
+rejecters’, in other words, those who decide not to adopt the innovation. Labay and
+Kinnear (1981) demonstrate the remarkable similarity between early rejecters and early
+adopters of solar panels, in stark contrast to the diffusion of innovation theory that sees
+rejecters as falling outside the groups of adopters.
+And finally, while early adopters are deemed to be opinion leaders, the papers
+underline that innovativeness and opinion leadership are distinctly different. This
+difference is reflected in the sometimes deviant behaviour of innovators. An example is
+provided by Rogers (2003) himself, who describes the first users of a water well installed
+by development aid workers as likely to be a person that is an outcast of the village. In
+this instance, the early adopter is not an opinion leader, and in fact may discourage others
+from making the same adoption decision.
+
+3 Method
+Following the summary of the empirical work undertaken prior to 1995, we now proceed
+to the systematic literature review of contributions after 1995. To this end, we followed a
+step-wise procedure (Hart, 1998). We commenced by consulting the ISI Web of Science
+database in February 2016, and using the keyword innovator* in conjunction with the
+keyword diffusion in the title, abstract, and keywords of publications, identified a set of
+scientific papers appearing in journals, books, and conference proceedings (N = 259). We
+repeated this exercise by using the keyword early adopter* in conjunction with the
+keyword diffusion to identify a second set of scientific papers (N = 211). In the following
+step we implemented two inclusion criteria to omit publications that would not contribute
+to our study. Firstly, we focused on papers in which the decision to adopt was
+investigated for individuals. In practice individual adopters can belong to consumer
+households (and hence belong to the business-to-consumer (B2C) market) or to
+organisations (and hence belong to the business-to-business (B2B) market). As a result,
+
+4
+
+papers studying organisational adoption involving multiple individuals, sometimes in
+different departments, were left out. Secondly, we precluded publications that did not
+employ the diffusion of innovations theory with a sufficient level of depth (e.g. in cases
+where the keywords appeared in the reference list of the papers, or were merely
+mentioned without any subsequent analysis). After careful examination of the abstracts of
+all publications with respect to these criteria, we selected 59 papers that were deemed to
+be most relevant to the purpose of our survey and warranting a thorough analysis.
+The collection of papers were then read through independently by the authors and
+analysed to extract two groups of data: (i) contextual; and (ii) categorical. Contextual data
+included the empirical setting (e.g. medical), the diffusing innovation (e.g. internet-based
+patient education programme) and the authors of a given publication (e.g. Anttila et al.,
+2011). In addition we included whether the innovation diffused in a business-to-business
+or business-to-consumer setting. Finally, the type of innovation was characterised as a
+product, service or process. The categorical data, in turn, related directly to the question
+driving our research, and included dependent variables (e.g. adoption) and independent
+variables (e.g. characteristics of individuals that may explain adoption) used in the
+empirical investigations, as well as the main outcomes of these investigations such as the
+verification of hypotheses or the discovery of additional variables that explain the
+dependent variable. The data recorded from this analysis was then synthesized to provide
+a comprehensive set of characteristics that define individuals belonging to the innovators
+and early adopter categories.
+
+4 Results
+Our review of the literature revealed the examination of a wide spectrum of innovations,
+and the employment of a diverse set of variables in these studies. We commenced our
+meta-analysis of this large dataset by implementing two grouping strategies. First, we
+designated the studied innovations into one of several generic categories, which
+essentially define the broad empirical contexts studied by scholars (see Table 1).
+As the table shows, a majority of scholarly works over the past twenty years explore
+the diffusion of ‘electronics, IT, internet, and social media’ as well as the ‘medical,
+health, and pharmaceutical’ innovations. There is also a notable number of empirical
+studies of the ‘agriculture and farming’ context, following the footsteps of seminal
+scholars such as Rogers (1962) and Grilliches (1957). The heterogeneity of the 59 studies
+included in our analysis is also reflected in the market context (i.e. B2B or B2C) and the
+type of innovation (i.e. product, service or process) examined. The majority of the studies
+(38 out of 59) were set in a B2C context, with the remainder in a B2B context.
+Meanwhile a majority of the studies (33 out of 59) focused on product rather than service
+(12) or process innovations (14). We also note that the B2B context and process
+innovations are overrepresented in the empirical setting of the medical, health and
+pharmaceutical sector as well as the agriculture and farming sector.
+
+Table 1 Empirical settings and innovations studied by scholars
+Empirical setting
+
+Innovation
+
+Study
+
+Context Type
+
+electronics, IT, internet, and
+social media
+
+internet services
+e-book readers
+consumer electronics
+Multimedia Message Service
+LCD TV
+personal shopping assistant
+internet content filtering software
+online travel booking services
+wireless phones
+online banking services
+smart phones
+broadband internet
+e-learning
+mobile phones
+broadband internet
+Internet Protocol Television
+internet services
+microblogs
+video players
+food processors; video cassette recorders; PCs
+
+Atkin et al., 1998
+Bergstrom and Hoglund, 2014
+Boyd and Mason, 1999
+Chiyangwa and Alexander, 2015
+Cho and Koo, 2012
+Evanschitzky et al., 2015
+Jin, 2013
+Kah et al., 2016
+Kauffman and Techatassanasoontorn, 2009
+Kavak and Demirsoy, 2009
+Lee, 2014
+Lin and Wu, 2013
+Loogma et al., 2012
+Moldovan et al., 2015
+Park and Yoon, 2005
+Sawng et al., 2013
+Stafford, 2003
+Svensson, 2014
+Van Rijnsoever and Harmen Oppewal, 2012
+Venkatraman and Meera, 1991
+
+B2C
+B2C
+B2C
+B2C
+B2C
+B2C
+B2C
+B2C
+B2C
+B2C
+B2C
+B2C
+B2B
+B2C
+B2C
+B2C
+B2C
+B2C
+B2C
+B2C
+
+service
+product
+product
+service
+product
+product
+product
+service
+product
+service
+product
+service
+process
+product
+service
+product
+service
+service
+product
+product
+
+medical, health, and
+pharmaceutical
+
+internet-based patient education programme
+clinical BRCA1/2 testing
+new drugs
+HIV/AIDS Positive Living (a public health innovation)
+health behavior innovation (internet-based diet diary)
+robot-assisted minimally invasive surgery
+contingency management
+new drugs (celecoxib, alendronate, clopidogrel, pantoprazole)
+new drugs
+adjuvant radiotherapy (brachytherapy)
+QIRC strategy
+drug use
+point-of-care ultrasonography
+digital technologies (dental practice)
+instructional technology (medical faculty teaching)
+e-appointment scheduling service (e-health)
+
+Anttila et al., 2011
+Armstrong et al., 2003
+Bourke and Roper, 2012
+Caldwell and Kleppe, 2010
+Centola, 2011
+Cundy et al., 2014
+Hartzler and Rabun, 2013
+Kozyrskyj et al., 2007
+Lublóy, 2014
+Pollack et al., 2015
+Simunovic et al., 2013
+Van Havere et al., 2012
+Woo et al., 2013
+van der Zande et al., 2013
+Zayim et al., 2006
+Zhang et al., 2015
+
+B2B
+B2C
+B2B
+B2B
+B2C
+B2B
+B2B
+B2B
+B2B
+B2B
+B2B
+B2C
+B2B
+B2B
+B2B
+B2C
+
+process
+product
+product
+service
+product
+process
+process
+product
+product
+product
+process
+product
+service
+process
+process
+service
+
+agriculture and farming
+
+maize
+conservation cropping system
+organic drystock production
+organic farming
+organic farming
+conservation practices
+grid soil sampling; yield monitoring; remote sensing process
+water trade
+
+Boz and Akbay, 2005
+Forte´-Gardner et al., 2004
+Läpple and Van Rensburg, 2011
+Padel, 2001
+Parra-Lopez et al., 2007
+Upadhyay et al., 2002
+Watcharaanantapong et al., 2014
+Wheeler et al., 2009
+
+B2B
+B2B
+B2B
+B2B
+B2B
+B2B
+B2B
+B2B
+
+product
+process
+process
+process
+process
+process
+process
+process
+
+energy production (industrial solar power
+and home)
+solar power
+IHS (Innovative Heating Systems)
+small-scale sustainable energy solutions
+solar heaters
+wood pellet heating
+
+Faiers and Neame, 2006
+Faiers et al., 2007
+Mahapatra and Gustavsson. 2008
+Nygrén et al., 2015
+Ornetzeder, 2001
+Sopha et al., 2011
+
+B2C
+B2C
+B2C
+B2C
+B2C
+B2C
+
+product
+product
+product
+product
+product
+product
+
+automotive and
+transportation
+
+alternative fuel vehicle
+plug-in electric vehicles
+electric vehicles
+electric vehicles
+electric vehicles (e-bike & e-scooter)
+
+Jansson et al., 2011
+Namdeo et al., 2014
+Peters and Dütschke, 2014
+Plötz et al., 2014
+Seebauer, 2015
+
+B2C
+B2C
+B2C
+B2C
+B2C
+
+product
+product
+product
+product
+product
+
+consumables (food)
+
+table wine
+ecolabel
+MyPlate
+
+Rossow, 2005
+Thøgersen, 2010
+Wansink and Kranz, 2013
+
+B2C
+B2C
+B2C
+
+product
+product
+service
+
+crafts
+
+pottery
+
+Eerkens and Lipo, 2014
+
+B2C
+
+product
+
+6
+
+Our second grouping strategy employed an inductive approach to allow the
+emergence of a generic set of variable categories. Repeated iterations between the data
+and the diffusion of innovations theory led us to propose four groups of variables –
+sociodemographic, personality, behavioural, and resources – which essentially define the
+characteristics of the adopting unit, in other words, the individual. These emergent groups
+align with, and at the same time extend, Rogers’s (1962) original set of characteristics of
+the decision making unit.
+In Table 2 we firstly summarise the sociodemographic variables most commonly
+employed by scholars – age, education level, income, and gender.
+Table 2 Sociodemographic variables explaining the diffusion of innovations
+Characteristics of
+adopting unit
+
+Variable
+
+sociodemographic
+
+age
+
+educational level
+
+income
+
+gender
+
+No. of
+studies
+
+Findings
+(positive influence on diffusion)
+
+24
+agriculture and farming (5)
+
+young (1)
+old (2)
+
+automotive and transportation (2)
+
+middle age (2)
+
+consumables (food) (1)
+
+-
+
+electronics, IT, internet, and social media (6)
+
+young (5)
+old (1)
+
+no effect (2)
+
+no effect (1)
+
+energy production (industrial and home) (3)
+
+young (3)
+
+medical, health, and pharmaceutical (7)
+
+young (3)
+old (1)
+
+no effect (3)
+
+agriculture and farming (5)
+
+high (3)
+low (1)
+
+no effect (1)
+
+automotive and transportation (2)
+
+high (1)
+
+no effect (1)
+
+consumables (food) (1)
+
+-
+
+no effect (1)
+
+electronics, IT, internet, and social media (6)
+
+high (5)
+low (1)
+
+energy production (industrial and home) (2)
+
+high (1)
+low (1)
+
+medical, health, and pharmaceutical (3)
+
+high (2)
+
+agriculture and farming (2)
+
+high (2)
+
+19
+
+no effect (1)
+
+11
+electronics, IT, internet, and social media (5)
+
+high (3)
+
+energy production (industrial and home) (3)
+
+high (1)
+medium (1)
+low (1)
+
+medical, health, and pharmaceutical (1)
+
+high (1)
+
+agriculture and farming (1)
+
+female (1)
+
+automotive and transportation (2)
+
+male (2)
+
+consumables (food) (1)
+
+female (1)
+
+no effect (2)
+
+11
+
+electronics, IT, internet, and social media (4)
+
+male (3)
+
+no effect (1)
+
+medical, health, and pharmaceutical (3)
+
+male (1)
+female (1)
+
+no effect (1)
+
+Among the sociodemographic variables, age (n=24) and education level (n=19) have
+been the most prominently studied independent variables to understand adoption of
+
+innovations by innovators and early adopters. The table also indicates that the four
+variables have been explored across various empirical contexts. Nevertheless, there does
+not appear to be consensus on the causal influence of these variables on adoption
+behaviour in general, as well as within any particular empirical context. For example, the
+variable ‘age’ has been employed in studying the diffusion of agriculture and farming
+innovations on five occasions. In one of the studies the authors have found younger
+individuals to be more likely to adopt the innovation (organic drystock production) while
+in two studies older individuals to be more likely to adopt the innovations (organic
+farming and water trade, respectively). Meanwhile two other studies report ‘age’ to have
+no influence on the adoption of innovations (maize and conservation practices,
+respectively). Similar inconsistencies can be observed for the other empirical settings
+where the variable ‘age’ has been examined, as well as the other sociodemographic
+variables listed in Table 2. Overall, these findings question the relevance of
+sociodemographic descriptors of the social system (i.e. individuals) as determinants of
+innovation adoption.
+In Table 3 we summarise the personality variables employed by scholars in their
+studies, which refer to the intrinsic descriptors of the individual adopter.
+
+8
+
+Table 3 Personality variables explaining the diffusion of innovations
+Characteristics of
+adopting unit
+
+Variable
+
+Personality
+
+outward focus
+
+1
+
+environmental concern
+
+trust in organization
+
+technology orientation
+
+technophilia
+
+technological anxiety
+innovativess
+
+economic values
+
+7
+
+2
+
+agriculture and farming (2)
+
+high (2)
+
+automotive and transportation (2)
+
+high (2)
+
+consumables (food) (1)
+
+high (1)
+
+energy production (industrial and home) (2)
+
+high (1)
+
+consumables (food) (1)
+
+high (1)
+
+electronics, IT, internet, and social media (1)
+
+high (1)
+
+no effect (1)
+
+2
+
+technology use attitude
+
+inward focus
+
+Findings
+(positive influence on diffusion)
+
+No. of
+studies
+
+4
+
+3
+
+automotive and transportation (2)
+
+high (1)
+
+energy production (industrial and home) (1)
+
+high (1)
+
+electronics, IT, internet, and social media (1)
+
+high (1)
+
+electronics, IT, internet, and social media (1)
+
+positive (1)
+
+medical, health, and pharmaceutical (2)
+
+positive (1)
+
+1
+
+electronics, IT, internet, and social media (1)
+
+low (1)
+
+7
+
+consumables (food) (1)
+
+high (1)
+
+electronics, IT, internet, and social media (4)
+
+high (4)
+
+medical, health, and pharmaceutical (2)
+
+high (2)
+
+no effect (1)
+
+no effect (1)
+
+3
+
+profit orientation
+
+2
+
+agriculture and farming (2)
+
+low (2)
+
+saving consciousness
+
+2
+
+electronics, IT, internet, and social media (1)
+
+-
+
+energy production (industrial and home) (1)
+
+high (1)
+
+automotive and transportation (1)
+
+high (1)
+
+willingness to pay
+
+1
+
+self-efficacy
+
+3
+
+no effect (1)
+
+4
+
+electronics, IT, internet, and social media (2)
+
+high (1)
+
+medical, health, and pharmaceutical (1)
+
+high (1)
+
+market mavenism
+
+1
+
+electronics, IT, internet, and social media (2)
+
+high (1)
+
+novelty5
+
+no effect (1)
+
+no effect (1)
+
+risk attitude
+
+2
+
+agriculture and farming (2)
+
+low (1)
+
+novelty seeking
+
+1
+
+electronics, IT, internet, and social media (1)
+
+high (1)
+
+non-traditionalism
+
+1
+
+electronics, IT, internet, and social media (1)
+
+high (1)
+
+4
+
+agriculture and farming (2)
+
+more (1)
+less (1)
+
+electronics, IT, internet, and social media (1)
+
+-
+
+no effect (1)
+
+medical, health, and pharmaceutical (3)
+
+-
+
+no effect (1)
+
+agriculture and farming (1)
+
+high (1)
+
+automotive and transportation (1)
+
+high (1)
+
+electronics, IT, internet, and social media (1)
+
+high (1)
+
+electronics, IT, internet, and social media (2)
+
+high (1)
+
+energy production (industrial and home) (1)
+
+high (1)
+
+cosmopoliteness
+
+opinion leadership
+
+communication needs
+
+3
+
+3
+
+no effect (1)
+
+1
+
+variables 'community consciousness' and 'future orientation' have no effect
+
+2
+
+variables 'willingness to adopt other innovations' and 'craftsman' have no effect
+
+3
+
+variable 'cost orientation' has no effect
+
+4
+
+variables 'subjective norms', 'health consciousness', 'egoistic values', 'altruistic values', 'voluntariness', and 'positive attitude' have no effect
+
+5
+
+variables 'adventurous' and 'outgoing' have no effect
+
+By and large, the personality related variables show more consistency than
+sociodemographic variables. While we are unable to make statistically confident
+conclusions, we see that outward focus variables (environmental concern and trust in
+organisation) are mostly consistent in the way they influence adoption by innovators and
+
+early adopters. Technology orientation variables (technophilia, technology use attitude,
+and technology anxiety) as well as inward focus variables (self-efficacy and market
+mavenism - being knowledgeable about the market) illustrate similar consistencies. The
+table underlines most notable consistency for the ‘innovativeness’ variable, with all
+studies (in three different empirical settings) showing that a high level of innovativeness
+as a personality trait will lead to innovation adoption. Early adopters of an innovation are
+also shown to display high level of opinion leadership, which is necessary for the
+dissemination of that innovation to larger market segments. Overall, our meta-analysis
+gives some confidence for the explanatory power of most personality attributes in the
+adoption behaviour of innovators and early adopters, although ‘cosmopoliteness’ (being
+open to new ideas and information) appears to be a surprising exemption from this list.
+Table 4 summarises the behavioural variables employed in studies, in other words,
+the variables that describe what the individuals do leading up to the adoption of an
+innovation.
+Table 4 Behavioural variables explaining the diffusion of innovations
+Characteristics of
+adopting unit
+Behavioral
+
+Findings
+(positive influence on diffusion)
+
+No. of
+studies
+
+Variable
+information use
+information search and gathering
+
+3
+
+agriculture and farming (1)
+
+more (1)
+
+energy production (industrial and home) (2)
+
+more (2)
+
+use of extension personnel/service
+
+1
+
+agriculture and farming (1)
+
+more (1)
+
+frequency of consultation
+
+1
+
+agriculture and farming (1)
+
+less (1)
+
+deliberation and social comparison
+
+1
+
+energy production (industrial and home) (1)
+
+less (1)
+
+media use
+reading books and printed materials
+
+4
+
+agriculture and farming (3)
+
+less (2)
+
+electronics, IT, internet, and social media (1)
+
+more (1)
+
+technology use
+
+use of general media
+
+1
+
+energy production (industrial and home) (1)
+
+more (1)
+
+no effect (1)
+
+1
+
+information sharing
+
+use of ICT tools
+
+1
+
+electronics, IT, internet, and social media (1)
+
+more (1)
+
+use of technology
+
+1
+
+medical, health, and pharmaceutical (1)
+
+more (1)
+
+variety of use
+
+1
+
+electronics, IT, internet, and social media (1)
+
+more (1)
+
+rate of use
+
+1
+
+electronics, IT, internet, and social media (1)
+
+more (1)
+
+1
+
+electronics, IT, internet, and social media (1)
+
+more (1)
+
+1
+
+variables 'use of internet', 'use of television', 'use of radio', and 'computer use frequency' have no effect
+
+The majority of the behavioural traits examined in the literature encompass the
+individuals’ use of information, media, and technology. The table suggests that the more
+innovators and early adopters use technology in their lives (i.e. use of ICT tools, use of
+technology (in general), variety of use, and rate of use) the more likely they will adopt
+innovations. How individuals use information and the media, however, do not confidently
+inform about the likelihood of innovation adoption. For example, two studies of
+agricultural and farming innovations (organic drystock production and organic farming)
+underscore that innovators and early adopters read less books and printed materials than
+later adopters, while the diffusion of e-book readers in the electronics, IT, internet, and
+social media context suggests the contrasting effect. At closer inspection, we see similar
+contradictions amongst the ‘information use’ variables. For instance, while individuals
+adopting Innovative Heating Systems in the energy production context have been shown
+
+10
+
+to engage more in information search and gathering activities, adopters of wood pallet
+heating (in the same context) have been reported to delve less into deliberation and social
+comparison. These findings appear to contradict one another given that the latter is
+arguably another mode of information gathering. As a result, besides technology use
+variables, other behavioural attributes of individuals may not be accurate predictors of
+innovators’ and early adopters’ innovation adoption behaviour.
+And finally in Table 5 we summarise the resource variables employed by scholars, in
+other words, the variables that describe what the individuals have in possession, and
+which may facilitate the adoption of innovations.
+
+Table 5 Resource variables explaining the diffusion of innovations
+Characteristics of
+adopting unit
+Resources
+
+Findings
+(positive influence on diffusion)
+
+No. of
+studies
+
+Variable
+prior experience
+adoption of similar technology
+
+product experience
+
+vocational experience
+
+adoption of previous generation
+technical skills
+
+2
+
+2
+
+energy production (industrial and home) (1)
+
+more (1)
+
+medical, health, and pharmaceutical (1)
+
+more (1)
+
+agriculture and farming (1)
+
+more (1)
+
+electronics, IT, internet, and social media (1)
+
+good (1)
+
+agriculture and farming (1)
+
+less (1)
+
+electronics, IT, internet, and social media (1)
+
+less (1)
+
+1
+
+electronics, IT, internet, and social media (1)
+
+more (1)
+
+2
+
+electronics, IT, internet, and social media (1)
+
+high (1)
+
+medical, health, and pharmaceutical (1)
+
+-
+
+2
+
+1
+
+computer skills
+
+elearning skills
+
+1
+
+electronics, IT, internet, and social media (1)
+
+high (1)
+
+pedagogical competence
+
+1
+
+electronics, IT, internet, and social media (1)
+
+high (1)
+
+digital skills
+
+1
+
+medical, health, and pharmaceutical (1)
+
+high (1)
+
+computer experience
+
+1
+
+medical, health, and pharmaceutical (1)
+
+high (1)
+
+recommending peers
+
+3
+
+energy production (industrial and home) (2)
+
+more (2)
+
+medical, health, and pharmaceutical (1)
+
+more (1)
+
+no effect (1)
+
+2
+
+network
+
+informal sources of information
+
+contact with credible people
+knowledge
+
+2
+
+agriculture and farming (1)
+
+more (1)
+
+energy production (industrial and home) (1)
+
+more (1)
+
+1
+
+medical, health, and pharmaceutical (1)
+
+more (1)
+
+general knowledge
+
+1
+
+consumables (food) (1)
+
+more (1)
+
+subjective knowledge
+
+1
+
+consumables (food) (1)
+
+more (1)
+
+knowledge of supporting systems
+
+1
+
+agriculture and farming (1)
+
+more (1)
+
+awareness of innovation
+
+1
+
+medical, health, and pharmaceutical (1)
+
+more (1)
+
+2
+
+electronics, IT, internet, and social media (1)
+
+more (1)
+
+medical, health, and pharmaceutical (1)
+
+-
+
+access to use
+
+no effect (1)
+
+1
+
+variable 'internet skills' has no effect
+
+2
+
+variable 'knowledge of other adopters' has no effect
+
+From the table we observe that resource variables are consistent predictors of the
+adoption decisions of innovators and early adopters. First, individuals’ prior experiences
+(i.e. with similar technologies, with the innovation in question, with an occupation that
+relates to the innovation, and earlier generations of the innovation) all serve to motivate
+the adoption of the innovation. These findings are consistent for different empirical
+contexts as well. Interestingly, we see that individuals are more likely to adopt an
+innovation when they have been employed in the vocational setting for shorter time,
+possibly explained by their openness to new ideas. Second, the high level of technical
+skills of innovators and early adopters (e.g. their computer, e-learning, digital skills, as
+well as experience with computers and work related competences) appear to have a
+positive effect on their innovation adoption decisions. The table thirdly shows that
+individuals access resources exogenous to themselves, namely, from their networks.
+Hence, innovators and early adopters are more likely to adopt innovations when they
+have more peers recommending the innovation, when they can access informal sources of
+
+12
+
+information, and when they have contact with credible people. And finally, individuals
+that have more knowledge (whether this is general, subjective, about supporting systems,
+or about the innovation itself) are more likely to adopt the innovation. This is not a
+surprising finding and reaffirms the centrality of knowledge and communication channels
+as underlined by Rogers in his original framework.
+Collectively, the results of our meta-analysis lead us to propose a conceptual model
+that relates the variables that can positively influence the innovation adoption decisions
+of innovators and early adopters (see Figure 1).
+Personality
+- high outward focus
+- positive technology orientation
+- high innovativeness
+- high economic values
+- high inward focus
+- high novelty
+- high opinion leadership
+- high communication needs
+
+Behavioral
+- more technology use
+
++
++
++
+
+adoption of innovation
+by innovators and early
+adopters
+
+Resources
+- more prior experience
+- high technical skills
+- more network
+- more knowledge
+
+Figure 1 Conceptual model of variables that can positively influence innovation
+adoption.
+
+5 Discussion and Conclusions
+Although innovators and early adopters account for less than 20% of potential adopters,
+they are very important in the diffusion process of innovations. This study commenced by
+reviewing the body of literature prior to 1995, and, in turn, used a systematic review
+process to study the literature after 1995 to identify the variables that can characterise
+innovators and early adopters. Our paper specifically focused on the following research
+questions:
+•
+
+What are the characteristics of innovators and early adopters?
+
+•
+
+How do post 1995 empirical studies relate to the work done before 1995?
+
+In answering these questions, our exploration suggests that the characteristics of
+innovators and early adopters proposed by scholars prior to 1995 are roughly the same as
+those employed in empirical work after 1995. Indeed, some broad categories of variables
+– such as sociodemographic and personality traits – have remained central to this field of
+research over time. Nevertheless, our meta-analysis of the literature post-1995 suggests
+that some of the specific variables that fall within these broad categories (e.g. age,
+education level, and gender) are not consistent descriptors of innovators and early
+adopters and should therefore be omitted from forecasting exercises. Interestingly, the
+inconsistency of these independent variables have been underlined in earlier, seminal
+contributions, and yet, as our study shows, scholars continue to employ them in
+contemporary empirical work.
+By contrast, other specific variables do show consistency in their description of
+innovators and early adopters (e.g. innovativeness, technology orientation, and economic
+values). This finding suggests that businesses can benefit from understanding a
+personality trait such as innovativeness, which can be assessed either as the time of
+adoption of the specific product innovation, or the count of the number of products in a
+specific category already adopted by an individual.
+The review of the post-1995 literature also underscored the relevance of resource
+variables, in other words, what individuals have in possession that positively influences
+their decision to adopt an innovation. Our findings indicate that businesses aiming to
+launch new products and services should target individuals that possess more prior
+experience, have high technical skills and a strong social network. At the same time,
+businesses should spend effort in enhancing the potential adopters’ knowledge about the
+new product or service.
+5.1 Scientific and managerial implications
+The domain-specific nature of innovator and early adopter characteristics
+Our findings show that innovator characteristics vary per product category, an issue
+already highlighted in overviews in the mid-1990s but which continues to be emphasized
+in recent research, now more than 50 years after the emergence of this research strand. In
+fact, given that the variables that determine innovators and early adopters can vary from
+context to context, we observe that some scholars induce a selection-bias in their studies
+by determining, a priori, the population of innovators and early adopters based on a set of
+variables and their values as prescribed by Rogers. We argue that if these characteristics
+are product-category specific then we would expect that the specific characteristics (with
+a direct relationship to the product category to which the innovation belongs) have a
+stronger relationship with early adoption than the generic characteristics.
+The tendency that innovator characteristics depend on the context has raised scientific
+interest, and is sometimes referred to as the domain-specific nature of innovator
+characteristics (Holak, 1988; Engel et al., 1990). Holak (1988) suggests that a continuum
+can be distinguished, ranging from generic innovator characteristics (e.g. sociodemographic characteristics) to more domain-specific characteristics (e.g. the possession
+and use of advanced telecommunication products and services as predictor of yet another
+innovation in that domain). The relationship between generic characteristics and adoption
+have been found to vary across domains, whereas specific characteristics have been
+found to have a stronger relationship with adoption in the domain to which the
+
+14
+
+characteristics refer, as we might anticipate. Furthermore, Holak (1988) shows that
+potential customer evaluations of the innovation, particularly in the form of the
+customers’ perception of innovation attributes (Holak and Lehman, 1990), are stronger
+related to adoption than both the specific and generic innovator characteristics.
+This finding has important managerial implications. We can see an interesting tradeoff: the more generic innovator and early adopter characteristics are readily available to
+distinguish segments, from the perspective of companies commercializing an innovation,
+yet the more specific characteristics, especially the perceptions of potential customers
+regarding the innovation, are more predictive for adoption. In practice, this would call for
+a step-wise approach in which rough initial segments of potential innovators and early
+adopters are based on segmentation using generic and specific characteristics, after which
+a subset of potential adopters are requested to evaluate the innovation, or an early concept
+of it, to check and further refine the segment of innovators and early adopters on which
+the market introduction campaign could focus. This is especially useful if one takes into
+account that radical innovations most often attract very small and specific segment of
+customers that, if not selected properly, would be lost in the larger population of
+customers (Tauber, 1974; Ortt et al., 2007). The results of our review do fit into the first
+step of this approach of distinguishing the segment of early adopters and innovators.
+Organisational versus individual decision-making
+Methodologically the articles in our review focused on the characteristics of
+individual adopters, be it innovators or early adopters. We have thus explored innovator
+and early adopter characteristics in many studies across sectors (see Table1) and focused
+on personality, behavioural aspects, and resources of individual adopters. The studies in
+our overview nevertheless do include B2B settings. In such a setting, customers can be
+larger corporations, in which a type of decision making can be expected prior to adoption
+that involves individuals from different departments and with different disciplinary
+backgrounds. In these cases decision making prior to adoption becomes an entirely
+different process in which, most notably, decision-makers and adopters are often not the
+same individuals. This situation calls for an entirely different approach including generic
+and specific characteristics of innovative organisations as well as adapted evaluation
+criteria and adoption process stages, as compared to cases involving individual decision
+makers that adopt themselves. A review of the characteristics of such organisations that
+are innovators and early adopters is undoubtedly highly interesting, but it requires a
+separate research project.
+Almost all of the B2B studies included in our overview were either in the agricultural
+sector or in a medical, health of pharmaceutical setting. In these settings, most often a
+farmer or doctor is the individual decision maker. In fact, diffusion research did start with
+exploring farmer’s characteristics adopting various innovations (Rogers, 1958). We
+checked the articles and found that the studies in B2B contexts deliberately asked
+individuals to evaluate their adoption decisions. So, both the specific industrial setting
+(agricultural and medical) and the methodology of the articles (focusing on individuals’
+characteristics) justify the combination of cases from a B2B and B2C setting.
+The pro-innovation bias
+Rogers discusses the pro-innovation bias in his seminal work. “The pro-innovation
+bias is the implication in diffusion research that an innovation should be diffused and
+adopted by all members of a social system, that is should be diffused more rapidly, and
+
+that the innovation should be neither re-invented nor rejected.” (Rogers, 2003, p. 106).
+From a societal perspective, this bias is very dangerous if the innovation is not so
+beneficial to all. Many studies have indeed explored the accidents and detrimental effects
+of innovations (e.g. Perrow, 2011; Florman, 2000).
+A first scientific consequence of the pro-innovation bias is that we know much more
+about innovators than rejecters. In fact, in many diffusion articles the innovators come
+first and the laggards and complete non-adopters or rejecters are last. This implies a bias
+towards innovators and a neglect of the rejecters. In contrast, Labay and Kinnear (1981)
+show that early rejecters and innovators have remarkably similar characteristics. They
+have in common that they are the first to get to know about an innovation. The
+managerial implication of this similarity in characteristics of innovators and early
+rejecters, is that the size of the segment of innovators and early adopters can be
+overestimated if these characteristics were applied to define this segment.
+A second scientific consequence of the pro-innovation bias, especially the part that an
+innovation should not be re-invented, is that the trial-and-error process of product
+improvement and customer segment exploration is completely ignored. Diffusion
+research seems to imply that diffusion starts slowly yet smoothly, in practice that is
+hardly the case. As a result some authors have suggested to distinguish a separate phase
+prior to the start of the large-scale diffusion (Moore, 2002; Ortt, 2004). This phase before
+large-scale diffusion is sometimes found to be long, spanning a decade or more on
+average (Ortt, 2010). Managerially this phase, which is almost completely ignored in
+diffusion research, has important implications: it means that innovations have to be
+improved and repositioned before successful diffusion starts. Innovators in this stage may
+have the character of a lead user that is actively involved in improving the innovation
+rather than just adopting and using it.
+The adopters are part of a larger system
+Overall, our review shows that other variables that were not necessarily considered in
+Rogers’s work, can explain innovativeness in different contexts. Besides personality,
+behavioural, and resource variables that pertain to the individual adopter, factors
+exogenous to the adopter, including supplier reputation, the supplier’s resource
+commitments, and the availability of complementary products and services can also play
+a role in the speed with which an innovation is adopted. Our findings therefore suggest
+that new perspectives are necessary to improve academic understanding of the
+behavioural characteristics for those individuals that are first to adopt innovations.
+
+6 Future research
+Two of the methodological issues seem, still now, to represent a serious gap in the
+literature. Firstly, some studies indicate that early adopters and early rejecters (the ones
+that early on decide not to adopt an innovation) may have similar characteristics, but
+require further research to verify this proposition and understand the nature of these
+similarities. This is an important issue that could render the notion of innovator
+characteristics futile if not addressed properly.
+Another line of work that requires attention is the notion that innovativeness and
+opinion leadership are distinctly different. As Engel et al. (1990, p.698) assert, “[w]hen a
+social system’s norms favour change, opinion leaders are more innovative, but when the
+
+16
+
+norms do not favour change, opinion leaders are not especially innovative.” This suggests
+that opinion leadership is contextual, and further, that if some innovators do scare
+subsequent groups of adopters away with their deviant behaviour then the smooth
+diffusion curve would collapse. It is important therefore to carefully distinguish between
+two situations: (1) when innovators and early adopters have opinion leader characteristics
+and thereby seem to invite subsequent adopter groups, versus (2) when innovators and
+early adopters are distinctly different from opinion leaders and scare away subsequent
+adopter groups
+
+References and Notes
+Anttila, M., Välimäki, M., Koivunen, M., Luukkaala, T., Kaila, M., Pitkänen, A. &
+Kontio, R. (2011). Adoption of an Internet-based patient education programme in
+psychiatric hospitals. Journal of Psychiatric and Mental Health Nursing, 18, 914–
+23.
+Armstrong, K., Weiner, J. Weber, B., & Ash, D.A. (2003). Early adoption of BRCA1/2
+testing: Who and why. Genetics in Medicine, 5(2), 92-98.
+Atkin, D.J., Jeffres, L.W., & Nueundorf, K.A. (1998). Understanding internet adoption as
+telecommunications behavior. Journal of Broadcasting & Electronic Media, 42(4),
+475-490.
+Berger, T. (2001). Agent-based spatial models applied to agriculture: a simulation tool
+for technology diffusion, resource use changes and policy analysis. Agricultural
+Economics, 25(2-3), 245-60.
+Bergstrom, A. & Hoglund, L. (2014). A national survey of early adopters of e-book
+reading in Sweden. Information Research, 19(2).
+Berwick, D. M. (2003). Disseminating innovations in health care. Journal of the
+American Medical Association, 289(15), 1969-1975.
+Blackburn, H. (2011). Millennials and the adoption of new technologies in libraries
+through the diffusion of innovations process. Library Hi Tech, 29(4), 663-677.
+Bourke, J. & Roper, S. (2012). In with the new: The determinants of prescribing
+innovation by general practitioners in Ireland. The European Journal of Health
+Economics, 13(4), 393-407.
+Boyd, T.C. & Mason, C.H. (1999). The link between attractiveness of "extrabrand"
+attributes and the adoption of innovations. Academy of Marketing Science Journal,
+27(3), 306-319.
+Boz, I. & Akbay, C. (2005). Factors influencing the adoption of maize in Kahramanmaras
+province of Turkey. Agricultural Economics, 33, 431-440.
+Caldwell, M. & Kleppe, I. (2010) "Early Adopters in the Diffusion of an Hiv/Aids Public
+Health Innovation in a Developing Country", in NA - Advances in Consumer
+Research, Vol. 37, eds. Margaret C. Campbell, Jeff Inman, and Rik Pieters, Duluth,
+MN: Association for Consumer Research, Pages: 326-332.
+Centola, D. (2011). An experimental study of homophily in the adoption of health
+behavior. Science, 334, 1269-1272.
+Chiyangwa, T.B. & Alexander, P.M. (2015). Rapidly co-evolving technology adoption
+and diffusion models. Telematics and Informatics, 33, 56-76.
+Cho, Y. and Koo, Y. (2012). Investigation of the effect of secondary market on the
+diffusion of innovation. Technological Forecasting & Social Change, 79, 13621371.
+
+Cundy, T.P., Marcus, H.J., Hughes-Hallett, A., Najmaldin, A.S., Yang, G.-Z., & Darzi,
+A. (2014). International attitudes of early adopters to current and future robotic
+technologies in pediatric surgery. Journal of Pediatric Surgery, 49, 1522-1526.
+Eerkens, J. W. & Lipo, C. P. (2014). A tale of two technologies: Prehistoric diffusion of
+pottery innovations among hunter-gatherers. Journal of Anthropological
+Archaeology, 35, 23-31.
+Engel, J. F., Blackwell, R. D. & Miniard, P. W. (1990). Consumer Behaviour. Hinsdale
+(IL), The Dryden Press.
+Evanschitzky, H., Iyer, G.R., Pillai, K.G., Kenning, P., & Schütte, R. (2015). Consumer
+trial, continuous use, and economic benefits of a retail service innovation: The case
+of the personal shopping assistant. Journal of Product Innovation Management,
+32(3), 459-475.
+Faiers, A. & Neame, C. (2006). Consumer attitudes towards domestic solar power
+systems. Energy Policy, 34(14), 1797-1806.
+Faiers, A., Neame, C., & Cook, M. (2007). The adoption of domestic solar-power
+systems: Do consumers assess product attributes in a stepwise process? Energy
+Policy, 35, 3418-3423.
+Florman, S. C. (2000). Technology and the Tragic View. In: Technology and the Future.
+A. H. Teich. Boston, New York, Bedford/St. Martin's, 50-58.
+Forte´-Gardner, O., Young, F.L., Dillman, D.A., & Carroll, M.S. (2004). Increasing the
+effectiveness of technology transfer for conservation cropping systems through
+research and field design. Renewable Agriculture and Food Systems, 19(4), 199–
+209.
+Foxall, G. R., Goldsmith, R. E. (1994). Consumer Psychology for Marketing. London,
+Routledge.
+Griliches, Z. (1957). Hybrid corn: An exploration in the economics of technological
+change. Econometrica, 25(4), 501-22.
+Hart, C. (1998). Doing a literature review: Releasing the social science research
+imagination. Sage.
+Hartzler, B. & Rabun, C. (2013). Community treatment adoption of contingency
+management: A conceptual profile of U.S. clinics based on innovativeness of
+executive staff. International Journal of Drug Policy, 24, 333-341.
+Holak, S. L. (1988). Determinants of innovative durables adoption an empirical study
+with implications for early product screening. Journal of Product Innovation
+Management, 5(1), 50-69.
+Holak, S. L. & Lehmann, D.R. (1990). Purchase intentions and the dimensions of
+innovation: An exploratory model. Journal of Product Innovation Management,
+7(1), 59-73.
+Jansson, J., Marell, A., & Nordlund, A. (2011). Exploring consumer adoption of a high
+involvement eco-innovation using value-belief-norm theory. Journal of Consumer
+Behaviour, 10, 51–60.
+Jeyaraj, A., Rottman, J. W. & Lacity, M. C. (2006). A review of the predictors, linkages,
+and biases in IT innovation adoption research. Journal of Information Technology,
+21(1), 1-23.
+Jin, C.-H. (2013). The effects of individual innovativeness on users’ adoption of Internet
+content filtering software and attitudes toward children’s Internet use. Computers in
+Human Behavior, 29, 1904-1916.
+Kah, J.A., Vogt, C.A., & MacKay, K. (2006). Understanding travel information search
+behaviors by levels of information technology adoption. Proceedings of the 2006
+Northeastern Recreation Research Symposium, 104-109.
+Kauffman, R.J. & Techatassanasoontorn, A.A. (2009). Understanding early diffusion of
+digital wireless phones. Telecommunications Policy, 33, 432-450.
+
+18
+
+Kavak, B. & Demirsoy, C. (2009). Identification of adopter categories for online banking
+in Turkey. The Service Industries Journal, 29(8), 1037–1051.
+Kozyrskyj, A., Raymond, C., & Racher, A. (2007). Characterizing early prescribers of
+newly marketed drugs in Canada: A population-based study. European Journal of
+Clinical Pharmacology, 63, 597-604.
+Labay, D.G. and Kinnear, Th.C. (1981) Exploring the consumer decision process in the
+adoption of solar energy systems. The Journal of Consumer Research, 8(3), 271278.
+Lee, S.-Y. (2014). Examining the factors that influence early adopters’ smartphone
+adoption: The case of college students. Telematics and Informatics, 31, 308-318.
+Lin, M.-S. & Wu, F.-S. (2013). Identifying the determinants of broadband adoption by
+diffusion stage in OECD countries. Telecommunications Policy, 37, 241-251.
+Loogma, K., Kruusvall, J., & Ümarik, M. (2012). E-learning as innovation: Exploring
+innovativeness of the VET teachers’ community in Estonia. Computers &
+Education, 58, 808-817.
+Lublóy, Á. (2014). Factors affecting the uptake of new medicines: A systematic literature
+review. BMC Health Services Research, 14, 1–25.
+Läpple, D. & Van Rensburg, T. (2011). Adoption of organic farming: Are there
+differences between early and late adoption? Ecological Economics, 70, 1406-1414.
+Mahapatra, K. & Gustavsson, L. (2008). An adopter-centric approach to analyze the
+diffusion patterns of innovative residential heating systems in Sweden. Energy
+Policy, 36(2), 577–90.
+Moldovan, S., Steinhart, Y., & Ofen, S. (2015). “Share and scare”: Solving the
+communication dilemma of early adopters with a high need for uniqueness. Journal
+of Consumer Psychology, 25(1), 1–14.
+Moore, G. A. (2002). Crossing the Chasm. Marketing and Selling Disruptive Products to
+Mainstream Customers. New York, HarperCollins Publishers.
+Namdeo, A., Tiwary, A., & Dziurla, R. (2014). Spatial planning of public charging points
+using multi-dimensional analysis of early adopters of electric vehicles for a city
+region. Technological Forecasting and Social Change, 89, 188–200.
+Nygrén, N.A, Kontio, P., Lyytimäki, J., Varho, V., & Tapio, P. (2015). Early adopters
+boosting the diffusion of sustainable small-scale energy solutions. Renewable and
+Sustainable Energy Reviews, 46, 79-87.
+Ornetzeder, M. (2001). Old technology and social innovations. Inside the Austrian
+success story on solar water heaters. Technology Analysis & Strategic Management,
+13(1), 105–115.
+Ortt, J.R. & Schoormans, J.P.L. (2004). The Pattern of Development and Diffusion of
+Breakthrough Communication Technologies, European Journal of Innovation
+Management 7(4), 292-302.
+Ortt, R.J., Langley, D.J. & Pals, N. (2007). Exploring the market for breakthrough
+technologies. Technological Forecasting and Social Change, 74(9), 1788-1804.
+Ortt, J.R. (2010). Understanding the Pre-diffusion Phases. Gaining Momentum Managing
+the Diffusion of Innovations. J. Tidd. London, Imperial College Press: 47-80.
+Padel, S. (2001). Conversion to organic farming: A typical example of the diffusion of an
+innovation? Sociologia Ruralis, 41(1), 40–61.
+Park, S. & Yoon, S.-H. (2005). Separating early-adopters from the majority: The case of
+broadband internet access in Korea. Technological Forecasting and Social Change,
+72(3), 301–25.
+Parra-Lopez, C., De-Haro-Giménez, T., & Calatrava-Requena, J. (2007). Diffusion and
+adoption of organic farming in the southern Spanish olive groves. Journal of
+Sustainable Agriculture, 30(1), 105–51.
+
+Perrow, C. (2011). Normal accidents: Living with high risk technologies, Princeton
+University Press.
+Peters, A. & Dütschke, E. (2014). How do consumers perceive electric vehicles? A
+comparison of German consumer groups. Journal of Environmental Policy &
+Planning, 16(3), 359–77.
+Plötz, P., Schneider, U., Globisch, J., & Dütschke, E. (2014). Who will buy electric
+vehicles? Identifying early adopters in Germany. Transportation Research Part A,
+67, 96–109.
+Pollack, C.E., Soulos, P.R., & Gross, C.P. (2015). Physician’s peer exposure and the
+adoption of a new cancer treatment modality. Cancer, Aug, 2799-2807.
+Robertson, T. S. (1971). Innovative behavior and communication, Holt, Rinehart and
+Winston.
+Rogers, E. M. (1958). Categorizing the adopters of agricultural practices, Rural
+Sociology, 23(4), 346-354.
+Rogers, E. M. (1962). Diffusion of Innovations (1st ed.). New York, NY, Free Press.
+Rogers, E.M., and Shoemaker, F. (1971) Diffusion of innovations. (2nd ed.). New York,
+NY, Free Press.
+Rogers, E. M. (1995). Diffusion of Innovations. (4th ed.). New York, NY, Free Press.
+Rogers, E. M. (2003). Diffusion of Innovations. (5th ed.). New York, NY, Free Press.
+Rossow, I. (2005). Trends in wine consumption in Norway: Is diffusion theory
+applicable? Advances in Health Economics and Health Services Research, 16, 215–
+28.
+Sawng, Y.-W., Motohashi, K., & Kim, G.-H. (2013). Comparative analysis of innovative
+diffusion in the high-tech markets of Japan and South Korea: A use-diffusion model
+approach. Service Business, 7(1), 143–66.
+Seebauer, S. (2015). Why early adopters engage in interpersonal diffusion of
+technological innovations: An empirical study on electric bicycles and electric
+scooters. Transportation Research Part A, 78, 146–60.
+Simunovic, M., Coates, A., Smith, A., Thabane, L., Goldsmith, C.H., & Levine, M.N.
+(2013). Uptake of an innovation in surgery: Observations from the ClusterRandomized Quality Initiative in Rectal Cancer Trial. Canadian Journal of
+Surgery, 56(6), 415–21.
+Sopha, B.M., Klöckner, C.A., & Hertwich, E.G. (2011). Adopters and non-adopters of
+wood pellet heating in Norwegian households. Biomass and Bioenergy, 35, 652662.
+Stafford, T.F. (2003). Differentiating between adopter categories in the uses and
+gratifications for internet services. IEEE Transactions on Engineering
+Management, 50(4), 427–35.
+Svensson, M. (2014). Voice, power and connectivity in China’s microblogosphere:
+Digital divides on SinaWeibo. China Information, 28(2), 168–88.
+Tauber, E. M. (1974). How market research discourages major innovation. Business
+Horizons, 17(3), 22-26.
+Thøgersen, J., Haugaard, P., & Olesen, A. 2010. Consumer responses to ccolabels.
+European Journal of Marketing, 44(11/12), 1787–1810.
+Upadhyay, B.M., Young, D.L., Wang, H.H., & Wandschneider, P. (2002). How do
+farmers who adopt multiple conservation practices differ from their neighbors? In
+Annual Meetings of the Western Agricultural Economics Association, Long Beach,
+CA.
+Van Der Zande, M.M., Gorter, R.C., & Wismeijer, D. (2013). Dental practitioners and a
+digital future: An initial exploration of barriers and incentives to adopting digital
+technologies. British Dental Journal, 215(11), 1-5.
+
+20
+
+Van Havere, T., Lammertyn, J., Vanderplasschen, W., Bellis, M., Rosiers, J., &
+Broekaert, E. (2012). Illicit drug use in the Flemish nightlife scene between 2003
+and 2009. European Addiction Research, 18(4), 153–60.
+Van Rijnsoever, F.J. & Oppewal, H. (2012). Predicting early adoption of successive
+video player generations. Technological Forecasting and Social Change, 79(3),
+558–569.
+Venkatraman, M.P. (1991). The impact of innovativeness and innovation type on
+adoption. Journal of Retailing, 67(1), 51-67.
+Wansink, B. & Kranz, S. 2013. Who’s using MyPlate? Journal of Nutrition Education
+and Behavior, 45(6), 728–32.
+Watcharaanantapong, P., Roberts, R.K., Lambert, D.M., Larson, J.A., Velandia, M.,
+English, B.C., Rejesus, R.M., & Wang, C. (2014). Timing of precision agriculture
+technology adoption in US cotton production. Precision Agriculture, 15(4), 427–46.
+Wheeler, S., Bjornlund, H., Shanahan, M., & Zuo, A. (2009). Who trades water
+allocations? Evidence of the characteristics of early adopters in the GoulburnMurray irrigation district, Australia 1998-1999. Agricultural Economics, 40, 631643.
+Woo, M.Y., Frank, J.R., & Lee, A.C. (2013). Point-of-Care Ultrasonography adoption in
+Canada: Using diffusion theory and the Evaluation Tool for Ultrasound Skills
+Development and Education (ETUDE). Canadian Journal of Emergency Medicine,
+16(5), 245–51.
+Zayim, N., Yıldırım, S., & Saka, O. (2006). Technology adoption of medical faculty in
+teaching: Differentiating factors in adopter categories. Educational Technology &
+Society, 9, 213–22.
+Zhang, X., Yu, P., Yan, J., Ton, I., & Spil, A.M. (2015). Using diffusion of innovation
+theory to understand the factors impacting patient acceptance and use of consumer
+e-health innovations: A case study in a primary care clinic. BMC Health Services
+Research, 15.
+
+
