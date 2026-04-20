@@ -8,9 +8,9 @@ opportunities and challenges.
 > Leipzig University Library, [Martin
 > Czygan](https://www.linkedin.com/in/martin-czygan-58348842/)
 
-## Today
+## Intro
 
-Two parts.
+Two parts: Installation and Examples.
 
 * [ ] landscape of open LLMs and applications [10]
 * [ ] install and try an application that lets us choose between different providers [35]
@@ -25,17 +25,17 @@ Outlook, agentic systems.
 
 * [ ] research assistant and coding help ("agent")
 
-## Reminders, Disclaimers
+### Reminders, Disclaimers
 
 * You will be using AI tools best, when you have developed an expertise in a subject. You may call it [KI-Fachkompetenzschwelle](https://barbarageyer.substack.com/p/ki-fachkompetenzschwelle).
 * Overall, early adopters suffer more
 * AI bubble ≠ AI
 
-## Background
+### Background
 
 * [notes/2026-04-20-instructor.md](notes/2026-04-20-instructor.md)
 
-## Why Local Models
+### Why Local Models
 
 * ownership vs renting
 * a level of autonomy, control, privacy, predictability and freedom
@@ -52,7 +52,7 @@ closed models to superior open models would reduce average prices by over 70%
 and, when extrapolated to the total market, generate an **estimated $24.8
 billion in additional consumer savings across 2025**.
 
-## Why not
+### Why not
 
 * usually less capable models (fewer parameters, quantized)
 * you will need hardware (laptop, desktop), or access to hardware (server, data center)
@@ -118,8 +118,6 @@ Example: [SciCode](https://scicode-bench.github.io/), SciCode: A Research Coding
 > benchmarks that consist of exam-like question-answer pairs, SciCode is
 > converted from real research problems ...
 
-
-
 ### Special Case: Software development
 
 * [SWE-rebench: A Continuously Evolving and Decontaminated Benchmark for Software Engineering LLMs](https://swe-rebench.com/?insight=oct_2025)
@@ -138,15 +136,42 @@ Note: however a 128GB VRAM machine could run most versions of Qwen3-Coder-Next.
 
 ![](static/screenshot-2026-03-08-234643-hf-qwen3-coder-next-128gb.png)
 
-## Today
+## Using a desktop application
 
-We will have a couple of options to run an LLM today.
+* Go to [www.jan.ai](https://www.jan.ai/) and **download the application for your platform**
 
-* [x] "xs", a [single board computer](https://www.zimaspace.com/products/single-board-server#specs), 8GB RAM, 9W
+![](static/screenshot-2026-04-21-010406-jan-ai-homepage.png)
+
+* There are many modalities to access LLMs, web, desktop, command line, plugins, ...
+* Matter of preference, integration
+
+## Configuring Providers
+
+* **Go to Settings > Model Providers** and then click the plus sign to add a new provider.
+
+![](static/screenshot-2026-04-21-010835-jan-ai-add-provider.png)
+
+A model provider is an abstraction and API to interact with a language model.
+
+We have a couple of options to run an LLM today. All of them are either under our control or belong to a trusted third party.
+
 * [x] "s", a [single board computer](https://www.zimaspace.com/products/single-board2-server#specs), 16GB RAM, 20W
-* [x] "m", [20GB VRAM GPU](https://www.nvidia.com/content/dam/en-zz/Solutions/rtx-4000-sff/proviz-rtx-4000-sff-ada-datasheet-2616456-web.pdf), 70W
-* [x] "l", unified [128GB RAM](https://www.amd.com/en/products/processors/laptop/ryzen/ai-300-series/amd-ryzen-ai-max-plus-395.html), 120W
-* [x] "xl", NVIDIA [A100](https://www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/a100/pdf/nvidia-a100-datasheet-nvidia-us-2188504-web.pdf), 300W
+* [x] "m", desktop workstation, [20GB VRAM GPU](https://www.nvidia.com/content/dam/en-zz/Solutions/rtx-4000-sff/proviz-rtx-4000-sff-ada-datasheet-2616456-web.pdf), 70W
+* [x] "l", desktop workstation, unified [128GB RAM](https://www.amd.com/en/products/processors/laptop/ryzen/ai-300-series/amd-ryzen-ai-max-plus-395.html), 120W
+* [x] "xl", data center, NVIDIA [A100](https://www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/a100/pdf/nvidia-a100-datasheet-nvidia-us-2188504-web.pdf), 300W
+
+The only option to set is the **Base URL** of the model. Those will be handed
+out during the workshop. Once you typed in the correct URL, and pressed the
+**reload** button, the application will automatically find and fill in the list
+of the available models.
+
+You can repeat this for all four providers.
+
+* [x] "s" ~ 12 models
+* [x] "m" ~ 81 models
+* [x] "l" ~ 84 models
+* [x] "xl" ~ 19 models
 
 Let's go!
+
 
