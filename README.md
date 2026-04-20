@@ -77,6 +77,48 @@ An example of performance regression caused by lower parameters counts
 
 A Strix Halo (128GB) box runs 122B-A10B (88GB) with PE/PP of 68/21 t/s.
 
+### Evaluations
+
+Capabilities are evaluated with benchmarks; examples:
+
+* GPQA
+* MMLU
+* MMLU-Pro
+* AIME 2025
+* MATH
+* HumanEval
+* MMMU
+* LiveCodeBench
+* IFEval
+* GSM8K
+* SWE-Bench Verified
+
+And thousands more; many are "saturated"; e.g. MMLU, HumanEval, BBH, DROP, MGSM, GSM8K, MATH, most old math benchmarks
+
+* LiveBench: new questions every month from fresh sources, [livebench.ai](https://livebench.ai/#/?highunseenbias=true), [data](https://huggingface.co/collections/livebench/livebench),
+* ARC-AGI-2: The Abstraction and Reasoning Corpus for Artificial General Intelligence benchmark measures an AI system's ability to efficiently learn new skills
+* GPQA-Diamond: 198 grad-level science questions designed to be Google-proof. PhD experts score 65%. Starting to saturate at the top (90%+ for best reasoning models) but still useful
+* SimpleQA: factual recall / hallucination detection. Less contaminated than older QA sets
+* SWE-Bench Verified + Pro: real GitHub issues, real codebases
+* HLE: humanities equivalent of GPQA
+* MMMU: multimodal understanding where the image actually matters
+* Tau-bench: tool-use reliability. Exposes how brittle most "agents" actually are
+* LMArena w/ style control: human preference with the verbosity trick filtered out
+* Scale SEAL: domain-specific (legal, finance)
+* SciCode scientific coding
+* HHEM: hallucination quantification
+
+Example: [SciCode](https://scicode-bench.github.io/), SciCode: A Research Coding Benchmark Curated by Scientists, [dataset](https://huggingface.co/datasets/SciCode1/SciCode)
+
+> SciCode is a challenging benchmark designed to evaluate the capabilities of
+> language models (LMs) in generating code for solving realistic scientific
+> research problems. It has a diverse coverage of 16 subdomains from 6 domains:
+> Physics, Math, Material Science, Biology, and Chemistry. Unlike previous
+> benchmarks that consist of exam-like question-answer pairs, SciCode is
+> converted from real research problems ...
+
+
+
 ### Special Case: Software development
 
 * [SWE-rebench: A Continuously Evolving and Decontaminated Benchmark for Software Engineering LLMs](https://swe-rebench.com/?insight=oct_2025)
