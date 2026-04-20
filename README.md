@@ -17,7 +17,8 @@ Two parts.
 
 In a second part, we try to assess, what kind of work a local LLM can or cannot do:
 
-* [ ] grammar checks, text work, summarization ("system prompt")
+* [ ] grammar checks, translations, summarization ("system prompt", "assistant")
+* [ ] lightweight analysis ("coding")
 * [ ] literature review ("analyzing documents")
 
 Outlook, agentic systems.
