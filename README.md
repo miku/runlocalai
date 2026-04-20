@@ -160,6 +160,8 @@ We have a couple of options to run an LLM today. All of them are either under ou
 * [x] "l", desktop workstation, unified [128GB RAM](https://www.amd.com/en/products/processors/laptop/ryzen/ai-300-series/amd-ryzen-ai-max-plus-395.html), 120W
 * [x] "xl", data center, NVIDIA [A100](https://www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/a100/pdf/nvidia-a100-datasheet-nvidia-us-2188504-web.pdf), 300W
 
+![](static/T_Shirt_Display.JPG)
+
 The only option to set is the **Base URL** of the model. Those will be handed
 out during the workshop. Once you typed in the correct URL, and pressed the
 **reload** button, the application will automatically find and fill in the list
