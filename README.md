@@ -94,7 +94,7 @@ Capabilities are evaluated with benchmarks; examples:
 * GSM8K
 * SWE-Bench Verified
 
-And thousands more; many are "saturated"; e.g. MMLU, HumanEval, BBH, DROP, MGSM, GSM8K, MATH, most old math benchmarks
+And thousands more; many are "saturated"; e.g. MMLU, HumanEval, BBH, DROP, MGSM, GSM8K, MATH, most *old* math benchmarks
 
 * LiveBench: new questions every month from fresh sources, [livebench.ai](https://livebench.ai/#/?highunseenbias=true), [data](https://huggingface.co/collections/livebench/livebench),
 * ARC-AGI-2: The Abstraction and Reasoning Corpus for Artificial General Intelligence benchmark measures an AI system's ability to efficiently learn new skills
@@ -170,5 +170,22 @@ of the available models.
 You can repeat this for all four providers.
 
 Let's go!
+
+
+## Application overview
+
+* a language model is mostly a file, interaction with it served via API
+* the application (here: Jan.ai) is a client, it facilitiates the requests to the API endpoint
+
+> To try: choose **New Chat** and select a model from the providers; let's choose **gemma3:270m** (available on S, M, L)
+
+![](screenshot-2026-04-21-092927-jan-ai-new-chat-model-selection.png)
+
+* enter a prompt and send!
+
+
+### What happens?
+
+* The message is sent to the remote endpoint, the LLM starts to emit token after token; the application receives the tokens and display them, as they arrive.
 
 
