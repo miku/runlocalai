@@ -213,4 +213,26 @@ You can use most models for translation these days, as parallel corpora are avai
 
 [![](static/screenshot-2026-04-21-094951-uncorpus-stats.png)](https://www.un.org/dgacm/en/content/uncorpus)
 
+Some specialized models exists and we want to look into one and learn about the concept of **assistants** in jan.ai desktop application.
+
+### Translategemma
+
+> Today, we're introducing TranslateGemma, a new collection of open translation
+> models built on Gemma 3, helping people communicate across 55 languages, no
+> matter where they are or what device they own. [Jan 15, 2026](https://blog.google/innovation-and-ai/technology/developers-tools/translategemma/)
+
+[![](static/01-14_Chart_v3.width-1000.format-webp.webp)](https://blog.google/innovation-and-ai/technology/developers-tools/translategemma/)
+
+Some models a trained with specific prompts and those can be used to get the best performance out:
+
+[![](static/screenshot-2026-04-21-095717-translategemma-52-prompting-the-model.png)](https://arxiv.org/pdf/2601.09012#page=5)
+
+> You are a professional {source_lang} ({src_lang_code}) to {target_lang}
+> ({tgt_lang_code}) translator. Your goal is to accurately convey the meaning
+> and nuances of the original {source_lang} text while adhering to
+> {target_lang} grammar, vocabulary, and cultural sensitivities. Produce only
+> the {target_lang} translation, without any additional explanations or
+> commentary. Please translate the following {source_lang} text into
+> {target_lang}:\n\n\n{text}
+
 
