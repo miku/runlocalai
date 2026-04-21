@@ -122,7 +122,7 @@ Example: [SciCode](https://scicode-bench.github.io/), SciCode: A Research Coding
 
 * [SWE-rebench: A Continuously Evolving and Decontaminated Benchmark for Software Engineering LLMs](https://swe-rebench.com/?insight=oct_2025)
 
-![SWE-rebench: 01/2026](static/leaderboard_with_logos.png)
+[![SWE-rebench: 01/2026](static/leaderboard_with_logos.png)](https://swe-rebench.com/?insight=jan_2026)
 
 While not at the top, Kimi K2 Thinking at **#12**, GLM-5 at **#14**, GLM-4.7 at
 **#15** and Qwen3-Coder-Next at **#16**.
@@ -130,11 +130,11 @@ While not at the top, Kimi K2 Thinking at **#12**, GLM-5 at **#14**, GLM-4.7 at
 Note: A FP8 version of GLM-5 would require [860GB
 VRAM](https://unsloth.ai/docs/models/glm-5)
 
-![](static/glm-5-benchmarks.jpeg)
+[![](static/glm-5-benchmarks.jpeg)](https://z.ai/blog/glm-5)
 
 Note: however a 128GB VRAM machine could run most versions of Qwen3-Coder-Next.
 
-![](static/screenshot-2026-03-08-234643-hf-qwen3-coder-next-128gb.png)
+[![](static/screenshot-2026-03-08-234643-hf-qwen3-coder-next-128gb.png)](https://huggingface.co/unsloth/Qwen3-Coder-Next-GGUF)
 
 ## Using a desktop application
 
