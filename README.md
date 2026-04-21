@@ -183,9 +183,34 @@ Let's go!
 
 * enter a prompt and send!
 
-
 ### What happens?
 
-* The message is sent to the remote endpoint, the LLM starts to emit token after token; the application receives the tokens and display them, as they arrive.
+* the message is sent to the remote endpoint
+* the LLM starts to calculate a probably next token
+* it emits token after token
+* the application receives the tokens and display them, as they arrive
+
+## Notes on Model Selection
+
+Usually two modes:
+
+* [ ] official **benchmarks**, task **evaluations**
+* [ ] a **vibe check**; does it work *for me*
+
+Not perfectly correlated, a model with bad benchmarks may still be useful, and vice versa.
+
+Some general notions:
+
+* [ ] **number of parameters**; typically millions to billions, 100M to 800B; higher typically better; proprietary models may be in the 1T-2T range
+* [ ] **architecture**: e.g. mixture of experts models require fewer resources
+* [ ] **training style**; e.g. "instruct"
+* [ ] **specializations**, e.g. "translations", "tool use", "coding", ...
+
+
+## Application: Translation
+
+You can use most models for translation these days, as parallel corpora are available for many languages, e.g. UN corpus and others.
+
+[![](static/screenshot-2026-04-21-094951-uncorpus-stats.png)](https://www.un.org/dgacm/en/content/uncorpus)
 
 
