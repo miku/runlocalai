@@ -1,7 +1,7 @@
 # RUN LOCAL AI
 
-Quick update on how to run your own LLM/VLM and other AI applications:
-opportunities and challenges.
+Quick update on how to run your own LLM/VLM with applications: opportunities
+and challenges.
 
 > 2026-04-21 13:15-14:45 [90m],
 > [BMN](https://www.ub.uni-leipzig.de/standorte/medizinnaturwissenschaften),
@@ -9,6 +9,32 @@ opportunities and challenges.
 > Czygan](https://www.linkedin.com/in/martin-czygan-58348842/)
 
 ## Intro
+
+### About You
+
+Just a few questions, if I may ask.
+
+#### Your LLM background
+
+> How often do you reach to an LLM (or VLM, LMM, ...)?
+
+* daily use: XX
+* moderate: XX
+* never: XX
+
+#### Most used tool and interaction mode
+
+> You tell me, there are many different combinations. Anything you like, or dislike?
+
+* ...
+
+#### Any contact with the open weights ecosystem?
+
+> Tried, tested, heard about?
+
+* ...
+
+### Outline
 
 Two parts: Installation and Examples.
 
@@ -117,6 +143,8 @@ Example: [SciCode](https://scicode-bench.github.io/), SciCode: A Research Coding
 > Physics, Math, Material Science, Biology, and Chemistry. Unlike previous
 > benchmarks that consist of exam-like question-answer pairs, SciCode is
 > converted from real research problems ...
+
+Another more recent example: [FrontierSWE](https://www.frontierswe.com/)
 
 ### Special Case: Software development
 
