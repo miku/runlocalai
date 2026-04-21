@@ -18,38 +18,48 @@ Just a few questions, if I may ask.
 
 > How often do you reach to an LLM (or VLM, LMM, ...)?
 
-* daily use: XX
-* moderate: XX
-* never: XX
+* daily use: 9
+* moderate: 5
+* never: 1
 
 #### Most used tool and interaction mode
 
 > You tell me, there are many different combinations. Anything you like, or dislike?
 
-* ...
+
+* Claude Code in VS
+* API / n8n / agentic
+* Web: ChatGPT, Mistral, …
+* Elicit
+* Academic Cloud (Chat-AI)
+* Zeitungskorpus / Würzburg / Impresso
+* KI-Plugin Zotero, PDF durchsuchen
 
 #### Any contact with the open weights ecosystem?
 
 > Tried, tested, heard about?
 
-* ...
+
+* academic cloud
+* huggingface
+* blablador (HH)
 
 ### Outline
 
 Two parts: Installation and Examples.
 
-* [ ] landscape of open LLMs and applications [10]
-* [ ] install and try an application that lets us choose between different providers [35]
+* [x] landscape of open LLMs and applications [10]
+* [x] install and try an application that lets us choose between different providers [35]
 
 In a second part, we try to assess, what kind of work a local LLM can or cannot do:
 
-* [ ] grammar checks, translations, summarization ("system prompt", "assistant")
-* [ ] lightweight analysis ("coding")
-* [ ] literature review ("analyzing documents")
+* [x] grammar checks, translations, summarization ("system prompt", "assistant")
+* [x] lightweight analysis ("coding")
+* [x] literature review ("analyzing documents")
 
 Outlook, agentic systems.
 
-* [ ] research assistant and coding help ("agent")
+* [x] research assistant and coding help ("agent")
 
 ### Reminders, Disclaimers
 
@@ -185,8 +195,8 @@ We have a couple of options to run an LLM today. All of them are either under ou
 
 * [x] **"s"**, ~10+ models, a [single board computer](https://www.zimaspace.com/products/single-board2-server#specs), 16GB RAM, 20W
 * [x] **"m"**, ~80+ models, desktop workstation, [20GB VRAM GPU](https://www.nvidia.com/content/dam/en-zz/Solutions/rtx-4000-sff/proviz-rtx-4000-sff-ada-datasheet-2616456-web.pdf), 70W
-* [x] **"l"**, ~80+ models,  desktop workstation, unified [128GB RAM](https://www.amd.com/en/products/processors/laptop/ryzen/ai-300-series/amd-ryzen-ai-max-plus-395.html), 120W
-* [x] **"xl"**, ~10+ models, data center, NVIDIA [A100](https://www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/a100/pdf/nvidia-a100-datasheet-nvidia-us-2188504-web.pdf), 300W
+* [x] **"l"**, ~80+ models, desktop workstation, unified [128GB RAM](https://www.amd.com/en/products/processors/laptop/ryzen/ai-300-series/amd-ryzen-ai-max-plus-395.html), 120W
+* [x] **"x"**, ~10+ models, data center, NVIDIA [A100](https://www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/a100/pdf/nvidia-a100-datasheet-nvidia-us-2188504-web.pdf), 300W
 
 ![](static/T_Shirt_Display-S.JPG)
 
@@ -198,7 +208,6 @@ of the available models.
 You can repeat this for all four providers.
 
 Let's go!
-
 
 ## Application overview
 
