@@ -273,7 +273,7 @@ Some models a trained with specific prompts and those can be used to get the bes
 > {target_lang}:\n\n\n{text}
 
 It would be tedious to repeat this text with every translation. This is what
-**assisstants** are for, a way to fix a part of a prompt, sent along with every
+**assistants** are for, a way to fix a part of a prompt, sent along with every
 request.
 
 In Jan **Settings > Assistants**, click **Add Assitant** and fill in name and
