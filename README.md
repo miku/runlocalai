@@ -155,10 +155,10 @@ A model provider is an abstraction and API to interact with a language model.
 
 We have a couple of options to run an LLM today. All of them are either under our control or belong to a trusted third party.
 
-* [x] "s", a [single board computer](https://www.zimaspace.com/products/single-board2-server#specs), 16GB RAM, 20W
-* [x] "m", desktop workstation, [20GB VRAM GPU](https://www.nvidia.com/content/dam/en-zz/Solutions/rtx-4000-sff/proviz-rtx-4000-sff-ada-datasheet-2616456-web.pdf), 70W
-* [x] "l", desktop workstation, unified [128GB RAM](https://www.amd.com/en/products/processors/laptop/ryzen/ai-300-series/amd-ryzen-ai-max-plus-395.html), 120W
-* [x] "xl", data center, NVIDIA [A100](https://www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/a100/pdf/nvidia-a100-datasheet-nvidia-us-2188504-web.pdf), 300W
+* [x] **"s"**, ~10+ models, a [single board computer](https://www.zimaspace.com/products/single-board2-server#specs), 16GB RAM, 20W
+* [x] **"m"**, ~80+ models, desktop workstation, [20GB VRAM GPU](https://www.nvidia.com/content/dam/en-zz/Solutions/rtx-4000-sff/proviz-rtx-4000-sff-ada-datasheet-2616456-web.pdf), 70W
+* [x] **"l"**, ~80+ models,  desktop workstation, unified [128GB RAM](https://www.amd.com/en/products/processors/laptop/ryzen/ai-300-series/amd-ryzen-ai-max-plus-395.html), 120W
+* [x] **"xl"**, ~10+ models, data center, NVIDIA [A100](https://www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/a100/pdf/nvidia-a100-datasheet-nvidia-us-2188504-web.pdf), 300W
 
 ![](static/T_Shirt_Display.JPG)
 
@@ -168,11 +168,6 @@ out during the workshop. Once you typed in the correct URL, and pressed the
 of the available models.
 
 You can repeat this for all four providers.
-
-* [x] "s" ~ 12 models
-* [x] "m" ~ 81 models
-* [x] "l" ~ 84 models
-* [x] "xl" ~ 19 models
 
 Let's go!
 
