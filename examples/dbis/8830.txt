@@ -1,0 +1,63 @@
+   Zur Datenbank
+   Das Internet-Archive (IA) ist ein gemeinnütziges Projekt mit dem Ziel frei
+   im Internet zugängliche Websites, Texte, Audio-Dateien, Film-Dateien und
+   Software zu archivieren.
+     * Mithilfe der sogenannten Wayback Machine ist es möglich, ältere
+       Versionen einer Website (ab 1996) oder nicht mehr existierende
+       Webauftritte zu recherchieren.
+     * Als Mitglied der Open Content Alliance (OCA), einem Zusammenschluss
+       von Unternehmen und nicht-kommerziellen Organisationen, unterstützt es
+       die Digitalisierung von urheberrechtsfreien Texten und stellt diese
+       auf seiner Plattform zur Verfügung. Dazu zählen beispielsweise die
+       digitalisierten Bestände von überwiegend nordamerikanischen
+       Bibliotheken. Zu den über das Internet-Archive zugänglichen Sammlungen
+       gehört u.a. das Universal Library Project, auch Million Books Project
+       genannt.
+     * Neben Mitschnitten von Live-Konzerten und einer Vielzahl von
+       nichtkommerziellen Musikwerken sind auch Hörbücher, vornehmlich in
+       englischer Sprache, im IA enthalten. Zu nennen sind in diesem
+       Zusammenhang beispielsweise die Sammlung LibriVox und das Naropa
+       University Archive Project.
+     * Der Bereich Film deckt, wie alle anderen Abteilungen, ein sehr breites
+       Spektrum ab. Dies reicht vom Zeichentrickfilm, über Propagandafilme
+       bis zu einem September 11 Television Archive.
+     * Besonderheit der Software-Sammlung ist das sich noch im Aufbau
+       befindliche Classic Software Preservation Project, das sich zum Ziel
+       gesetzt hat, überholte Software aus den späten 1970er bis Anfang der
+       1990er Jahre zu archivieren.
+
+    Frei verfügbar
+
+   Formaltyp  Online
+   Hier finden Sie die Suchmaske der Erweiterten Suche (Advanced Search)
+     * frei verfügbar Infos zum Zugang
+     * Zugangstyp  
+       Zugangslink https://archive.org/ 
+
+     ----------------------------------------------------------------------
+
+   Bei Fragen zur Datenbank oder zur Lizenzierung wenden Sie sich gerne an
+   Zur Datenbank-Ansicht der Organisation wechseln
+   zur Administration (nur für Bibliotheksmitarbeitende aus
+   DBIS-Teilnehmereinrichtungen)
+
+   DBIS ist Teil der
+
+   Logo der UR Library Services, Services angeboten von der
+   Universitätsbliothek Regensburg
+     * EZB | Elektronische Zeitschriftenbibliothek
+     * RVK | Regensburger Verbundklassifikation
+
+   DBIS ist ein kooperativ organisierter Onlineservice zur Nutzung von
+   wissenschaftlichen Datenbanken
+
+   Impressum
+
+   Datenschutz
+
+   DBIS-Services
+
+   Administration
+
+   Gefördert durch die Deutsche Forschungsgemeinschaft (DFG), Projektnummer
+   440516279

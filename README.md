@@ -235,4 +235,92 @@ Some models a trained with specific prompts and those can be used to get the bes
 > commentary. Please translate the following {source_lang} text into
 > {target_lang}:\n\n\n{text}
 
+It would be tedious to repeat this text with every translation. This is what
+**assisstants** are for, a way to fix a part of a prompt, sent along with every
+request.
+
+In Jan **Settings > Assistants**, click **Add Assitant** and fill in name and
+instructions. There are a couple model parameters, which we skip for now.
+
+![](static/screenshot-2026-04-21-100342-jan-ai-assistant-config.png)
+
+
+
+## Application: Helpdesk
+
+Prompt customization are the simplest way to change the behaviour of a model.
+
+
+* create a new assistant for "helpdesk" trying to answer basic questions
+* e.g. use the text from [digital newspapers](https://www.ub.uni-leipzig.de/recherche/elektronische-zeitungen)
+
+
+
+## Application: Coding and Data Analysis
+
+Sometime, the LLM is more helpful as an indirect assistant. E.g. if you want to
+analyze some data, you may want to prompt and steer the model towards creating
+a program that then solves your problem.
+
+Live demo: Writing a Python script to print out the content of an Excel file.
+
+
+## Excursion: Tool Use
+
+Tool use is a vehicle to work around LLM limitations by using verified data at
+query time to enhance LLM outputs. That can be many things:
+
+* a database of snippets from documents
+* web search
+* reading a file
+* listing directories
+
+By default, tools are **not enabled** in Jan, as they can be a security risk. Use these at your own digression.
+
+
+## Application: Document chat
+
+* in jan, there is a notion of a project; an indexed set of documents (pdfs), that can be used to chat with
+
+![](static/screenshot-2026-04-21-103359-jan-ai-project-view.png)
+
+This may or may not work well, let's try a simple example:
+
+* select a few PDF files (not too many for now, maybe at most three), **upload**
+* wait a few minutes until the PDF is chopped up and indexed
+* we pick a **qwen3.5-27b** from the "xl" provider
+* we go to **Settings > Providers** and for the "xl" provider we edit the preferences for the model to **allow tool use**
+
+![](static/screenshot-2026-04-21-110925-edit-model-tool-use.png)
+
+This is important, as the retrieval of the snippets is a tool. The LLM may
+freely choose other model, too, depending on **Settings > MCP Servers**.
+
+![](static/screenshot-2026-04-21-111101-jan-ai-settings-mcp-servers.png)
+
+> In my example, I choose 3 pdfs, with a total of 46 pages, it gets chopped into 457 chunks
+
+![](static/screenshot-2026-04-21-103917-jan-ai-project-view-indexed.png)
+
+Then, you can use normal chat and jan.ai will try to match your prompt to similar, hopefully relevant snippets of the PDFs.
+
+## Wrap up and outlook
+
+* local models can be an alternative, they iterate just as fast as propriatery models
+* hardware is expensive, but there exists infrastructure to share in many research groups and organizations on various levels
+
+### The agentic world
+
+Since the release of [Claude
+Code](https://en.wikipedia.org/wiki/Claude_(language_model)#Claude_Code) in
+02/2025, agentic coding has been gaining popularity. It is a mode that is more
+suitable for people already familiar with the command line.
+
+It builds on the idea that you can put an LLM with tools into a loop and let
+the LLM discover what it needs itself. Recently, since about 11/2025, frontier
+model capabilities improved for agentic setup and it can be fascinating,
+horrifying, dependent on your perspective.
+
+Are you interested in a demo?
+
 
