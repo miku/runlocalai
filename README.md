@@ -8,6 +8,30 @@ and challenges.
 > Leipzig University Library, [Martin
 > Czygan](https://www.linkedin.com/in/martin-czygan-58348842/)
 
+## Agenda
+- [Intro](#intro)
+  * [About You](#about-you)
+  * [Outline](#outline)
+  * [Reminders, Disclaimers](#reminders--disclaimers)
+  * [Background](#background)
+  * [Why Local Models](#why-local-models)
+  * [Why not](#why-not)
+  * [Evaluations](#evaluations)
+  * [Special Case: Software development](#special-case--software-development)
+- [Using a desktop application](#using-a-desktop-application)
+- [Configuring Providers](#configuring-providers)
+- [Application overview](#application-overview)
+  * [What happens?](#what-happens-)
+- [Notes on Model Selection](#notes-on-model-selection)
+- [Application: Translation](#application--translation)
+  * [Translategemma](#translategemma)
+- [Application: Helpdesk](#application--helpdesk)
+- [Application: Coding and Data Analysis](#application--coding-and-data-analysis)
+- [Excursion: Tool Use](#excursion--tool-use)
+- [Application: Document chat](#application--document-chat)
+- [Wrap up and outlook](#wrap-up-and-outlook)
+  * [The agentic world](#the-agentic-world)
+
 ## Intro
 
 ### About You
