@@ -20,9 +20,9 @@ Scholar](https://scholar.google.de/citations?user=7gueY4EAAAAJ), or at [Leipzig 
 
 A recording of one my first sessions with a local model (2023-04-18, [20w](https://openai.com/index/chatgpt/)):
 
-![](static/578575.gif)
+![](../static/578575.gif)
 
-An a longer journey:
+A longer journey:
 [#35](https://golangleipzig.space/posts/meetup-35-wrapup/),
 [#38](https://github.com/miku/localmodels),
 [#51](https://github.com/miku/nightjet/blob/main/notes/2025-05-27-lgo-51-short-talk.md),
