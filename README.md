@@ -360,7 +360,7 @@ a program that then solves your problem.
 Live demo: Writing a Python script to print out the content of an Excel file.
 
 
-## Excursion: Tool Use
+## Excursion: Tool Use and Agentic Workflow
 
 Tool use is a vehicle to work around LLM limitations by using verified data at
 query time to enhance LLM outputs. That can be many things:
@@ -369,6 +369,8 @@ query time to enhance LLM outputs. That can be many things:
 * web search
 * reading a file
 * listing directories
+
+![Agentic workflow](static/modelviz/agentic.png)
 
 By default, tools are **not enabled** in Jan, as they can be a security risk. Use these at your own digression.
 
