@@ -1,0 +1,69 @@
+// Agentic coding (local): an agent program sits between the user and the model,
+// and runs tools (files, shell, ...) on behalf of the model.
+digraph agentic {
+    rankdir=LR
+    compound=true
+    pad=0.4
+    nodesep=0.5
+    ranksep=0.9
+    bgcolor="white"
+    fontname="Helvetica,Arial,sans-serif"
+    fontcolor="#334155"
+    labelloc=t
+    fontsize=20
+    label=<<b>Agentic coding</b><br/><font point-size="12" color="#64748B">the model asks for tools, the agent runs them and sends the results back, until the task is done</font><br/> >
+
+    node [fontname="Helvetica,Arial,sans-serif", fontsize=14, fontcolor="#1E293B", style="filled", penwidth=1.6, margin="0.25,0.15"]
+    edge [fontname="Helvetica,Arial,sans-serif", fontsize=11, fontcolor="#475569", color="#64748B", penwidth=1.4, arrowsize=0.8]
+
+    user [shape=oval, fillcolor="#FBCFE8", color="#DB2777",
+          label=<<b>User</b>>]
+
+    subgraph cluster_local {
+        label=<<b>your computer</b>>
+        fontsize=13
+        fontcolor="#475569"
+        style="rounded,filled"
+        fillcolor="#F8FAFC"
+        color="#CBD5E1"
+        margin=20
+
+        agent [shape=box, style="rounded,filled", fillcolor="#DDD6FE", color="#7C3AED",
+               label=<<b>Agent program</b><br/><font point-size="10" color="#475569">opencode, aider, goose, ...</font>>]
+
+        program [shape=box, style="rounded,filled", fillcolor="#BFDBFE", color="#2563EB",
+                 label=<<b>Program</b><br/><font point-size="10" color="#475569">llama.cpp, ollama, ...</font>>]
+        model [shape=note, fillcolor="#FDE68A", color="#D97706",
+               label=<<b>Model file</b><br/><font point-size="10" color="#475569">weights, e.g. *.gguf</font>>]
+
+        subgraph cluster_tools {
+            label=<<b>tools</b>>
+            fontsize=12
+            fontcolor="#0F766E"
+            style="rounded,filled,dashed"
+            fillcolor="#F0FDFA"
+            color="#5EEAD4"
+            margin=14
+
+            files [shape=folder, fillcolor="#CCFBF1", color="#0D9488",
+                   label=<<b>Files</b><br/><font point-size="10" color="#475569">read, write, edit code</font>>]
+            shell [shape=box, style="rounded,filled", fillcolor="#CCFBF1", color="#0D9488",
+                   label=<<b>Shell</b><br/><font point-size="10" color="#475569">build, test, git, ...</font>>]
+            more [shape=box, style="rounded,filled,dashed", fillcolor="#CCFBF1", color="#0D9488",
+                  label=<<b>More tools</b><br/><font point-size="10" color="#475569">web search, MCP servers, ...</font>>]
+        }
+    }
+
+    user -> agent [label="task"]
+    agent -> user [label="result, changes"]
+
+    agent -> program [label="prompt + context"]
+    program -> agent [label="text or tool call"]
+    program -> model [label=<loads<br/> >, style=dashed, arrowhead=none, arrowtail=normal, dir=back]
+
+    agent -> files [label="run tool", lhead=cluster_tools, color="#0D9488", fontcolor="#0F766E", penwidth=2]
+    files -> agent [label="output", ltail=cluster_tools, color="#0D9488", fontcolor="#0F766E", penwidth=2]
+
+    // layout only: tools in a row, below the model program
+    files -> shell -> more [style=invis]
+}
