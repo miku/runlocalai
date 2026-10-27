@@ -140,7 +140,7 @@ Some consumer market machines in 2026:
 * [AMD Strix Halo APU](https://strixhalo.wiki/Guides/Buyer's_Guide) based
   systems, [Mac mini](https://www.apple.com/de/mac-mini/), [Mac
   Studio](https://www.apple.com/de/mac-studio/), anything with an [Nvidia
-  GPU](https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units)
+  GPU](https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units), e.g. [DGX Spark](https://www.nvidia.com/en-us/products/workstations/dgx-spark/), ...
 
 [![](static/i-made-a-true-to-scale-dimension-comparison-chart-of-every-v0-lvzixg09cyof1.webp)](https://www.reddit.com/r/MiniPCs/comments/1ng0p9r/i_made_a_truetoscale_dimension_comparison_chart/)
 
@@ -156,7 +156,9 @@ A Strix Halo (128GB) box runs 122B-A10B (88GB) with PE/PP of 68/21 t/s.
 
 ### Evaluations
 
-Capabilities are evaluated with benchmarks; examples:
+> How good is a model? It depends.
+
+Capabilities are evaluated with (limited) benchmarks; examples:
 
 * GPQA
 * MMLU
@@ -200,7 +202,7 @@ Another more recent example: [FrontierSWE](https://www.frontierswe.com/)
 
 * [SWE-rebench: A Continuously Evolving and Decontaminated Benchmark for Software Engineering LLMs](https://swe-rebench.com/?insight=oct_2025)
 
-[![SWE-rebench: 01/2026](static/leaderboard_with_logos.png)](https://swe-rebench.com/?insight=jan_2026)
+[![SWE-rebench: 01/2026](static/leaderboard_with_logos_v7.png)](https://swe-rebench.com/?insight=jul_2026)
 
 While not at the top, Kimi K2 Thinking at **#12**, GLM-5 at **#14**, GLM-4.7 at
 **#15** and Qwen3-Coder-Next at **#16**.
