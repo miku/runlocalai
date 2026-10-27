@@ -204,8 +204,7 @@ Another more recent example: [FrontierSWE](https://www.frontierswe.com/)
 
 [![SWE-rebench: 01/2026](static/leaderboard_with_logos_v7.png)](https://swe-rebench.com/?insight=jul_2026)
 
-While not at the top, Kimi K2 Thinking at **#12**, GLM-5 at **#14**, GLM-4.7 at
-**#15** and Qwen3-Coder-Next at **#16**.
+While not at the top, there are open weight models in the top list: GLM, Kimi, Minimax (also Qwen, ...)
 
 Note: A FP8 version of GLM-5 would require [860GB
 VRAM](https://unsloth.ai/docs/models/glm-5)
