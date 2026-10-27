@@ -3,7 +3,7 @@
 Quick update on how to run your own LLM/VLM with applications: opportunities
 and challenges.
 
-> 2026-04-21 13:15-14:45 [90m],
+> 2026-10-27 13:15-14:45 [90m],
 > [BMN](https://www.ub.uni-leipzig.de/standorte/medizinnaturwissenschaften),
 > Leipzig University Library, [Martin
 > Czygan](https://www.linkedin.com/in/martin-czygan-58348842/)
@@ -42,14 +42,18 @@ Just a few questions, if I may ask.
 
 > How often do you reach to an LLM (or VLM, LMM, ...)?
 
-* daily use: 9
-* moderate: 5
-* never: 1
+* daily use: X
+* moderate: X
+* never: X
 
 #### Most used tool and interaction mode
 
 > You tell me, there are many different combinations. Anything you like, or dislike?
 
+
+##### Previous responses
+
+> 2026-04-21
 
 * Claude Code in VS
 * API / n8n / agentic
@@ -63,10 +67,21 @@ Just a few questions, if I may ask.
 
 > Tried, tested, heard about?
 
+* [Academic Cloud](https://academiccloud.de/) by GWDG (login required)
+* [huggingface](https://huggingface.co/) (account required)
+* blablador (HH), [https://blablador.fz-juelich.de](https://blablador.fz-juelich.de) (login required)
 
-* academic cloud
-* huggingface
-* blablador (HH)
+Lots of open model aggregators / routing services:
+
+* [Requesty](https://www.requesty.ai/) (EU)
+* [Eden.AI](https://www.edenai.co/) (EU)
+* [AI Router](https://airouter.ch/) (CH)
+* [Openrouter](https://openrouter.ai/) (US)
+* ...
+
+And more:
+
+* [https://artificialanalysis.ai/leaderboards/providers](https://artificialanalysis.ai/leaderboards/providers)
 
 ### Outline
 
@@ -99,6 +114,7 @@ Outlook, agentic systems.
 
 * ownership vs renting
 * a level of autonomy, control, privacy, predictability and freedom
+* pricing (cf. Copilot Price Hike in Summer 2026, [GH usage based billing ...](https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/), [TC: Tokenpocalype ...](https://techcrunch.com/2026/06/07/is-this-the-dawn-of-the-tokenpocalypse/), [KI: Copilot stellt Preise um ...](https://www.golem.de/news/kuenstliche-intelligenz-github-copilot-stellt-preise-auf-token-basis-um-2606-209496.html)
 
 [The Latent Role of Open Models in the AI
 Economy](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5767103) (2025),
