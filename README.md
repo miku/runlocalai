@@ -255,9 +255,15 @@ Let's go!
 * a language model is mostly a file, interaction with it served via API
 * the application (here: Jan.ai) is a client, it facilitiates the requests to the API endpoint
 
+### Single Machine View
+
 ![Single machine view](static/modelviz/single.png)
 
+### Remote Machine View
+
 ![Remote machine view](static/modelviz/remote.png)
+
+## Now You!
 
 > To try: choose **New Chat** and select a model from the providers; let's choose **gemma3:270m** (available on S, M, L)
 
@@ -386,6 +392,24 @@ freely choose other model, too, depending on **Settings > MCP Servers**.
 
 Then, you can use normal chat and jan.ai will try to match your prompt to similar, hopefully relevant snippets of the PDFs.
 
+## More Agentic Examples
+
+### DBIS (Datenbankinformationsssytem)
+
+[![](static/dbis/dbis.gif)](static/dbis/dbis.webm)
+
+### Report, with energy consumption
+
+[![](static/energy/IMG_6748-TEXT-REDUCED-GRAY.gif)](static/energy/IMG_6748-TEXT-REDUCED-GRAY.mp4)
+
+### A report from data
+
+Using the GraphQL API of the UL research information system (70K records, about 70MB of structured data)
+
+![](static/leurisfetch-tree.png)
+
+Let the model use tools to analyse the data - an generate a report: [leurisfetch](https://miku.github.io/leurisfetch/)
+
 ## Wrap up and outlook
 
 * local models can be an alternative, they iterate just as fast as propriatery models
@@ -395,14 +419,13 @@ Then, you can use normal chat and jan.ai will try to match your prompt to simila
 
 Since the release of [Claude
 Code](https://en.wikipedia.org/wiki/Claude_(language_model)#Claude_Code) in
-02/2025, agentic coding has been gaining popularity. It is a mode that is more
-suitable for people already familiar with the command line.
+02/2025, agentic coding has been gaining popularity. In Q4/2025 and Q1/2026 we
+saw a significant jump in capability. Some applications are more suitable for
+people already familiar with the command line.
 
 It builds on the idea that you can put an LLM with tools into a loop and let
 the LLM discover what it needs itself. Recently, since about 11/2025, frontier
 model capabilities improved for agentic setup and it can be fascinating,
 horrifying, dependent on your perspective.
 
-Are you interested in a demo?
-
-
+Any more demos?
