@@ -255,6 +255,10 @@ Let's go!
 * a language model is mostly a file, interaction with it served via API
 * the application (here: Jan.ai) is a client, it facilitiates the requests to the API endpoint
 
+![Single machine view](static/modelviz/single.png)
+
+![Remote machine view](static/modelviz/remote.png)
+
 > To try: choose **New Chat** and select a model from the providers; let's choose **gemma3:270m** (available on S, M, L)
 
 ![](screenshot-2026-04-21-092927-jan-ai-new-chat-model-selection.png)
