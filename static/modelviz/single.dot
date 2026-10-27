@@ -1,0 +1,38 @@
+// Single machine: model file, wrapped in a program, used directly by the user.
+digraph single {
+    rankdir=LR
+    pad=0.4
+    nodesep=0.6
+    ranksep=0.9
+    bgcolor="white"
+    fontname="Helvetica,Arial,sans-serif"
+    fontcolor="#334155"
+    labelloc=t
+    fontsize=20
+    label=<<b>Single machine</b><br/><font point-size="12" color="#64748B">everything runs locally</font><br/> >
+
+    node [fontname="Helvetica,Arial,sans-serif", fontsize=14, fontcolor="#1E293B", style="filled", penwidth=1.6, margin="0.25,0.15"]
+    edge [fontname="Helvetica,Arial,sans-serif", fontsize=11, fontcolor="#475569", color="#64748B", penwidth=1.4, arrowsize=0.8]
+
+    user [shape=oval, fillcolor="#FBCFE8", color="#DB2777",
+          label=<<b>User</b>>]
+
+    subgraph cluster_local {
+        label=<<b>your computer</b>>
+        fontsize=13
+        fontcolor="#475569"
+        style="rounded,filled"
+        fillcolor="#F8FAFC"
+        color="#CBD5E1"
+        margin=20
+
+        program [shape=box, style="rounded,filled", fillcolor="#BFDBFE", color="#2563EB",
+                 label=<<b>Program</b><br/><font point-size="10" color="#475569">llama.cpp, ollama, Jan, ...</font>>]
+        model [shape=note, fillcolor="#FDE68A", color="#D97706",
+               label=<<b>Model file</b><br/><font point-size="10" color="#475569">weights, e.g. *.gguf</font>>]
+    }
+
+    user -> program [label="prompt"]
+    program -> user [label="response"]
+    program -> model [label=<loads<br/> >, style=dashed, arrowhead=none, arrowtail=normal, dir=back]
+}

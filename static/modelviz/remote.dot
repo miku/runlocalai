@@ -1,0 +1,59 @@
+// Remote machine: model file, wrapper program and web API run on a server;
+// the user talks to the API through a client program on their own computer.
+digraph remote {
+    rankdir=LR
+    pad=0.4
+    nodesep=0.6
+    ranksep=0.8
+    bgcolor="white"
+    fontname="Helvetica,Arial,sans-serif"
+    fontcolor="#334155"
+    labelloc=t
+    fontsize=20
+    label=<<b>Remote machine</b><br/><font point-size="12" color="#64748B">the model runs somewhere else, accessed over the network</font><br/> >
+
+    node [fontname="Helvetica,Arial,sans-serif", fontsize=14, fontcolor="#1E293B", style="filled", penwidth=1.6, margin="0.25,0.15"]
+    edge [fontname="Helvetica,Arial,sans-serif", fontsize=11, fontcolor="#475569", color="#64748B", penwidth=1.4, arrowsize=0.8]
+
+    user [shape=oval, fillcolor="#FBCFE8", color="#DB2777",
+          label=<<b>User</b>>]
+
+    subgraph cluster_local {
+        label=<<b>your computer</b>>
+        fontsize=13
+        fontcolor="#475569"
+        style="rounded,filled"
+        fillcolor="#F8FAFC"
+        color="#CBD5E1"
+        margin=20
+
+        client [shape=box, style="rounded,filled", fillcolor="#DDD6FE", color="#7C3AED",
+                label=<<b>Client program</b><br/><font point-size="10" color="#475569">chat app, editor, script, ...</font>>]
+    }
+
+    subgraph cluster_remote {
+        label=<<b>remote machine</b>>
+        fontsize=13
+        fontcolor="#475569"
+        style="rounded,filled"
+        fillcolor="#F8FAFC"
+        color="#CBD5E1"
+        margin=20
+
+        api [shape=box, style="rounded,filled", fillcolor="#BBF7D0", color="#16A34A",
+             label=<<b>Web API</b><br/><font point-size="10" color="#475569">HTTP, e.g. OpenAI-compatible</font>>]
+        program [shape=box, style="rounded,filled", fillcolor="#BFDBFE", color="#2563EB",
+                 label=<<b>Program</b><br/><font point-size="10" color="#475569">llama.cpp, vLLM, ...</font>>]
+        model [shape=note, fillcolor="#FDE68A", color="#D97706",
+               label=<<b>Model file</b><br/><font point-size="10" color="#475569">weights, e.g. *.gguf</font>>]
+    }
+
+    user -> client [label="prompt"]
+    client -> user [label="response"]
+
+    client -> api [label="request", color="#16A34A", fontcolor="#15803D", penwidth=2, style=bold]
+    api -> client [label="response", color="#16A34A", fontcolor="#15803D", penwidth=2, style=bold]
+
+    api -> program [dir=both]
+    program -> model [label=<loads<br/> >, style=dashed, arrowhead=none, arrowtail=normal, dir=back]
+}
