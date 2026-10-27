@@ -376,15 +376,10 @@ This may or may not work well, let's try a simple example:
 
 * select a few PDF files (not too many for now, maybe at most three), **upload**
 * wait a few minutes until the PDF is chopped up and indexed
-* we pick a **qwen3.5-27b** from the "xl" provider
-* we go to **Settings > Providers** and for the "xl" provider we edit the preferences for the model to **allow tool use**
+* we pick a **gemma-4-31b-it** from the "GWDG" provider
+* DANGERZONE: we go to **Settings > Providers** and for the "GWDG" provider we edit the preferences for the model to **allow tool use**
 
 ![](static/screenshot-2026-04-21-110925-edit-model-tool-use.png)
-
-This is important, as the retrieval of the snippets is a tool. The LLM may
-freely choose other model, too, depending on **Settings > MCP Servers**.
-
-![](static/screenshot-2026-04-21-111101-jan-ai-settings-mcp-servers.png)
 
 > In my example, I choose 3 pdfs, with a total of 46 pages, it gets chopped into 457 chunks
 
