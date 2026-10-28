@@ -49,18 +49,35 @@ Just a few questions, if I may ask.
 
 > How often do you reach to an LLM (or VLM, LMM, ...)?
 
-* daily use: X
-* moderate: X
-* never: X
-
 #### Most used tool and interaction mode
 
 > You tell me, there are many different combinations. Anything you like, or dislike?
 
-
 ##### Previous responses
 
+> 2026-10-26
+
+Use
+
+* daily use: 5+
+* moderate: 8+
+* never: 1
+
+Services
+
+* ChatGPT
+* DeepSeek
+* Academic Cloud
+
 > 2026-04-21
+
+Use
+
+* daily use: 9
+* moderate: 5
+* never: 1
+
+Services
 
 * Claude Code in VS
 * API / n8n / agentic
