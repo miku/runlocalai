@@ -446,7 +446,9 @@ Using the GraphQL API of the UL research information system (70K records, about 
 
 ![](static/leurisfetch-tree.png)
 
-Let the model use tools to analyse the data - an generate a report: [leurisfetch](https://miku.github.io/leurisfetch/)
+Let the model use tools to analyse the data - an generate a [HTML report](https://miku.github.io/leurisfetch/).
+
+[![](static/report-stacked-s.png)](https://miku.github.io/leurisfetch/)
 
 ## Wrap up and outlook
 
