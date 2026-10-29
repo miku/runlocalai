@@ -417,9 +417,26 @@ Then, you can use normal chat and jan.ai will try to match your prompt to simila
 
 ### DBIS (Datenbankinformationsssytem)
 
+In this example, we put a single 16MB JSON lines file with 14708 records about
+various database taken from
+[https://dbis.uni-regensburg.de/](https://dbis.uni-regensburg.de/) and instruct
+an agent harness, in this case [pi](https://pi.dev/) to act as information
+service; for that we use a prepare
+[prompt](https://github.com/ubleipzig/bibliocon-2026-595/blob/main/hacking/dbis/demo/prompts/DBIS26-0000.md)
+that contains basic information about the file to use.
+
+The agent then will try to answer by using various string and structured search
+tools to understand, if the suitable databases are in the file.
+
 [![](static/dbis/dbis.gif)](static/dbis/dbis.webm)
 
 ### Report, with energy consumption
+
+Here, an agent takes the same JSON lines file and will do an analysis of the
+data, including a final report: [DBIS
+report](https://github.com/ubleipzig/bibliocon-2026-595/blob/main/hacking/dbis/demo/report.md).
+We demo the energy consumption of a local model using a [2025 AMD
+CPU/GPU](https://www.amd.com/en/products/processors/laptop/ryzen/ai-300-series/amd-ryzen-ai-max-plus-395.html), which hovers between 30 and 180W.
 
 [![](static/energy/IMG_6748-TEXT-REDUCED-GRAY.gif)](static/energy/IMG_6748-TEXT-REDUCED-GRAY.mp4)
 
